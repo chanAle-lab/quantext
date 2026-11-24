@@ -1,0 +1,186 @@
+[
+  {
+    "id": "phys-fc-001",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Measurements and their errors",
+    "category": "Uncertainties",
+    "question": "How do you distinguish between random errors and systematic errors?",
+    "answer": "Random errors cause unpredictable scatter around the true value and can be reduced by taking repeat readings and averaging. Systematic errors cause a consistent offset (e.g. zero error) and are not reduced by repeating readings."
+  },
+  {
+    "id": "phys-fc-002",
+    "topicId": "3.1",
+    "topicTitle": "Topic 3.1 · Measurements and their errors",
+    "category": "Uncertainties",
+    "question": "How do you calculate the uncertainty in the gradient of a straight-line graph?",
+    "answer": "Draw the steepest and shallowest lines of best fit that pass through all error bars. Uncertainty = (maximum gradient - minimum gradient) / 2."
+  },
+  {
+    "id": "phys-fc-003",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Particles and radiation",
+    "category": "Nuclear Forces",
+    "question": "Describe how the strong nuclear force varies with nucleon separation.",
+    "answer": "Repulsive below ~0.5 fm, attractive between ~0.5 fm and ~3 fm, and negligible beyond ~3 fm."
+  },
+  {
+    "id": "phys-fc-004",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Particles and radiation",
+    "category": "Quantum Phenomena",
+    "question": "State Einstein's photoelectric equation and define each term.",
+    "answer": "hf = Phi + Ek(max), where hf is photon energy, Phi is the work function (minimum energy to liberate a surface electron), and Ek(max) is the maximum kinetic energy of emitted photoelectrons."
+  },
+  {
+    "id": "phys-fc-005",
+    "topicId": "3.2",
+    "topicTitle": "Topic 3.2 · Particles and radiation",
+    "category": "Particle Physics",
+    "question": "What is the quark composition of a proton and a neutron, and which hadron is stable?",
+    "answer": "Proton = uud, Neutron = udd. The proton is the only stable baryon; a free neutron decays into a proton, electron, and electron antineutrino."
+  },
+  {
+    "id": "phys-fc-006",
+    "topicId": "3.3",
+    "topicTitle": "Topic 3.3 · Waves",
+    "category": "Superposition",
+    "question": "How is a stationary wave formed, and what is the distance between adjacent nodes?",
+    "answer": "Formed by the superposition of two progressive waves of equal frequency and amplitude travelling in opposite directions. Distance between adjacent nodes is lambda / 2."
+  },
+  {
+    "id": "phys-fc-007",
+    "topicId": "3.3",
+    "topicTitle": "Topic 3.3 · Waves",
+    "category": "Optics",
+    "question": "State the two conditions required for total internal reflection (TIR).",
+    "answer": "1. Light must travel from a medium of higher refractive index to lower refractive index (n1 > n2). 2. Angle of incidence must exceed the critical angle (theta_i > theta_c, where sin theta_c = n2 / n1)."
+  },
+  {
+    "id": "phys-fc-008",
+    "topicId": "3.4",
+    "topicTitle": "Topic 3.4 · Mechanics and materials",
+    "category": "Momentum",
+    "question": "State the principle of conservation of linear momentum and define impulse.",
+    "answer": "Total linear momentum of a closed system remains constant provided no external resultant force acts. Impulse = F * delta_t = change in momentum (area under Force-time graph)."
+  },
+  {
+    "id": "phys-fc-009",
+    "topicId": "3.4",
+    "topicTitle": "Topic 3.4 · Mechanics and materials",
+    "category": "Materials",
+    "question": "Define tensile stress, tensile strain, and the Young modulus.",
+    "answer": "Tensile stress = F / A (Pa). Tensile strain = delta_L / L (dimensionless). Young modulus E = tensile stress / tensile strain = FL / (A * delta_L) in the linear elastic region."
+  },
+  {
+    "id": "phys-fc-010",
+    "topicId": "3.5",
+    "topicTitle": "Topic 3.5 · Electricity",
+    "category": "Circuits",
+    "question": "What is meant by the EMF and internal resistance of a cell?",
+    "answer": "EMF (epsilon) is the electrical energy transferred per unit charge by the cell (total work done per coulomb). Internal resistance (r) is the opposition to current inside the cell causing lost volts (Ir), so V = epsilon - Ir."
+  },
+  {
+    "id": "phys-fc-011",
+    "topicId": "3.5",
+    "topicTitle": "Topic 3.5 · Electricity",
+    "category": "Components",
+    "question": "Explain why the resistance of a filament lamp increases as potential difference increases.",
+    "answer": "Higher current heats the metal filament, increasing the thermal vibration amplitude of positive lattice ions, which causes more frequent collisions with conduction electrons."
+  },
+  {
+    "id": "phys-fc-012",
+    "topicId": "3.6",
+    "topicTitle": "Topic 3.6 · Further mechanics and thermal physics",
+    "category": "SHM",
+    "question": "State the defining equation of Simple Harmonic Motion (SHM).",
+    "answer": "a = -omega^2 * x: acceleration is directly proportional to displacement from equilibrium and always directed towards the equilibrium position."
+  },
+  {
+    "id": "phys-fc-013",
+    "topicId": "3.6",
+    "topicTitle": "Topic 3.6 · Further mechanics and thermal physics",
+    "category": "Thermal Physics",
+    "question": "State the assumptions of the kinetic theory of an ideal gas (at least 4).",
+    "answer": "Large number of molecules in random motion; volume of molecules negligible compared to container; elastic collisions; no intermolecular forces except during collisions; collision duration negligible compared to time between collisions."
+  },
+  {
+    "id": "phys-fc-014",
+    "topicId": "3.7",
+    "topicTitle": "Topic 3.7 · Fields and their consequences",
+    "category": "Gravitational & Electric",
+    "question": "Define gravitational potential at a point in a field.",
+    "answer": "The work done per unit mass in bringing a small test mass from infinity to that point (always negative for an attractive field: V = -GM/r)."
+  },
+  {
+    "id": "phys-fc-015",
+    "topicId": "3.7",
+    "topicTitle": "Topic 3.7 · Fields and their consequences",
+    "category": "Electromagnetism",
+    "question": "State Faraday's law and Lenz's law of electromagnetic induction.",
+    "answer": "Faraday's law: induced EMF is proportional to the rate of change of magnetic flux linkage (epsilon = -d(N*Phi)/dt). Lenz's law: the direction of induced EMF opposes the change in flux that produces it."
+  },
+  {
+    "id": "phys-fc-016",
+    "topicId": "3.7",
+    "topicTitle": "Topic 3.7 · Fields and their consequences",
+    "category": "Capacitors",
+    "question": "What is the time constant RC of a capacitor discharge circuit?",
+    "answer": "tau = RC is the time taken for the charge, current, or potential difference on a discharging capacitor to fall to 1/e (about 37%) of its initial value."
+  },
+  {
+    "id": "phys-fc-017",
+    "topicId": "3.8",
+    "topicTitle": "Topic 3.8 · Nuclear physics",
+    "category": "Nuclear Radius",
+    "question": "Show how R = R0 * A^(1/3) implies that nuclear density is constant.",
+    "answer": "Volume V = (4/3)pi*R^3 = (4/3)pi*(R0^3)*A. Mass M is proportional to A (A * m_nucleon). Density = M/V = 3*m_nucleon / (4*pi*R0^3), which is independent of nucleon number A."
+  },
+  {
+    "id": "phys-fc-018",
+    "topicId": "3.8",
+    "topicTitle": "Topic 3.8 · Nuclear physics",
+    "category": "Fission & Fusion",
+    "question": "State the roles of the moderator and control rods in a thermal nuclear reactor.",
+    "answer": "Moderator (e.g. water/graphite) slows fast fission neutrons via elastic collisions to thermal speeds so they can induce U-235 fission. Control rods (e.g. boron) absorb neutrons to regulate the chain reaction."
+  },
+  {
+    "id": "phys-fc-019",
+    "topicId": "3.9",
+    "topicTitle": "Topic 3.9 · Astrophysics",
+    "category": "Telescopes",
+    "question": "State the Rayleigh criterion for minimum angular resolution and why radio telescopes need huge dishes.",
+    "answer": "theta approx lambda / D. Radio waves have much longer wavelengths than visible light, so a much larger aperture diameter D is needed to achieve comparable angular resolution."
+  },
+  {
+    "id": "phys-fc-020",
+    "topicId": "3.10",
+    "topicTitle": "Topic 3.10 · Medical physics",
+    "category": "Ultrasound",
+    "question": "Why is coupling gel used between an ultrasound transducer and the patient's skin?",
+    "answer": "Air has a very different acoustic impedance Z from skin, causing ~99.9% reflection at an air-skin boundary. Coupling gel matches acoustic impedance so ultrasound enters the body."
+  },
+  {
+    "id": "phys-fc-021",
+    "topicId": "3.11",
+    "topicTitle": "Topic 3.11 · Engineering physics",
+    "category": "Thermodynamics",
+    "question": "Distinguish between an isothermal and an adiabatic change for an ideal gas.",
+    "answer": "Isothermal: temperature and internal energy remain constant (pV = constant, Q = W). Adiabatic: no heat enters or leaves the system (Q = 0, pV^gamma = constant, delta_U = -W)."
+  },
+  {
+    "id": "phys-fc-022",
+    "topicId": "3.12",
+    "topicTitle": "Topic 3.12 · Turning points in physics",
+    "category": "Special Relativity",
+    "question": "State the two postulates of Einstein's Special Theory of Relativity.",
+    "answer": "1. The laws of physics have the same form in all inertial frames of reference. 2. The speed of light in free space c is invariant (same for all observers regardless of source/observer motion)."
+  },
+  {
+    "id": "phys-fc-023",
+    "topicId": "3.13",
+    "topicTitle": "Topic 3.13 · Electronics",
+    "category": "Op-Amps",
+    "question": "State the voltage gain formulas for an inverting and a non-inverting op-amp amplifier.",
+    "answer": "Inverting: G = -Rf / Rin. Non-inverting: G = 1 + Rf / R1."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "topics": [
+    { "id": "3.1", "name": "Measurements and their errors", "group": "Core (AS and A level)" },
+    { "id": "3.2", "name": "Particles and radiation", "group": "Core (AS and A level)" },
+    { "id": "3.3", "name": "Waves", "group": "Core (AS and A level)" },
+    { "id": "3.4", "name": "Mechanics and materials", "group": "Core (AS and A level)" },
+    { "id": "3.5", "name": "Electricity", "group": "Core (AS and A level)" },
+    { "id": "3.6", "name": "Further mechanics and thermal physics", "group": "A level only" },
+    { "id": "3.7", "name": "Fields and their consequences", "group": "A level only" },
+    { "id": "3.8", "name": "Nuclear physics", "group": "A level only" },
+    { "id": "3.9", "name": "Astrophysics", "group": "Optional Topics (Paper 3B)" },
+    { "id": "3.10", "name": "Medical physics", "group": "Optional Topics (Paper 3B)" },
+    { "id": "3.11", "name": "Engineering physics", "group": "Optional Topics (Paper 3B)" },
+    { "id": "3.12", "name": "Turning points in physics", "group": "Optional Topics (Paper 3B)" },
+    { "id": "3.13", "name": "Electronics", "group": "Optional Topics (Paper 3B)" }
+  ],
+  "skills": [
+    { "id": "maths", "name": "Mathematical & calculation skills" },
+    { "id": "practical", "name": "Required Practicals & data analysis (Paper 3A)" },
+    { "id": "graph", "name": "Graphs, gradients & uncertainties" }
+  ],
+  "levels": ["AS", "A"],
+  "papers": [],
+  "questions": []
+}

@@ -1,0 +1,316 @@
+{
+  "3.1": {
+    "title": "Topic 3.1 · Measurements and their errors",
+    "group": "Core (AS and A level)",
+    "spec": "AQA 7407 / 7408",
+    "sections": [
+      {
+        "heading": "SI Units & Prefixes",
+        "points": [
+          "<b>Base SI units:</b> Mass (kg), length (m), time (s), current (A), temperature (K), amount of substance (mol).",
+          "<b>Derived units:</b> Express any derived unit in base units using equations (e.g. 1 N = 1 kg m s<sup>-2</sup>, 1 J = 1 kg m<sup>2</sup> s<sup>-2</sup>, 1 V = 1 kg m<sup>2</sup> s<sup>-3</sup> A<sup>-1</sup>).",
+          "<b>Standard prefixes:</b> femto (f, 10<sup>-15</sup>), pico (p, 10<sup>-12</sup>), nano (n, 10<sup>-9</sup>), micro (&mu;, 10<sup>-6</sup>), milli (m, 10<sup>-3</sup>), kilo (k, 10<sup>3</sup>), mega (M, 10<sup>6</sup>), giga (G, 10<sup>9</sup>), tera (T, 10<sup>12</sup>)."
+        ]
+      },
+      {
+        "heading": "Errors, Uncertainties & Precision",
+        "points": [
+          "<b>Random errors:</b> Unpredictable variations; reduced by taking repeat readings and calculating a mean.",
+          "<b>Systematic errors:</b> Consistent offset (e.g. zero error); affects accuracy, not reduced by repeats.",
+          "<b>Percentage uncertainty:</b> %U = (absolute uncertainty / measured value) &times; 100%. For repeated readings, absolute uncertainty is half the range.",
+          "<b>Combining uncertainties:</b> Add absolute uncertainties when adding or subtracting; add percentage uncertainties when multiplying or dividing; multiply %U by power n when raising to power n.",
+          "<b>Graph gradients:</b> Uncertainty in gradient = (m<sub>max</sub> - m<sub>min</sub>) / 2 using steepest and shallowest lines of worst fit through error bars."
+        ]
+      }
+    ]
+  },
+  "3.2": {
+    "title": "Topic 3.2 · Particles and radiation",
+    "group": "Core (AS and A level)",
+    "spec": "AQA 7407 / 7408",
+    "sections": [
+      {
+        "heading": "Constituents of the Atom & Specific Charge",
+        "points": [
+          "<b>Specific charge:</b> Ratio of charge to mass (Q/m) in C kg<sup>-1</sup>.",
+          "<b>Strong nuclear force:</b> Repulsive below ~0.5 fm, attractive between ~0.5 fm and ~3 fm, negligible beyond 3 fm.",
+          "<b>Alpha decay:</b> A decreases by 4, Z decreases by 2; <b>Beta-minus decay:</b> neutron &rarr; proton + e<sup>-</sup> + &nu;&#773;<sub>e</sub>."
+        ]
+      },
+      {
+        "heading": "Particles, Antiparticles & Photons",
+        "points": [
+          "<b>Photon energy:</b> E = hf = hc/&lambda;.",
+          "<b>Pair production:</b> Photon with E &ge; 2E<sub>0</sub> converts into a particle-antiparticle pair.",
+          "<b>Annihilation:</b> Particle + antiparticle &rarr; two photons moving in opposite directions, each with E<sub>min</sub> = E<sub>0</sub>."
+        ]
+      },
+      {
+        "heading": "Particle Classification & Quantum Phenomena",
+        "points": [
+          "<b>Hadrons (feel strong force):</b> Baryons (3 quarks, e.g. p = uud, n = udd; proton is the only stable baryon) and Mesons (quark-antiquark, e.g. pions, kaons).",
+          "<b>Leptons (fundamental):</b> e<sup>-</sup>, &nu;<sub>e</sub>, &mu;<sup>-</sup>, &nu;<sub>&mu;</sub>; lepton number L<sub>e</sub> and L<sub>&mu;</sub> are conserved separately.",
+          "<b>Photoelectric effect:</b> hf = &Phi; + E<sub>k(max)</sub>. Threshold frequency f<sub>0</sub> = &Phi;/h; intensity affects photoelectron rate, not E<sub>k(max)</sub>.",
+          "<b>de Broglie wavelength:</b> &lambda; = h/p = h/(mv), demonstrated by electron diffraction."
+        ]
+      }
+    ]
+  },
+  "3.3": {
+    "title": "Topic 3.3 · Waves",
+    "group": "Core (AS and A level)",
+    "spec": "AQA 7407 / 7408",
+    "sections": [
+      {
+        "heading": "Progressive & Stationary Waves",
+        "points": [
+          "<b>Wave equation:</b> c = f&lambda;; phase difference &Delta;&phi; = 2&pi;&Delta;x/&lambda;.",
+          "<b>Polarisation:</b> Only transverse waves can be polarised; demonstrates oscillations are perpendicular to energy transfer.",
+          "<b>Stationary waves:</b> Formed by superposition of two progressive waves of equal frequency/amplitude travelling in opposite directions. Nodes (zero amplitude), antinodes (max amplitude); distance between adjacent nodes = &lambda;/2.",
+          "<b>First harmonic on a string:</b> f = (1 / 2L) &radic;(T / &mu;)."
+        ]
+      },
+      {
+        "heading": "Refraction, Diffraction & Interference",
+        "points": [
+          "<b>Snell's law:</b> n<sub>1</sub> sin &theta;<sub>1</sub> = n<sub>2</sub> sin &theta;<sub>2</sub>; refractive index n = c / c<sub>s</sub>.",
+          "<b>Total internal reflection:</b> Occurs when n<sub>1</sub> &gt; n<sub>2</sub> and &theta;<sub>i</sub> &gt; &theta;<sub>c</sub>, where sin &theta;<sub>c</sub> = n<sub>2</sub> / n<sub>1</sub>.",
+          "<b>Young's double-slit:</b> Fringe spacing w = &lambda;D / s (valid when s &laquo; D).",
+          "<b>Diffraction grating:</b> d sin &theta; = n&lambda;; maximum order n<sub>max</sub> = &lfloor;d / &lambda;&rfloor;."
+        ]
+      }
+    ]
+  },
+  "3.4": {
+    "title": "Topic 3.4 · Mechanics and materials",
+    "group": "Core (AS and A level)",
+    "spec": "AQA 7407 / 7408",
+    "sections": [
+      {
+        "heading": "Vectors, Kinematics & Newton's Laws",
+        "points": [
+          "<b>SUVAT (constant acceleration):</b> v = u + at, s = &frac12;(u+v)t, s = ut + &frac12;at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as.",
+          "<b>Projectiles:</b> Horizontal velocity v<sub>x</sub> is constant; vertical motion has a = g downward.",
+          "<b>Moments & equilibrium:</b> Sum of clockwise moments = sum of anticlockwise moments; resultant force = 0.",
+          "<b>Momentum & impulse:</b> p = mv; F = &Delta;p/&Delta;t; impulse F&Delta;t = &Delta;(mv) = area under F-t graph."
+        ]
+      },
+      {
+        "heading": "Work, Energy, Power & Materials",
+        "points": [
+          "<b>Work & power:</b> W = Fs cos &theta;; P = &Delta;W/&Delta;t = Fv; efficiency = useful power out / total power in.",
+          "<b>Hooke's law & elastic energy:</b> F = k&Delta;L; E<sub>el</sub> = &frac12;F&Delta;L = &frac12;k(&Delta;L)<sup>2</sup>.",
+          "<b>Young modulus:</b> E = tensile stress / tensile strain = (FL) / (A&Delta;L), gradient of linear stress-strain graph."
+        ]
+      }
+    ]
+  },
+  "3.5": {
+    "title": "Topic 3.5 · Electricity",
+    "group": "Core (AS and A level)",
+    "spec": "AQA 7407 / 7408",
+    "sections": [
+      {
+        "heading": "Current, Potential Difference & Resistivity",
+        "points": [
+          "<b>Definitions:</b> I = &Delta;Q/&Delta;t, V = W/Q, R = V/I, P = IV = I<sup>2</sup>R = V<sup>2</sup>/R.",
+          "<b>I-V characteristics:</b> Ohmic conductor (straight line through origin), filament lamp (curves as T rises &rarr; R increases), diode (conducts above ~0.6 V forward bias).",
+          "<b>Resistivity:</b> &rho; = RA/L (in &Omega; m). Superconductors have zero resistivity below critical temperature T<sub>c</sub>."
+        ]
+      },
+      {
+        "heading": "Circuits, Potential Dividers & Internal Resistance",
+        "points": [
+          "<b>Kirchhoff's laws:</b> Conservation of charge at junctions (&Sigma;I<sub>in</sub> = &Sigma;I<sub>out</sub>); conservation of energy in loops (&Sigma;&varepsilon; = &Sigma;IR).",
+          "<b>Internal resistance:</b> &varepsilon; = I(R + r) = V + Ir; terminal p.d. V = &varepsilon; - Ir (gradient = -r, y-intercept = &varepsilon;).",
+          "<b>Potential divider:</b> V<sub>out</sub> = V<sub>in</sub> &times; R<sub>2</sub> / (R<sub>1</sub> + R<sub>2</sub>); used with thermistors (NTC) and LDRs for sensing circuits."
+        ]
+      }
+    ]
+  },
+  "3.6": {
+    "title": "Topic 3.6 · Further mechanics and thermal physics",
+    "group": "A level only",
+    "spec": "AQA 7408",
+    "sections": [
+      {
+        "heading": "Circular Motion & Simple Harmonic Motion",
+        "points": [
+          "<b>Circular motion:</b> &omega; = 2&pi;f = v/r; centripetal acceleration a = v<sup>2</sup>/r = &omega;<sup>2</sup>r; centripetal force F = mv<sup>2</sup>/r = m&omega;<sup>2</sup>r.",
+          "<b>SHM defining equation:</b> a = -&omega;<sup>2</sup>x; x = A cos(&omega;t), v<sub>max</sub> = &omega;A, a<sub>max</sub> = &omega;<sup>2</sup>A.",
+          "<b>Oscillators:</b> Mass-spring T = 2&pi;&radic;(m/k); simple pendulum T = 2&pi;&radic;(l/g). Resonance occurs when driving frequency = natural frequency."
+        ]
+      },
+      {
+        "heading": "Thermal Physics & Ideal Gases",
+        "points": [
+          "<b>Specific heat & latent heat:</b> Q = mc&Delta;&theta;; Q = ml.",
+          "<b>Ideal gas equation:</b> pV = nRT = NkT (T in Kelvin, T(K) = &theta;(&deg;C) + 273.15).",
+          "<b>Kinetic theory:</b> pV = (1/3)Nm(c<sub>rms</sub>)<sup>2</sup>; mean KE per molecule = (3/2)kT = (3RT)/(2N<sub>A</sub>)."
+        ]
+      }
+    ]
+  },
+  "3.7": {
+    "title": "Topic 3.7 · Fields and their consequences",
+    "group": "A level only",
+    "spec": "AQA 7408",
+    "sections": [
+      {
+        "heading": "Gravitational & Electric Fields",
+        "points": [
+          "<b>Newton's law & field strength:</b> F = GMm/r<sup>2</sup>; g = F/m = GM/r<sup>2</sup>; V<sub>g</sub> = -GM/r (work done per unit mass from infinity).",
+          "<b>Orbits:</b> T<sup>2</sup> = (4&pi;<sup>2</sup>/GM)r<sup>3</sup>; escape velocity v = &radic;(2GM/R); geostationary orbit has T = 24 h above equator.",
+          "<b>Coulomb's law & electric field:</b> F = Q<sub>1</sub>Q<sub>2</sub>/(4&pi;&varepsilon;<sub>0</sub>r<sup>2</sup>); E = F/Q = V/d (uniform) = Q/(4&pi;&varepsilon;<sub>0</sub>r<sup>2</sup>) (radial); V<sub>e</sub> = Q/(4&pi;&varepsilon;<sub>0</sub>r)."
+        ]
+      },
+      {
+        "heading": "Capacitance & Magnetic Fields",
+        "points": [
+          "<b>Capacitors:</b> C = Q/V = A&varepsilon;<sub>0</sub>&varepsilon;<sub>r</sub>/d; energy E = &frac12;QV = &frac12;CV<sup>2</sup>; time constant &tau; = RC; Q = Q<sub>0</sub>e<sup>-t/RC</sup>.",
+          "<b>Magnetic forces:</b> F = BIL sin &theta;; F = BQv sin &theta; (circular radius r = mv/(BQ)).",
+          "<b>Electromagnetic induction:</b> &Phi; = BA; N&Phi; = BAN cos &theta;; Faraday's &amp; Lenz's laws: &varepsilon; = -&Delta;(N&Phi;)/&Delta;t; transformer V<sub>s</sub>/V<sub>p</sub> = N<sub>s</sub>/N<sub>p</sub>."
+        ]
+      }
+    ]
+  },
+  "3.8": {
+    "title": "Topic 3.8 · Nuclear physics",
+    "group": "A level only",
+    "spec": "AQA 7408",
+    "sections": [
+      {
+        "heading": "Radioactivity & Nuclear Radius",
+        "points": [
+          "<b>Inverse-square law for gamma:</b> I = k/x<sup>2</sup>.",
+          "<b>Exponential decay:</b> A = &lambda;N, N = N<sub>0</sub>e<sup>-&lambda;t</sup>, T<sub>1/2</sub> = ln(2)/&lambda;.",
+          "<b>Nuclear radius:</b> R = R<sub>0</sub>A<sup>1/3</sup> (where R<sub>0</sub> &approx; 1.05&ndash;1.2 fm), meaning nuclear density is constant and independent of A."
+        ]
+      },
+      {
+        "heading": "Mass-Energy, Fission & Fusion",
+        "points": [
+          "<b>Mass-energy equivalence:</b> &Delta;E = &Delta;mc<sup>2</sup>; 1 u = 931.5 MeV.",
+          "<b>Binding energy:</b> Energy required to separate a nucleus into its constituent nucleons; Fe-56 has the highest binding energy per nucleon.",
+          "<b>Fission & fusion:</b> Thermal neutrons induce U-235 fission; moderator slows neutrons, control rods absorb neutrons, coolant transfers heat."
+        ]
+      }
+    ]
+  },
+  "3.9": {
+    "title": "Topic 3.9 · Astrophysics",
+    "group": "Optional Topics (Paper 3B)",
+    "spec": "AQA 7408/3B",
+    "sections": [
+      {
+        "heading": "Telescopes & Astronomical Classification",
+        "points": [
+          "<b>Refracting telescope (normal adjustment):</b> M = f<sub>o</sub>/f<sub>e</sub>; length = f<sub>o</sub> + f<sub>e</sub>. Suffers from chromatic and spherical aberration.",
+          "<b>Cassegrain reflecting telescope:</b> Parabolic primary mirror + convex secondary mirror; avoids chromatic aberration.",
+          "<b>Resolving power:</b> Rayleigh criterion &theta; &approx; &lambda;/D. CCDs have ~70-80% quantum efficiency vs ~4% for the eye.",
+          "<b>Magnitudes & spectra:</b> m - M = 5 log(d/10); Wien's law &lambda;<sub>max</sub>T = 2.9 &times; 10<sup>-3</sup> m K; Stefan's law P = &sigma;AT<sup>4</sup>; H-R diagram &amp; OBAFGKM spectral classes."
+        ]
+      },
+      {
+        "heading": "Cosmology",
+        "points": [
+          "<b>Doppler shift:</b> &Delta;&lambda;/&lambda; &approx; &Delta;f/f &approx; v/c (for v &laquo; c).",
+          "<b>Hubble's law:</b> v = Hd; age of universe &approx; 1/H.",
+          "<b>Evidence for Big Bang:</b> Cosmological redshift, CMBR (2.7 K blackbody), primordial H/He abundance; Type 1a supernovae as standard candles reveal accelerating expansion (dark energy)."
+        ]
+      }
+    ]
+  },
+  "3.10": {
+    "title": "Topic 3.10 · Medical physics",
+    "group": "Optional Topics (Paper 3B)",
+    "spec": "AQA 7408/3B",
+    "sections": [
+      {
+        "heading": "The Eye, Ear & Biological Measurement",
+        "points": [
+          "<b>Eye & lenses:</b> Power P = 1/f (dioptres); myopia corrected with diverging lens, hypermetropia with converging lens; rods (scotopic) vs cones (photopic/colour).",
+          "<b>Ear & intensity:</b> Intensity level dB = 10 log<sub>10</sub>(I/I<sub>0</sub>) where I<sub>0</sub> = 1.0 &times; 10<sup>-12</sup> W m<sup>-2</sup>.",
+          "<b>ECG:</b> P wave (atrial depolarisation), QRS complex (ventricular depolarisation), T wave (ventricular repolarisation)."
+        ]
+      },
+      {
+        "heading": "Imaging Techniques",
+        "points": [
+          "<b>Ultrasound:</b> Piezoelectric transducer; acoustic impedance Z = &rho;c; reflection coefficient = ((Z<sub>2</sub> - Z<sub>1</sub>)/(Z<sub>2</sub> + Z<sub>1</sub>))<sup>2</sup>; coupling gel matches impedance.",
+          "<b>X-rays & CT:</b> Attenuation I = I<sub>0</sub>e<sup>-&mu;x</sup>; mass attenuation &mu;<sub>m</sub> = &mu;/&rho;; CT scans produce 3D cross-sections using rotating X-ray fan beam.",
+          "<b>MRI & Tracers:</b> MRI uses Larmor precession of hydrogen protons in strong B-field; PET/gamma camera uses Technetium-99m (6 h half-life, pure gamma)."
+        ]
+      }
+    ]
+  },
+  "3.11": {
+    "title": "Topic 3.11 · Engineering physics",
+    "group": "Optional Topics (Paper 3B)",
+    "spec": "AQA 7408/3B",
+    "sections": [
+      {
+        "heading": "Rotational Dynamics",
+        "points": [
+          "<b>Moment of inertia:</b> I = &Sigma;mr<sup>2</sup>; rotational KE = &frac12;I&omega;<sup>2</sup>.",
+          "<b>Torque & angular momentum:</b> T = I&alpha;; angular momentum L = I&omega; (conserved when external torque = 0); rotational power P = T&omega;.",
+          "<b>Flywheels:</b> Store rotational kinetic energy to smooth torque fluctuations or provide high power bursts."
+        ]
+      },
+      {
+        "heading": "Thermodynamics & Engines",
+        "points": [
+          "<b>First law of thermodynamics:</b> Q = &Delta;U + W, where W = p&Delta;V at constant pressure.",
+          "<b>Isothermal & adiabatic:</b> Isothermal (T constant, pV = const); Adiabatic (Q = 0, pV<sup>&gamma;</sup> = const).",
+          "<b>Engine cycles & efficiency:</b> Indicated power = area of p-V loop &times; cycles/s; &eta;<sub>max</sub> = (T<sub>H</sub> - T<sub>C</sub>)/T<sub>H</sub>; COP<sub>ref</sub> = T<sub>C</sub>/(T<sub>H</sub> - T<sub>C</sub>)."
+        ]
+      }
+    ]
+  },
+  "3.12": {
+    "title": "Topic 3.12 · Turning points in physics",
+    "group": "Optional Topics (Paper 3B)",
+    "spec": "AQA 7408/3B",
+    "sections": [
+      {
+        "heading": "Discovery of the Electron & Wave-Particle Duality",
+        "points": [
+          "<b>Thomson's e/m experiment:</b> Crossed E and B fields give v = E/B; magnetic deflection gives e/m = E/(rB<sup>2</sup>).",
+          "<b>Millikan's oil drop:</b> Balances weight mg = QV/d to show electric charge is quantised in multiples of e = 1.60 &times; 10<sup>-19</sup> C.",
+          "<b>Electron microscopes:</b> TEM uses magnetic lenses for high resolution (&lambda; = h/&radic;(2meV)); STM uses quantum tunnelling current across a narrow gap."
+        ]
+      },
+      {
+        "heading": "Special Relativity",
+        "points": [
+          "<b>Michelson-Morley experiment:</b> Null result showed no luminiferous aether and that c is invariant.",
+          "<b>Postulates:</b> Laws of physics are identical in all inertial frames; speed of light c is constant for all observers.",
+          "<b>Relativistic effects:</b> Time dilation t = t<sub>0</sub>/&radic;(1 - v<sup>2</sup>/c<sup>2</sup>), length contraction l = l<sub>0</sub>&radic;(1 - v<sup>2</sup>/c<sup>2</sup>), relativistic mass m = &gamma;m<sub>0</sub>, E = mc<sup>2</sup> = E<sub>0</sub> + E<sub>k</sub>."
+        ]
+      }
+    ]
+  },
+  "3.13": {
+    "title": "Topic 3.13 · Electronics",
+    "group": "Optional Topics (Paper 3B)",
+    "spec": "AQA 7408/3B",
+    "sections": [
+      {
+        "heading": "Discrete Semiconductors & Operational Amplifiers",
+        "points": [
+          "<b>Op-amp ideal properties:</b> Infinite open-loop gain, infinite input impedance, zero output impedance, infinite bandwidth.",
+          "<b>Inverting amplifier:</b> G = -R<sub>f</sub>/R<sub>in</sub>; <b>Non-inverting amplifier:</b> G = 1 + R<sub>f</sub>/R<sub>1</sub>; <b>Summing amplifier:</b> V<sub>out</sub> = -R<sub>f</sub>(V<sub>1</sub>/R<sub>1</sub> + V<sub>2</sub>/R<sub>2</sub> + ...).",
+          "<b>Comparator & MOSFET:</b> Op-amp comparator saturates to &plusmn;V<sub>s</sub>; MOSFETs act as voltage-controlled switches with high input impedance."
+        ]
+      },
+      {
+        "heading": "Logic Gates, Timing & Data Communication",
+        "points": [
+          "<b>Logic & Boolean algebra:</b> AND, OR, NOT, NAND, NOR, XOR; De Morgan's laws: (A&middot;B)&#773; = A&#773; + B&#773; and (A+B)&#773; = A&#773;&middot;B&#773;.",
+          "<b>Sequential circuits:</b> SR and D-type flip-flops; astable and monostable timing circuits.",
+          "<b>Data transmission:</b> Sampling theorem (f<sub>s</sub> &ge; 2f<sub>max</sub>); AM vs FM modulation; optical fibres and multiplexing (TDM/FDM)."
+        ]
+      }
+    ]
+  }
+}

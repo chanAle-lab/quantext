@@ -1,0 +1,180 @@
+[
+  {
+    "id": "3.1-01",
+    "topic": "3.1",
+    "question": "Which of the following is an SI base unit?",
+    "options": ["Newton (N)", "Coulomb (C)", "Ampere (A)", "Volt (V)"],
+    "answer": 2,
+    "explanation": "The seven SI base units include kg, m, s, A, K, mol, and cd. Newton, Coulomb, and Volt are derived units."
+  },
+  {
+    "id": "3.1-02",
+    "topic": "3.1",
+    "question": "A quantity y = a * b^2 has percentage uncertainties of 2% in a and 3% in b. What is the percentage uncertainty in y?",
+    "options": ["5%", "8%", "11%", "6%"],
+    "answer": 1,
+    "explanation": "When multiplying/dividing, add percentage uncertainties: %U(y) = %U(a) + 2 * %U(b) = 2% + 2(3%) = 8%."
+  },
+  {
+    "id": "3.2-01",
+    "topic": "3.2",
+    "question": "At what separation does the strong nuclear force become repulsive?",
+    "options": ["Below 0.5 fm", "Between 0.5 and 3 fm", "Above 3 fm", "At 10 fm"],
+    "answer": 0,
+    "explanation": "The strong nuclear force is repulsive below ~0.5 fm and attractive from ~0.5 fm to ~3 fm."
+  },
+  {
+    "id": "3.2-02",
+    "topic": "3.2",
+    "question": "In the photoelectric effect, increasing the intensity of monochromatic light above the threshold frequency will:",
+    "options": [
+      "Increase the maximum kinetic energy of photoelectrons",
+      "Decrease the work function of the metal",
+      "Increase the rate of emission of photoelectrons",
+      "Increase the stopping potential"
+    ],
+    "answer": 2,
+    "explanation": "Higher intensity means more photons arrive per second, so more photoelectrons are emitted per second; photon energy hf and Ek(max) are unchanged."
+  },
+  {
+    "id": "3.3-01",
+    "topic": "3.3",
+    "question": "Two points on a progressive wave are separated by 0.25 wavelengths. What is their phase difference in radians?",
+    "options": ["pi / 4", "pi / 2", "pi", "2 * pi"],
+    "answer": 1,
+    "explanation": "Phase difference delta_phi = 2*pi * (delta_x / lambda) = 2*pi * 0.25 = pi / 2 radians."
+  },
+  {
+    "id": "3.3-02",
+    "topic": "3.3",
+    "question": "A diffraction grating has 500 lines per mm. What is the grating spacing d?",
+    "options": ["2.0 x 10^-6 m", "5.0 x 10^-4 m", "2.0 x 10^-3 m", "5.0 x 10^-6 m"],
+    "answer": 0,
+    "explanation": "500 lines/mm = 5.0 x 10^5 lines/m, so d = 1 / (5.0 x 10^5) = 2.0 x 10^-6 m."
+  },
+  {
+    "id": "3.4-01",
+    "topic": "3.4",
+    "question": "What does the area under a Force-time graph represent?",
+    "options": ["Work done", "Power", "Impulse (change in momentum)", "Acceleration"],
+    "answer": 2,
+    "explanation": "Impulse = F * delta_t = delta_p, which equals the area under a force against time graph."
+  },
+  {
+    "id": "3.4-02",
+    "topic": "3.4",
+    "question": "A wire of length L and cross-sectional area A extends by delta_L under tension F. Which expression gives the Young modulus?",
+    "options": ["(F * delta_L) / (A * L)", "(F * L) / (A * delta_L)", "(A * L) / (F * delta_L)", "(F * A) / (L * delta_L)"],
+    "answer": 1,
+    "explanation": "Young modulus E = stress / strain = (F / A) / (delta_L / L) = FL / (A * delta_L)."
+  },
+  {
+    "id": "3.5-01",
+    "topic": "3.5",
+    "question": "A cell of EMF 1.5 V and internal resistance 0.5 ohm supplies a current of 0.4 A. What is the terminal potential difference?",
+    "options": ["1.7 V", "1.5 V", "1.3 V", "0.2 V"],
+    "answer": 2,
+    "explanation": "V = epsilon - Ir = 1.5 - (0.4 * 0.5) = 1.5 - 0.2 = 1.3 V."
+  },
+  {
+    "id": "3.5-02",
+    "topic": "3.5",
+    "question": "How does the resistance of a negative temperature coefficient (NTC) thermistor change as temperature increases?",
+    "options": ["Increases linearly", "Decreases", "Remains constant", "Drops to zero at Tc"],
+    "answer": 1,
+    "explanation": "As temperature rises, more charge carriers are released in the semiconductor, so resistance decreases."
+  },
+  {
+    "id": "3.6-01",
+    "topic": "3.6",
+    "question": "In Simple Harmonic Motion, where is the speed of the oscillating object greatest?",
+    "options": ["At maximum positive displacement", "At maximum negative displacement", "At the equilibrium position", "At half the amplitude"],
+    "answer": 2,
+    "explanation": "At equilibrium (x = 0), all energy is kinetic and v_max = omega * A."
+  },
+  {
+    "id": "3.6-02",
+    "topic": "3.6",
+    "question": "If the absolute temperature T of an ideal gas is quadrupled, by what factor does the root-mean-square speed c_rms of its molecules increase?",
+    "options": ["16", "4", "2", "1.41"],
+    "answer": 2,
+    "explanation": "Mean KE = (1/2)m(c_rms)^2 = (3/2)kT, so c_rms is proportional to sqrt(T). Quadrupling T doubles c_rms."
+  },
+  {
+    "id": "3.7-01",
+    "topic": "3.7",
+    "question": "A capacitor of capacitance C is charged to p.d. V and discharged through resistor R. After time t = RC, what fraction of the initial charge remains?",
+    "options": ["0.50", "0.37 (1/e)", "0.63 (1 - 1/e)", "0.14 (1/e^2)"],
+    "answer": 1,
+    "explanation": "Q = Q0 * e^(-t/RC). When t = RC, Q = Q0 * e^-1 approx 0.368 * Q0."
+  },
+  {
+    "id": "3.7-02",
+    "topic": "3.7",
+    "question": "Which law states that the direction of an induced EMF opposes the change in magnetic flux linkage that produces it?",
+    "options": ["Faraday's law", "Coulomb's law", "Lenz's law", "Fleming's left-hand rule"],
+    "answer": 2,
+    "explanation": "Lenz's law is a consequence of conservation of energy: induced EMF opposes the flux change."
+  },
+  {
+    "id": "3.8-01",
+    "topic": "3.8",
+    "question": "A radioactive sample has a decay constant lambda = 0.02 s^-1. What is its half-life?",
+    "options": ["50 s", "34.7 s", "0.014 s", "14.4 s"],
+    "answer": 1,
+    "explanation": "T_1/2 = ln(2) / lambda = 0.693 / 0.02 = 34.7 s."
+  },
+  {
+    "id": "3.8-02",
+    "topic": "3.8",
+    "question": "Which nucleus has approximately the highest binding energy per nucleon?",
+    "options": ["Hydrogen-2", "Helium-4", "Iron-56", "Uranium-235"],
+    "answer": 2,
+    "explanation": "Iron-56 sits near the peak of the binding energy per nucleon curve (~8.8 MeV per nucleon)."
+  },
+  {
+    "id": "3.9-01",
+    "topic": "3.9",
+    "question": "A refracting telescope in normal adjustment has an objective focal length of 120 cm and eyepiece focal length of 4.0 cm. What is its angular magnification?",
+    "options": ["30", "124", "480", "0.033"],
+    "answer": 0,
+    "explanation": "In normal adjustment, M = fo / fe = 120 / 4.0 = 30."
+  },
+  {
+    "id": "3.10-01",
+    "topic": "3.10",
+    "question": "Which medical tracer is most commonly used in gamma camera imaging due to its 6-hour half-life and pure gamma emission?",
+    "options": ["Carbon-14", "Technetium-99m", "Uranium-238", "Cobalt-60"],
+    "answer": 1,
+    "explanation": "Technetium-99m emits ~140 keV gamma rays with a 6-hour half-life, minimising patient dose."
+  },
+  {
+    "id": "3.11-01",
+    "topic": "3.11",
+    "question": "What is the rotational kinetic energy of a flywheel with moment of inertia I rotating at angular velocity omega?",
+    "options": ["I * omega", "0.5 * I * omega^2", "I * omega^2", "0.5 * I^2 * omega"],
+    "answer": 1,
+    "explanation": "Rotational kinetic energy Ek = (1/2) I omega^2, analogous to (1/2) m v^2."
+  },
+  {
+    "id": "3.12-01",
+    "topic": "3.12",
+    "question": "What did the null result of the Michelson-Morley experiment demonstrate?",
+    "options": [
+      "Light is a longitudinal wave",
+      "There is no luminiferous aether and the speed of light is invariant",
+      "The Earth does not orbit the Sun",
+      "Electrons have wave-like properties"
+    ],
+    "answer": 1,
+    "explanation": "No fringe shift was observed as the apparatus rotated, disproving the absolute aether frame and supporting invariant c."
+  },
+  {
+    "id": "3.13-01",
+    "topic": "3.13",
+    "question": "An ideal inverting op-amp amplifier has Rin = 10 kOhm and Rf = 100 kOhm. What is its closed-loop voltage gain?",
+    "options": ["+10", "-10", "+11", "-0.1"],
+    "answer": 1,
+    "explanation": "For an inverting amplifier, G = -Rf / Rin = -100 kOhm / 10 kOhm = -10."
+  }
+]

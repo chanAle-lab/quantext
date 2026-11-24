@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>quantext · AQA Physics Past Papers &amp; Revision (7407 / 7408)</title>
+<meta name="description" content="Past paper revision question bank, specification cheatsheets, flashcards, diagnostic quizzes, and teacher paper generator for AQA AS & A-level Physics (7407/7408).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --bg: #fafafa;
+  --surface: #ffffff;
+  --surface-hover: #f4f4f5;
+  --ink: #18181b;
+  --ink-secondary: #52525b;
+  --muted: #71717a;
+  --border: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --accent: #18181b;
+  --accent-contrast: #ffffff;
+  --mark-bg: #f4f4f5;
+  --mark-color: #27272a;
+  --tag-bg: #f4f4f5;
+  --tag-ink: #3f3f46;
+  --ok: #15803d;
+  --ok-bg: #f0fdf4;
+  --ok-border: #bbf7d0;
+  --warn: #b45309;
+  --warn-bg: #fffbeb;
+  --warn-border: #fde68a;
+  --err: #b91c1c;
+  --err-bg: #fef2f2;
+  --err-border: #fecaca;
+  --radius: 6px;
+  --radius-lg: 8px;
+}
+
+[data-theme="dark"] {
+  --bg: #09090b;
+  --surface: #121215;
+  --surface-hover: #18181b;
+  --ink: #f4f4f5;
+  --ink-secondary: #a1a1aa;
+  --muted: #71717a;
+  --border: #27272a;
+  --border-strong: #3f3f46;
+  --accent: #f4f4f5;
+  --accent-contrast: #09090b;
+  --mark-bg: #27272a;
+  --mark-color: #f4f4f5;
+  --tag-bg: #1c1c20;
+  --tag-ink: #d4d4d8;
+  --ok: #4ade80;
+  --ok-bg: #052e16;
+  --ok-border: #14532d;
+  --warn: #fbbf24;
+  --warn-bg: #291d05;
+  --warn-border: #78350f;
+  --err: #f87171;
+  --err-bg: #2a0a0a;
+  --err-border: #7f1d1d;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+button, input, select, textarea { font-family: inherit; }
+button { cursor: pointer; }
+
+.hidden { display: none !important; }
+
+/* Lock screen */
+.lock-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.lock-card {
+  width: 100%;
+  max-width: 380px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+.lock-title { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.02em; margin: 0 0 6px; }
+.lock-desc { font-size: 0.85rem; color: var(--muted); margin: 0 0 20px; }
+.lock-form { display: flex; flex-direction: column; gap: 12px; }
+.lock-input {
+  width: 100%;
+  padding: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.lock-err { font-size: 0.8rem; color: var(--err); min-height: 18px; }
+.lock-check { display: flex; align-items: center; gap: 8px; font-size: 0.82rem; color: var(--ink-secondary); }
+
+/* Header & Navigation */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.topbar-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--ink);
+}
+.brand-name { font-size: 1.1rem; font-weight: 700; letter-spacing: -0.03em; }
+.brand-sub { font-size: 0.78rem; color: var(--muted); font-weight: 500; }
+
+.nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.nav-tab {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--ink-secondary);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  font-size: 0.84rem;
+  font-weight: 500;
+  transition: all 0.12s ease;
+}
+.nav-tab:hover { background: var(--surface-hover); color: var(--ink); }
+.nav-tab.active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mastery-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 7px 13px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.83rem;
+  font-weight: 500;
+  transition: background-color 0.12s ease, border-color 0.12s ease;
+}
+.btn:hover { background: var(--surface-hover); border-color: var(--border-strong); }
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+.btn-primary:hover { opacity: 0.9; background: var(--accent); }
+.btn-sm { padding: 5px 10px; font-size: 0.78rem; }
+.btn-ghost { background: transparent; border-color: transparent; }
+.btn-ghost:hover { background: var(--surface-hover); border-color: transparent; }
+
+/* Main Container */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+.view-header { margin-bottom: 20px; }
+.view-title { font-size: 1.45rem; font-weight: 700; letter-spacing: -0.025em; margin: 0 0 4px; }
+.view-subtitle { font-size: 0.9rem; color: var(--muted); margin: 0; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+}
+
+/* Inputs & Selects */
+.input, .select, .textarea {
+  padding: 8px 11px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-size: 0.85rem;
+}
+.input:focus, .select:focus, .textarea:focus {
+  outline: 2px solid var(--border-strong);
+  outline-offset: -1px;
+}
+
+/* View 1: Specification Map (Strata) */
+.spec-group { margin-bottom: 26px; }
+.spec-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.spec-group-title { font-size: 0.95rem; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
+.spec-group-meta { font-size: 0.78rem; color: var(--muted); }
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 12px;
+}
+.topic-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  transition: border-color 0.15s ease;
+}
+.topic-card:hover { border-color: var(--border-strong); }
+.topic-id {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.topic-name { font-size: 1rem; font-weight: 600; margin: 2px 0 6px; line-height: 1.35; }
+.topic-stats { font-size: 0.8rem; color: var(--ink-secondary); }
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background: var(--tag-bg);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 8px;
+}
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.2s ease;
+}
+.topic-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+
+/* View 2: Questions */
+.filter-bar {
+  display: grid;
+  grid-template-columns: 2fr repeat(5, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+@media (max-width: 920px) {
+  .filter-bar { grid-template-columns: repeat(2, 1fr); }
+}
+.results-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.q-list { display: flex; flex-direction: column; gap: 14px; }
+.q-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 18px;
+}
+.q-card.mastered { border-left: 3px solid var(--ok); }
+.q-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.q-head-left { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.q-num { font-weight: 700; font-size: 0.95rem; }
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  border: 1px solid var(--border);
+}
+.badge-marks { background: var(--mark-bg); color: var(--mark-color); }
+.q-summary { margin: 0 0 12px; color: var(--ink-secondary); font-size: 0.9rem; }
+.q-img-wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #ffffff;
+  margin-bottom: 12px;
+}
+.q-img-wrap img { display: block; width: 100%; height: auto; }
+.q-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.q-actions-group { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.collapsible-box {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+}
+.collapsible-label {
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
+/* Selection Dock */
+.selection-dock {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  padding: 8px 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.14);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Split Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 500;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+.modal-panel {
+  width: 100%;
+  max-width: 1260px;
+  height: 88vh;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.modal-bar {
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.modal-split {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+@media (max-width: 820px) {
+  .modal-split { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+}
+.modal-pane {
+  overflow: auto;
+  padding: 16px;
+  border-right: 1px solid var(--border);
+  background: var(--bg);
+}
+.modal-pane:last-child { border-right: none; }
+.modal-pane img {
+  display: block;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transform-origin: top left;
+}
+
+/* View 3: Practice (Diagnostic Quiz + Flashcards) */
+.quiz-options { display: flex; flex-direction: column; gap: 8px; margin: 16px 0; }
+.quiz-opt {
+  text-align: left;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  transition: all 0.12s ease;
+}
+.quiz-opt:hover:not(:disabled) { background: var(--surface-hover); border-color: var(--border-strong); }
+.quiz-opt.correct { background: var(--ok-bg); border-color: var(--ok-border); color: var(--ok); font-weight: 600; }
+.quiz-opt.wrong { background: var(--err-bg); border-color: var(--err-border); color: var(--err); }
+.quiz-feedback {
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface-hover);
+  font-size: 0.86rem;
+  margin-bottom: 14px;
+}
+.plan-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media (max-width: 760px) { .plan-grid { grid-template-columns: 1fr; } }
+.plan-item {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fc-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.fc-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  background: var(--surface);
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+.fc-q { font-size: 1.08rem; font-weight: 600; line-height: 1.45; }
+.fc-a {
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--surface-hover);
+  border: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+
+/* View 4: Cheatsheets */
+.cs-layout { display: grid; grid-template-columns: 260px 1fr; gap: 20px; align-items: start; }
+@media (max-width: 820px) { .cs-layout { grid-template-columns: 1fr; } }
+.cs-sidebar {
+  position: sticky;
+  top: 72px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  max-height: calc(100vh - 96px);
+  overflow-y: auto;
+}
+.cs-nav-btn {
+  text-align: left;
+  padding: 7px 10px;
+  border-radius: var(--radius);
+  border: none;
+  background: transparent;
+  color: var(--ink-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+.cs-nav-btn:hover { background: var(--surface-hover); color: var(--ink); }
+.cs-nav-btn.active { background: var(--accent); color: var(--accent-contrast); }
+.cs-section { margin-top: 18px; }
+.cs-section h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--border);
+}
+.cs-section ul { margin: 0; padding-left: 18px; }
+.cs-section li { margin-bottom: 6px; color: var(--ink-secondary); }
+.cs-section li b { color: var(--ink); }
+
+/* View 5: Teacher's Hub */
+.subtabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+.gateway-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+@media (max-width: 760px) { .gateway-grid { grid-template-columns: 1fr; } }
+.scoreboard {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.team-box {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  text-align: center;
+  background: var(--surface);
+}
+.team-box.active-turn { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.team-score { font-size: 1.8rem; font-weight: 700; }
+.timer-box {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.footer a { color: var(--ink-secondary); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* Print Area & Media Print */
+#print-root { display: none; }
+@media print {
+  body > *:not(#print-root) { display: none !important; }
+  #print-root {
+    display: block !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0;
+    margin: 0;
+  }
+  .print-cover {
+    border: 1px solid #000;
+    padding: 16px;
+    margin-bottom: 20px;
+    page-break-after: avoid;
+  }
+  .print-cover table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  .print-cover td, .print-cover th { border: 1px solid #000; padding: 6px 8px; font-size: 12px; text-align: left; }
+  .print-q-block { page-break-inside: avoid; margin-bottom: 22px; }
+  .print-q-block img { max-width: 100%; height: auto; display: block; margin-bottom: 8px; }
+  .print-lines { margin-top: 8px; }
+  .print-line { border-bottom: 1px solid #999; height: 24px; width: 100%; }
+  .print-page-break { page-break-before: always; }
+}
+</style>
+</head>
+<body>
+
+<!-- Optional Passcode Gate -->
+<div id="lock-screen" class="lock-screen hidden">
+  <div class="lock-card">
+    <h1 class="lock-title">quantext · AQA Physics</h1>
+    <p class="lock-desc">Enter the access passcode to open the AQA AS &amp; A-Level Physics (7407 / 7408) revision portal.</p>
+    <form id="lock-form" class="lock-form">
+      <input id="lock-input" class="lock-input" type="password" placeholder="Passcode" autocomplete="off" required>
+      <label class="lock-check">
+        <input id="lock-remember" type="checkbox" checked> Remember on this device
+      </label>
+      <div id="lock-err" class="lock-err"></div>
+      <button type="submit" class="btn btn-primary">Unlock Portal</button>
+    </form>
+  </div>
+</div>
+
+<!-- Top Navigation -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#view=strata" class="brand">
+      <span class="brand-name">quantext</span>
+      <span class="brand-sub">AQA Physics 7407 / 7408</span>
+    </a>
+    <nav class="nav-tabs" aria-label="Main navigation">
+      <button class="nav-tab" data-view="strata">Specification Map</button>
+      <button class="nav-tab" data-view="cards">Questions</button>
+      <button class="nav-tab" data-view="practice">Practice</button>
+      <button class="nav-tab" data-view="cheatsheets">Cheatsheets</button>
+      <button class="nav-tab" data-view="teachers">Teacher's Hub</button>
+    </nav>
+    <div class="topbar-right">
+      <span id="mastery-counter" class="mastery-pill">Mastered: 0 / 0 marks</span>
+      <button id="theme-toggle" class="btn btn-sm" type="button" title="Toggle light/dark theme">Dark</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- View 1: Specification Map -->
+  <section id="view-strata" class="view-section hidden">
+    <div class="view-header">
+      <h1 class="view-title">AQA Physics Specification Map</h1>
+      <p class="view-subtitle">Browse all 13 AQA AS &amp; A-Level Physics (7407 / 7408) topics by core, A-level only, and Paper 3B optional modules.</p>
+    </div>
+    <div id="strata-container"></div>
+  </section>
+
+  <!-- View 2: Questions -->
+  <section id="view-cards" class="view-section hidden">
+    <div class="view-header">
+      <h1 class="view-title">Past Paper Question Bank</h1>
+      <p class="view-subtitle">Filter by level, paper component, specification topic, mathematical/practical skill, or mastery status.</p>
+    </div>
+    <div class="filter-bar">
+      <input id="q-search" class="input" type="search" placeholder="Search questions, equations, summaries...">
+      <select id="q-level" class="select"><option value="">All Levels</option></select>
+      <select id="q-paper" class="select">
+        <option value="">All Components</option>
+        <option value="p1">Paper 1</option>
+        <option value="p2">Paper 2</option>
+        <option value="p3a">Paper 3A</option>
+        <option value="p3b">Paper 3B</option>
+      </select>
+      <select id="q-topic" class="select"><option value="">All Topics</option></select>
+      <select id="q-skill" class="select"><option value="">All Skills</option></select>
+      <select id="q-status" class="select">
+        <option value="">All Status</option>
+        <option value="unmastered">Unmastered</option>
+        <option value="bookmarked">Bookmarked</option>
+        <option value="mastered">Mastered</option>
+      </select>
+    </div>
+    <div class="results-meta">
+      <span id="q-count">0 questions</span>
+      <div class="q-actions-group">
+        <button id="q-select-visible" class="btn btn-sm" type="button">Select Visible</button>
+        <button id="q-clear-filters" class="btn btn-sm" type="button">Reset Filters</button>
+      </div>
+    </div>
+    <div id="q-list" class="q-list"></div>
+  </section>
+
+  <!-- View 3: Practice -->
+  <section id="view-practice" class="view-section hidden">
+    <div class="view-header">
+      <h1 class="view-title">Practice &amp; Diagnostic</h1>
+      <p class="view-subtitle">Pinpoint weak syllabus areas with a diagnostic quiz or drill active-recall flashcards across Easy, Medium, and Hard modes.</p>
+    </div>
+
+    <!-- Top Card: Diagnostic Quiz -->
+    <div class="card" style="margin-bottom: 18px;">
+      <div id="diag-start">
+        <h2 style="margin:0 0 6px; font-size:1.15rem;">Not sure what to revise?</h2>
+        <p style="margin:0 0 14px; color:var(--ink-secondary);">Take a topic-sampled diagnostic quiz from the AQA Physics syllabus to generate a tailored revision plan.</p>
+        <div class="q-actions-group">
+          <button id="diag-btn-10" class="btn btn-primary" type="button">Start Quick Topic Quiz (10 Questions)</button>
+          <button id="diag-btn-all" class="btn" type="button">Full Syllabus Check (All Topics)</button>
+        </div>
+      </div>
+      <div id="diag-active" class="hidden">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <span id="diag-topic-badge" class="badge"></span>
+          <span id="diag-progress-text" style="font-size:0.82rem; color:var(--muted);"></span>
+        </div>
+        <div class="progress-bar" style="margin-bottom:16px;"><div id="diag-progress-fill" class="progress-fill" style="width:0%"></div></div>
+        <div id="diag-question" style="font-size:1.05rem; font-weight:600;"></div>
+        <div id="diag-options" class="quiz-options"></div>
+        <div id="diag-feedback" class="quiz-feedback hidden"></div>
+        <button id="diag-next" class="btn btn-primary hidden" type="button">Next Question</button>
+      </div>
+      <div id="diag-results" class="hidden">
+        <h2 style="margin:0 0 6px; font-size:1.15rem;">Your Revision Plan</h2>
+        <p id="diag-score-summary" style="margin:0 0 14px; color:var(--ink-secondary);"></p>
+        <div class="plan-grid">
+          <div>
+            <h3 style="font-size:0.95rem; margin:0 0 8px;">Topics to Revise</h3>
+            <div id="diag-weak-list"></div>
+          </div>
+          <div>
+            <h3 style="font-size:0.95rem; margin:0 0 8px;">Strong Topics</h3>
+            <div id="diag-strong-list"></div>
+          </div>
+        </div>
+        <button id="diag-restart" class="btn" style="margin-top:12px;" type="button">Retake Diagnostic</button>
+      </div>
+    </div>
+
+    <!-- Collapsible Cheatsheet Flashcards Dropdown -->
+    <div class="card">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px;">
+        <div>
+          <h2 style="margin:0 0 2px; font-size:1.1rem;">Cheatsheet Flashcards</h2>
+          <p style="margin:0; font-size:0.84rem; color:var(--muted);">Active recall with Easy (MCQ), Medium (Self-Grade), and Hard (Written Key-Term Check) modes.</p>
+        </div>
+        <button id="fc-toggle-panel" class="btn" type="button">Open Flashcards</button>
+      </div>
+
+      <div id="fc-panel" class="hidden" style="margin-top:18px; padding-top:18px; border-top:1px solid var(--border);">
+        <div class="fc-controls">
+          <select id="fc-topic" class="select"><option value="">All Topics</option></select>
+          <select id="fc-status" class="select">
+            <option value="">All Cards</option>
+            <option value="needs_work">Needs Work</option>
+            <option value="starred">Starred</option>
+            <option value="mastered">Mastered</option>
+          </select>
+          <select id="fc-mode" class="select">
+            <option value="medium">Mode: Medium (Mental Recall)</option>
+            <option value="easy">Mode: Easy (4-Option MCQ)</option>
+            <option value="hard">Mode: Hard (Written Recall)</option>
+          </select>
+          <button id="fc-shuffle" class="btn btn-sm" type="button">Shuffle</button>
+          <span id="fc-counter" style="font-size:0.82rem; color:var(--muted); margin-left:auto;">0 / 0</span>
+        </div>
+
+        <div id="fc-stage" class="fc-card"></div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; flex-wrap:wrap; gap:8px;">
+          <div class="q-actions-group">
+            <button id="fc-prev" class="btn btn-sm" type="button">Previous (Left)</button>
+            <button id="fc-next" class="btn btn-sm" type="button">Next (Right)</button>
+          </div>
+          <span style="font-size:0.78rem; color:var(--muted);">Shortcuts: Space = Reveal · 1 = Needs Work · 2 = Mastered · Left/Right = Navigate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- View 4: Cheatsheets -->
+  <section id="view-cheatsheets" class="view-section hidden">
+    <div class="view-header">
+      <h1 class="view-title">Specification Cheatsheets</h1>
+      <p class="view-subtitle">Concise, exam-focused AQA Physics (7407 / 7408) revision notes organised by topic.</p>
+    </div>
+    <div class="cs-layout">
+      <aside id="cs-sidebar" class="cs-sidebar"></aside>
+      <article id="cs-content" class="card"></article>
+    </div>
+  </section>
+
+  <!-- View 5: Teacher's Hub (Emoji-free) -->
+  <section id="view-teachers" class="view-section hidden">
+    <div class="view-header">
+      <h1 class="view-title">Teacher's Hub</h1>
+      <p class="view-subtitle">Classroom projector quiz show and custom past-paper worksheet builder for AQA Physics.</p>
+    </div>
+    <div class="subtabs">
+      <button class="btn btn-sm th-tab active" data-th="overview">Overview &amp; Presets</button>
+      <button class="btn btn-sm th-tab" data-th="quiz">Fun Quiz Generator</button>
+      <button class="btn btn-sm th-tab" data-th="paper">Paper Generator</button>
+    </div>
+
+    <!-- Sub-tab 1: Overview & Presets -->
+    <div id="th-overview" class="th-panel">
+      <div class="gateway-grid">
+        <div class="card">
+          <h2 style="margin:0 0 6px; font-size:1.1rem;">Fun Quiz Generator</h2>
+          <p style="margin:0 0 14px; color:var(--ink-secondary);">Run a live Team 1 vs Team 2 projector quiz with countdown timer, synthesized sound effects, keyboard shortcuts (1-4 / A-D), and printable handout.</p>
+          <button class="btn btn-primary th-jump" data-target="quiz" type="button">Open Fun Quiz Generator</button>
+        </div>
+        <div class="card">
+          <h2 style="margin:0 0 6px; font-size:1.1rem;">Paper Generator</h2>
+          <p style="margin:0 0 14px; color:var(--ink-secondary);">Assemble custom past-paper worksheets by topic, level, and target marks (10-50m), with candidate cover table and 1-click student/mark-scheme PDF export.</p>
+          <button class="btn btn-primary th-jump" data-target="paper" type="button">Open Paper Generator</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3 style="margin:0 0 10px; font-size:1rem;">Quick-Start Lesson Presets</h3>
+        <div class="q-actions-group">
+          <button class="btn th-preset" data-topic="3.2" data-marks="20" type="button">AS Starter: Particles &amp; Radiation (Quiz)</button>
+          <button class="btn th-preset" data-topic="3.4" data-marks="25" type="button">Core Mechanics Review (Quiz)</button>
+          <button class="btn th-preset" data-topic="3.7" data-marks="30" type="button">A-Level Fields Plenary (Quiz)</button>
+          <button class="btn th-preset-paper" data-topic="3.5" data-marks="20" type="button">20-Mark Electricity Worksheet</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub-tab 2: Fun Quiz Generator -->
+    <div id="th-quiz" class="th-panel hidden">
+      <div class="card" style="margin-bottom:16px;">
+        <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+          <select id="thq-topic" class="select"><option value="">All Topics</option></select>
+          <select id="thq-timer-sec" class="select">
+            <option value="0">Timer: Off</option>
+            <option value="15">Timer: 15s</option>
+            <option value="30" selected>Timer: 30s</option>
+            <option value="45">Timer: 45s</option>
+            <option value="60">Timer: 60s</option>
+          </select>
+          <label style="display:flex; align-items:center; gap:6px; font-size:0.84rem;">
+            <input id="thq-sound" type="checkbox" checked> Sound Effects
+          </label>
+          <button id="thq-start" class="btn btn-primary" type="button">Start / Reset Show</button>
+          <button id="thq-print-handout" class="btn" type="button">Print Handout + Answer Key</button>
+        </div>
+      </div>
+
+      <div id="thq-stage" class="hidden">
+        <div class="scoreboard">
+          <div id="thq-t1-box" class="team-box active-turn">
+            <div style="font-size:0.82rem; color:var(--muted); font-weight:600;">TEAM 1</div>
+            <div id="thq-t1-score" class="team-score">0</div>
+          </div>
+          <div id="thq-timer-display" class="timer-box">30s</div>
+          <div id="thq-t2-box" class="team-box">
+            <div style="font-size:0.82rem; color:var(--muted); font-weight:600;">TEAM 2</div>
+            <div id="thq-t2-score" class="team-score">0</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+            <span id="thq-q-meta" class="badge"></span>
+            <span id="thq-turn-label" style="font-size:0.85rem; font-weight:600;">Active Turn: Team 1</span>
+          </div>
+          <div id="thq-q-text" style="font-size:1.2rem; font-weight:600; margin-bottom:14px;"></div>
+          <div id="thq-options" class="quiz-options"></div>
+          <div id="thq-explanation" class="quiz-feedback hidden"></div>
+          <div style="display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:0.8rem; color:var(--muted);">Keyboard: 1-4 or A-D to answer</span>
+            <button id="thq-next" class="btn btn-primary" type="button">Next Question</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sub-tab 3: Paper Generator -->
+    <div id="th-paper" class="th-panel hidden">
+      <div class="card" style="margin-bottom:16px;">
+        <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center;">
+          <input id="pg-title" class="input" type="text" value="AQA Physics Custom Assessment" style="min-width:220px;">
+          <select id="pg-topic" class="select"><option value="">All Topics</option></select>
+          <select id="pg-level" class="select"><option value="">All Levels</option></select>
+          <select id="pg-target" class="select">
+            <option value="10">Target: 10 marks</option>
+            <option value="20" selected>Target: 20 marks</option>
+            <option value="30">Target: 30 marks</option>
+            <option value="40">Target: 40 marks</option>
+            <option value="50">Target: 50 marks</option>
+          </select>
+          <button id="pg-generate" class="btn btn-primary" type="button">Reshuffle Paper</button>
+          <button id="pg-add-q" class="btn" type="button">Add Question</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; margin-bottom:12px;">
+          <span id="pg-summary" style="font-weight:600;">0 questions selected (0 marks)</span>
+          <div class="q-actions-group">
+            <button id="pg-print-student" class="btn btn-primary" type="button">Export Student Worksheet (PDF)</button>
+            <button id="pg-print-ms" class="btn" type="button">Export Teacher Mark Scheme (PDF)</button>
+          </div>
+        </div>
+        <div id="pg-list"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Floating Selection Dock (View 2) -->
+<div id="selection-dock" class="selection-dock hidden">
+  <span id="dock-count" style="font-weight:600; font-size:0.84rem;">0 selected</span>
+  <label style="display:flex; align-items:center; gap:5px; font-size:0.82rem;">
+    <input id="dock-inc-figs" type="checkbox" checked> Include figures
+  </label>
+  <label style="display:flex; align-items:center; gap:5px; font-size:0.82rem;">
+    <input id="dock-inc-ms" type="checkbox"> Include mark schemes
+  </label>
+  <button id="dock-print" class="btn btn-primary btn-sm" type="button">Print Selected</button>
+  <button id="dock-clear" class="btn btn-sm" type="button">Clear</button>
+</div>
+
+<!-- Side-by-Side Split Modal -->
+<div id="split-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <div class="modal-bar">
+      <strong id="modal-title">Question &amp; Mark Scheme</strong>
+      <div class="q-actions-group">
+        <button id="modal-zoom-out" class="btn btn-sm" type="button">Zoom -</button>
+        <button id="modal-zoom-reset" class="btn btn-sm" type="button">100%</button>
+        <button id="modal-zoom-in" class="btn btn-sm" type="button">Zoom +</button>
+        <button id="modal-close" class="btn btn-primary btn-sm" type="button">Close</button>
+      </div>
+    </div>
+    <div class="modal-split">
+      <div id="modal-q-pane" class="modal-pane"></div>
+      <div id="modal-ms-pane" class="modal-pane"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Print Container -->
+<div id="print-root"></div>
+
+<footer class="footer">
+  <div>quantext &middot; AQA AS &amp; A-Level Physics (7407 / 7408) Revision Portal &middot; <a href="mailto:contact@quantext.org">contact@quantext.org</a></div>
+</footer>
+
+<script>
+(() => {
+  const GATE_CONFIG = { enabled: false, code: '7408' };
+  const STORAGE = {
+    theme: 'quantext_theme',
+    gate: 'quantext_unlocked',
+    mastered: 'quantext_mastered_q',
+    bookmarked: 'quantext_bookmarked_q',
+    fcStatus: 'quantext_fc_status',
+    fcStarred: 'quantext_fc_starred'
+  };
+
+  const state = {
+    db: { topics: [], skills: [], levels: [], papers: [], questions: [] },
+    cheatsheets: {},
+    flashcards: [],
+    quizQuestions: [],
+    view: 'strata',
+    selectedIds: new Set(),
+    mastered: new Set(JSON.parse(localStorage.getItem(STORAGE.mastered) || '[]')),
+    bookmarked: new Set(JSON.parse(localStorage.getItem(STORAGE.bookmarked) || '[]')),
+    fcStatus: JSON.parse(localStorage.getItem(STORAGE.fcStatus) || '{}'),
+    fcStarred: new Set(JSON.parse(localStorage.getItem(STORAGE.fcStarred) || '[]')),
+    fcFiltered: [],
+    fcIndex: 0,
+    fcRevealed: false,
+    fcMcqChoices: null,
+    fcHardResult: null,
+    activeCsTopic: '3.1',
+    modalZoom: 1,
+    diag: { list: [], idx: 0, answers: [], active: false },
+    thQuiz: { list: [], idx: 0, t1: 0, t2: 0, turn: 1, timer: null, timeLeft: 30, answered: false },
+    pgQuestions: []
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+
+  /* ---------- Theme & Passcode Gate ---------- */
+  function initTheme() {
+    const saved = localStorage.getItem(STORAGE.theme) || 'light';
+    document.documentElement.setAttribute('data-theme', saved);
+    $('theme-toggle').textContent = saved === 'dark' ? 'Light' : 'Dark';
+  }
+  $('theme-toggle').addEventListener('click', () => {
+    const cur = document.documentElement.getAttribute('data-theme');
+    const next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem(STORAGE.theme, next);
+    $('theme-toggle').textContent = next === 'dark' ? 'Light' : 'Dark';
+  });
+
+  function initGate() {
+    if (!GATE_CONFIG.enabled) return;
+    if (localStorage.getItem(STORAGE.gate) === '1' || sessionStorage.getItem(STORAGE.gate) === '1') return;
+    $('lock-screen').classList.remove('hidden');
+    $('lock-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      if ($('lock-input').value.trim() === GATE_CONFIG.code) {
+        if ($('lock-remember').checked) localStorage.setItem(STORAGE.gate, '1');
+        else sessionStorage.setItem(STORAGE.gate, '1');
+        $('lock-screen').classList.add('hidden');
+      } else {
+        $('lock-err').textContent = 'Incorrect passcode.';
+      }
+    });
+  }
+
+  /* ---------- Data Loading & Fallback Flashcards ---------- */
+  async function loadAllData() {
+    const v = Date.now();
+    const [qRes, csRes, fcRes, qqRes] = await Promise.all([
+      fetch(`questions.json?v=${v}`),
+      fetch(`cheatsheets.json?v=${v}`),
+      fetch(`flashcards.json?v=${v}`).catch(() => null),
+      fetch(`quiz_questions.json?v=${v}`)
+    ]);
+    state.db = await qRes.json();
+    state.cheatsheets = await csRes.json();
+    state.quizQuestions = await qqRes.json();
+
+    let fc = [];
+    if (fcRes && fcRes.ok) {
+      try { fc = await fcRes.json(); } catch {}
+    }
+    if (!Array.isArray(fc) || fc.length === 0) {
+      fc = buildFallbackFlashcards(state.cheatsheets);
+    }
+    state.flashcards = fc;
+  }
+
+  function buildFallbackFlashcards(cheatsheets) {
+    const out = [];
+    Object.entries(cheatsheets).forEach(([tid, obj]) => {
+      (obj.sections || []).forEach((sec) => {
+        (sec.points || []).forEach((pt, idx) => {
+          const clean = pt.replace(/<[^>]+>/g, '');
+          const colonIdx = clean.indexOf(':');
+          if (colonIdx > 2 && colonIdx < 60) {
+            out.push({
+              id: `auto-${tid}-${idx}`,
+              topicId: tid,
+              topicTitle: obj.title,
+              category: sec.heading,
+              question: `Explain: ${clean.slice(0, colonIdx).trim()}`,
+              answer: clean.slice(colonIdx + 1).trim()
+            });
+          }
+        });
+      });
+    });
+    return out;
+  }
+
+  /* ---------- URL Hash Routing ---------- */
+  function readHash() {
+    const raw = window.location.hash.replace(/^#/, '');
+    const params = new URLSearchParams(raw);
+    return {
+      view: params.get('view') || 'strata',
+      topic: params.get('topic') || '',
+      tab: params.get('tab') || ''
+    };
+  }
+
+  function writeHash(extra = {}) {
+    const params = new URLSearchParams();
+    params.set('view', state.view);
+    if (state.view === 'cards' && $('q-topic').value) params.set('topic', $('q-topic').value);
+    if (state.view === 'cheatsheets' && state.activeCsTopic) params.set('topic', state.activeCsTopic);
+    if (extra.tab) params.set('tab', extra.tab);
+    const next = `#${params.toString()}`;
+    if (window.location.hash !== next) history.replaceState(null, '', next);
+  }
+
+  function switchView(view, opts = {}) {
+    const valid = ['strata', 'cards', 'practice', 'cheatsheets', 'teachers'];
+    state.view = valid.includes(view) ? view : 'strata';
+    document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+    $(`view-${state.view}`).classList.remove('hidden');
+    document.querySelectorAll('.nav-tab').forEach(btn => btn.classList.toggle('active', btn.dataset.view === state.view));
+
+    if (opts.topic) {
+      if (state.view === 'cards') { $('q-topic').value = opts.topic; renderQuestions(); }
+      if (state.view === 'cheatsheets') { state.activeCsTopic = opts.topic; renderCheatsheets(); }
+      if (state.view === 'practice') {
+        $('fc-topic').value = opts.topic;
+        openFlashcardsPanel();
+      }
+    }
+    if (state.view === 'teachers' && opts.tab) activateTeacherTab(opts.tab);
+    writeHash({ tab: opts.tab });
+  }
+
+  document.querySelectorAll('.nav-tab').forEach(btn => {
+    btn.addEventListener('click', () => switchView(btn.dataset.view));
+  });
+
+  /* ---------- Mastery Counter ---------- */
+  function updateMasteryCounter() {
+    const total = state.db.questions.reduce((s, q) => s + (q.marks || 0), 0);
+    const done = state.db.questions.filter(q => state.mastered.has(q.id)).reduce((s, q) => s + (q.marks || 0), 0);
+    $('mastery-counter').textContent = `Mastered: ${done} / ${total} marks`;
+  }
+
+  /* ---------- View 1: Specification Map ---------- */
+  function renderStrata() {
+    const groups = new Map();
+    state.db.topics.forEach(t => {
+      if (!groups.has(t.group)) groups.set(t.group, []);
+      groups.get(t.group).push(t);
+    });
+
+    const html = Array.from(groups.entries()).map(([groupName, topics]) => {
+      const cards = topics.map(t => {
+        const qs = state.db.questions.filter(q => (q.topics || []).includes(t.id));
+        const totalMarks = qs.reduce((s, q) => s + (q.marks || 0), 0);
+        const doneMarks = qs.filter(q => state.mastered.has(q.id)).reduce((s, q) => s + (q.marks || 0), 0);
+        const pct = totalMarks > 0 ? Math.round((doneMarks / totalMarks) * 100) : 0;
+        const fcCount = state.flashcards.filter(f => f.topicId === t.id).length;
+
+        return `
+          <div class="topic-card">
+            <div>
+              <div class="topic-id">Topic ${esc(t.id)}</div>
+              <div class="topic-name">${esc(t.name)}</div>
+              <div class="topic-stats">${qs.length} past questions (${totalMarks} marks) &middot; ${fcCount} flashcards</div>
+              <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+            </div>
+            <div class="topic-actions">
+              <button class="btn btn-sm btn-primary" data-go-q="${esc(t.id)}">Questions</button>
+              <button class="btn btn-sm" data-go-cs="${esc(t.id)}">Cheatsheet</button>
+              <button class="btn btn-sm" data-go-fc="${esc(t.id)}">Flashcards</button>
+            </div>
+          </div>`;
+      }).join('');
+
+      return `
+        <div class="spec-group">
+          <div class="spec-group-header">
+            <h2 class="spec-group-title">${esc(groupName)}</h2>
+            <span class="spec-group-meta">${topics.length} topics</span>
+          </div>
+          <div class="topic-grid">${cards}</div>
+        </div>`;
+    }).join('');
+
+    $('strata-container').innerHTML = html;
+    $('strata-container').querySelectorAll('[data-go-q]').forEach(b => b.addEventListener('click', () => switchView('cards', { topic: b.dataset.goQ })));
+    $('strata-container').querySelectorAll('[data-go-cs]').forEach(b => b.addEventListener('click', () => switchView('cheatsheets', { topic: b.dataset.goCs })));
+    $('strata-container').querySelectorAll('[data-go-fc]').forEach(b => b.addEventListener('click', () => switchView('practice', { topic: b.dataset.goFc })));
+  }
+
+  /* ---------- View 2: Questions ---------- */
+  function populateFilters() {
+    const levelSel = $('q-level');
+    const pgLevelSel = $('pg-level');
+    (state.db.levels || []).forEach(lv => {
+      const id = typeof lv === 'string' ? lv : lv.id;
+      const label = typeof lv === 'string' ? `${lv} Level` : lv.name;
+      levelSel.insertAdjacentHTML('beforeend', `<option value="${esc(id)}">${esc(label)}</option>`);
+      pgLevelSel.insertAdjacentHTML('beforeend', `<option value="${esc(id)}">${esc(label)}</option>`);
+    });
+
+    const topicTargets = [$('q-topic'), $('fc-topic'), $('thq-topic'), $('pg-topic')];
+    state.db.topics.forEach(t => {
+      topicTargets.forEach(sel => sel.insertAdjacentHTML('beforeend', `<option value="${esc(t.id)}">${esc(t.id)} · ${esc(t.name)}</option>`));
+    });
+
+    state.db.skills.forEach(sk => {
+      $('q-skill').insertAdjacentHTML('beforeend', `<option value="${esc(sk.id)}">${esc(sk.name)}</option>`);
+    });
+  }
+
+  function paperMap() {
+    const m = new Map();
+    (state.db.papers || []).forEach(p => m.set(p.id, p));
+    return m;
+  }
+
+  function getFilteredQuestions() {
+    const qStr = $('q-search').value.trim().toLowerCase();
+    const lv = $('q-level').value;
+    const comp = $('q-paper').value;
+    const topic = $('q-topic').value;
+    const skill = $('q-skill').value;
+    const status = $('q-status').value;
+    const pMap = paperMap();
+
+    return state.db.questions.filter(q => {
+      const p = pMap.get(q.paper) || {};
+      if (lv && p.level !== lv) return false;
+      if (comp && !String(q.paper || '').toLowerCase().includes(comp)) return false;
+      if (topic && !(q.topics || []).includes(topic)) return false;
+      if (skill && !(q.skills || []).includes(skill)) return false;
+      if (status === 'mastered' && !state.mastered.has(q.id)) return false;
+      if (status === 'unmastered' && state.mastered.has(q.id)) return false;
+      if (status === 'bookmarked' && !state.bookmarked.has(q.id)) return false;
+      if (qStr) {
+        const hay = `${q.id} ${q.question} ${q.summary} ${p.unit || ''} ${p.code || ''}`.toLowerCase();
+        if (!hay.includes(qStr)) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderQuestions() {
+    const list = getFilteredQuestions();
+    const pMap = paperMap();
+    $('q-count').textContent = `${list.length} question${list.length === 1 ? '' : 's'}`;
+
+    if (list.length === 0) {
+      $('q-list').innerHTML = `
+        <div class="card" style="text-align:center; padding:36px 20px;">
+          <h3 style="margin:0 0 6px;">No past-paper questions match these filters</h3>
+          <p style="margin:0; color:var(--muted);">Add cropped paper data via <code>tools/ingest_paper.py</code> or reset your current filters.</p>
+        </div>`;
+      return;
+    }
+
+    $('q-list').innerHTML = list.map(q => {
+      const p = pMap.get(q.paper) || {};
+      const isDone = state.mastered.has(q.id);
+      const isBm = state.bookmarked.has(q.id);
+      const isSel = state.selectedIds.has(q.id);
+      const hasFigs = Array.isArray(q.figures) && q.figures.length > 0;
+      const topicPills = (q.topics || []).map(t => `<span class="badge">Topic ${esc(t)}</span>`).join('');
+      const skillPills = (q.skills || []).map(s => `<span class="badge">${esc(s)}</span>`).join('');
+
+      return `
+        <article class="q-card ${isDone ? 'mastered' : ''}" data-qid="${esc(q.id)}">
+          <div class="q-head">
+            <div class="q-head-left">
+              <input type="checkbox" class="q-sel-cb" data-id="${esc(q.id)}" ${isSel ? 'checked' : ''} aria-label="Select question">
+              <span class="q-num">Q${esc(q.question)}</span>
+              <span class="badge badge-marks">[${q.marks} mark${q.marks === 1 ? '' : 's'}]</span>
+              <span class="badge">${esc(p.year || '')} ${esc(p.series || '')} ${esc(p.code || q.paper)}</span>
+              ${topicPills}
+              ${skillPills}
+            </div>
+            <div class="q-actions-group">
+              <button class="btn btn-sm q-bm-btn" data-id="${esc(q.id)}" type="button">${isBm ? 'Bookmarked' : 'Bookmark'}</button>
+              <button class="btn btn-sm ${isDone ? 'btn-primary' : ''} q-done-btn" data-id="${esc(q.id)}" type="button">${isDone ? 'Mastered' : 'Mark Done'}</button>
+            </div>
+          </div>
+          <p class="q-summary">${esc(q.summary)}</p>
+          <div class="q-img-wrap"><img src="${esc(q.image)}" alt="Question ${esc(q.question)}" loading="lazy"></div>
+          <div class="q-actions">
+            <div class="q-actions-group">
+              ${hasFigs ? `<button class="btn btn-sm q-fig-toggle" data-id="${esc(q.id)}" type="button">Resource Figure (${q.figures.length})</button>` : ''}
+              ${q.markscheme ? `<button class="btn btn-sm q-ms-toggle" data-id="${esc(q.id)}" type="button">Mark Scheme</button>` : ''}
+              ${q.markscheme ? `<button class="btn btn-sm q-split-btn" data-id="${esc(q.id)}" type="button">Side-by-Side</button>` : ''}
+            </div>
+          </div>
+          ${hasFigs ? `<div id="fig-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Resource Figures</div>${q.figures.map(f => `<div class="q-img-wrap"><img src="${esc(f)}" alt="Resource figure" loading="lazy"></div>`).join('')}</div>` : ''}
+          ${q.markscheme ? `<div id="ms-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Official Mark Scheme</div><div class="q-img-wrap"><img src="${esc(q.markscheme)}" alt="Mark scheme" loading="lazy"></div></div>` : ''}
+        </article>`;
+    }).join('');
+
+    $('q-list').querySelectorAll('.q-sel-cb').forEach(cb => cb.addEventListener('change', () => {
+      if (cb.checked) state.selectedIds.add(cb.dataset.id);
+      else state.selectedIds.delete(cb.dataset.id);
+      updateSelectionDock();
+    }));
+    $('q-list').querySelectorAll('.q-bm-btn').forEach(b => b.addEventListener('click', () => {
+      toggleSet(state.bookmarked, b.dataset.id, STORAGE.bookmarked);
+      renderQuestions();
+    }));
+    $('q-list').querySelectorAll('.q-done-btn').forEach(b => b.addEventListener('click', () => {
+      toggleSet(state.mastered, b.dataset.id, STORAGE.mastered);
+      updateMasteryCounter();
+      renderStrata();
+      renderQuestions();
+    }));
+    $('q-list').querySelectorAll('.q-fig-toggle').forEach(b => b.addEventListener('click', () => $(`fig-box-${b.dataset.id}`).classList.toggle('hidden')));
+    $('q-list').querySelectorAll('.q-ms-toggle').forEach(b => b.addEventListener('click', () => $(`ms-box-${b.dataset.id}`).classList.toggle('hidden')));
+    $('q-list').querySelectorAll('.q-split-btn').forEach(b => b.addEventListener('click', () => openSplitModal(b.dataset.id)));
+  }
+
+  function toggleSet(set, val, storageKey) {
+    if (set.has(val)) set.delete(val); else set.add(val);
+    localStorage.setItem(storageKey, JSON.stringify(Array.from(set)));
+  }
+
+  ['q-search', 'q-level', 'q-paper', 'q-topic', 'q-skill', 'q-status'].forEach(id => {
+    $(id).addEventListener('input', () => { renderQuestions(); writeHash(); });
+    $(id).addEventListener('change', () => { renderQuestions(); writeHash(); });
+  });
+
+  $('q-clear-filters').addEventListener('click', () => {
+    ['q-search', 'q-level', 'q-paper', 'q-topic', 'q-skill', 'q-status'].forEach(id => { $(id).value = ''; });
+    renderQuestions();
+    writeHash();
+  });
+
+  $('q-select-visible').addEventListener('click', () => {
+    getFilteredQuestions().forEach(q => state.selectedIds.add(q.id));
+    updateSelectionDock();
+    renderQuestions();
+  });
+
+  function updateSelectionDock() {
+    const n = state.selectedIds.size;
+    $('dock-count').textContent = `${n} selected`;
+    $('selection-dock').classList.toggle('hidden', n === 0);
+  }
+
+  $('dock-clear').addEventListener('click', () => {
+    state.selectedIds.clear();
+    updateSelectionDock();
+    renderQuestions();
+  });
+
+  $('dock-print').addEventListener('click', () => {
+    const qs = state.db.questions.filter(q => state.selectedIds.has(q.id));
+    printQuestionPack(qs, {
+      title: 'AQA Physics Selected Questions',
+      includeFigures: $('dock-inc-figs').checked,
+      includeMarkSchemes: $('dock-inc-ms').checked,
+      includeCover: false,
+      includeLines: false
+    });
+  });
+
+  /* Crucial print rule: figures rendered ABOVE target question image, followed by markscheme if enabled */
+  function printQuestionPack(qs, opts) {
+    const totalMarks = qs.reduce((s, q) => s + (q.marks || 0), 0);
+    const coverHtml = opts.includeCover ? `
+      <div class="print-cover">
+        <h1 style="margin:0 0 6px; font-size:20px;">${esc(opts.title || 'AQA Physics Worksheet')}</h1>
+        <p style="margin:0; font-size:13px;">AQA AS / A-Level Physics (7407 / 7408) &middot; Total Marks: ${totalMarks}</p>
+        <table>
+          <tr><th>Candidate Name</th><td></td><th>Date</th><td></td></tr>
+          <tr><th>Class / Set</th><td></td><th>Score</th><td>/ ${totalMarks}</td></tr>
+        </table>
+      </div>` : '';
+
+    const blocksHtml = qs.map((q, idx) => {
+      const figHtml = (opts.includeFigures && Array.isArray(q.figures) && q.figures.length > 0)
+        ? q.figures.map(f => `<img src="${esc(f)}" alt="Resource figure">`).join('')
+        : '';
+      const msHtml = (opts.includeMarkSchemes && q.markscheme)
+        ? `<div style="margin-top:8px;"><div style="font-size:11px; font-weight:700; margin-bottom:4px;">Mark Scheme (Q${esc(q.question)})</div><img src="${esc(q.markscheme)}" alt="Mark scheme"></div>`
+        : '';
+      const linesHtml = opts.includeLines
+        ? `<div class="print-lines">${Array.from({ length: Math.min(10, Math.max(2, q.marks || 2)) }).map(() => '<div class="print-line"></div>').join('')}</div>`
+        : '';
+
+      return `
+        <div class="print-q-block">
+          <div style="font-size:12px; font-weight:700; margin-bottom:6px;">Question ${idx + 1} (${esc(q.paper)} Q${esc(q.question)} &middot; ${q.marks} marks)</div>
+          ${figHtml}
+          <img src="${esc(q.image)}" alt="Question">
+          ${linesHtml}
+          ${msHtml}
+        </div>`;
+    }).join('');
+
+    $('print-root').innerHTML = coverHtml + blocksHtml;
+    setTimeout(() => window.print(), 150);
+  }
+
+  /* Split Modal */
+  function openSplitModal(qid) {
+    const q = state.db.questions.find(item => item.id === qid);
+    if (!q) return;
+    state.modalZoom = 1;
+    $('modal-title').textContent = `Q${q.question} [${q.marks} marks] · ${q.paper}`;
+    const figs = (q.figures || []).map(f => `<img src="${esc(f)}" alt="Figure" style="margin-bottom:10px;">`).join('');
+    $('modal-q-pane').innerHTML = `${figs}<img src="${esc(q.image)}" alt="Question">`;
+    $('modal-ms-pane').innerHTML = q.markscheme ? `<img src="${esc(q.markscheme)}" alt="Mark scheme">` : '<p>No mark scheme available.</p>';
+    applyModalZoom();
+    $('split-modal').classList.remove('hidden');
+  }
+  function applyModalZoom() {
+    document.querySelectorAll('#split-modal .modal-pane img').forEach(img => {
+      img.style.width = `${Math.round(state.modalZoom * 100)}%`;
+    });
+  }
+  $('modal-zoom-in').addEventListener('click', () => { state.modalZoom = Math.min(2.2, state.modalZoom + 0.2); applyModalZoom(); });
+  $('modal-zoom-out').addEventListener('click', () => { state.modalZoom = Math.max(0.6, state.modalZoom - 0.2); applyModalZoom(); });
+  $('modal-zoom-reset').addEventListener('click', () => { state.modalZoom = 1; applyModalZoom(); });
+  $('modal-close').addEventListener('click', () => $('split-modal').classList.add('hidden'));
+
+  /* ---------- View 3: Diagnostic Quiz ---------- */
+  function startDiagnostic(allTopics) {
+    const byTopic = new Map();
+    state.quizQuestions.forEach(q => {
+      if (!byTopic.has(q.topic)) byTopic.set(q.topic, []);
+      byTopic.get(q.topic).push(q);
+    });
+    let sampled = Array.from(byTopic.values()).map(arr => arr[Math.floor(Math.random() * arr.length)]);
+    sampled = sampled.sort(() => Math.random() - 0.5);
+    if (!allTopics) sampled = sampled.slice(0, 10);
+
+    state.diag = { list: sampled, idx: 0, answers: [], active: true };
+    $('diag-start').classList.add('hidden');
+    $('diag-results').classList.add('hidden');
+    $('diag-active').classList.remove('hidden');
+    renderDiagnosticQuestion();
+  }
+
+  function renderDiagnosticQuestion() {
+    const { list, idx } = state.diag;
+    const item = list[idx];
+    const tObj = state.db.topics.find(t => t.id === item.topic);
+    $('diag-topic-badge').textContent = `Topic ${item.topic}${tObj ? ' · ' + tObj.name : ''}`;
+    $('diag-progress-text').textContent = `Question ${idx + 1} of ${list.length}`;
+    $('diag-progress-fill').style.width = `${Math.round(((idx + 1) / list.length) * 100)}%`;
+    $('diag-question').textContent = item.question;
+    $('diag-feedback').classList.add('hidden');
+    $('diag-next').classList.add('hidden');
+
+    $('diag-options').innerHTML = item.options.map((opt, i) =>
+      `<button class="quiz-opt" data-idx="${i}" type="button">${String.fromCharCode(65 + i)}. ${esc(opt)}</button>`
+    ).join('');
+
+    $('diag-options').querySelectorAll('.quiz-opt').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const chosen = Number(btn.dataset.idx);
+        const isCorrect = chosen === item.answer;
+        state.diag.answers.push({ topic: item.topic, correct: isCorrect });
+        $('diag-options').querySelectorAll('.quiz-opt').forEach((b, j) => {
+          b.disabled = true;
+          if (j === item.answer) b.classList.add('correct');
+          else if (j === chosen && !isCorrect) b.classList.add('wrong');
+        });
+        $('diag-feedback').innerHTML = `<strong>${isCorrect ? 'Correct.' : 'Not quite.'}</strong> ${esc(item.explanation)}`;
+        $('diag-feedback').classList.remove('hidden');
+        $('diag-next').textContent = idx + 1 < list.length ? 'Next Question' : 'View Revision Plan';
+        $('diag-next').classList.remove('hidden');
+      });
+    });
+  }
+
+  $('diag-btn-10').addEventListener('click', () => startDiagnostic(false));
+  $('diag-btn-all').addEventListener('click', () => startDiagnostic(true));
+  $('diag-next').addEventListener('click', () => {
+    state.diag.idx++;
+    if (state.diag.idx < state.diag.list.length) renderDiagnosticQuestion();
+    else showDiagnosticResults();
+  });
+  $('diag-restart').addEventListener('click', () => {
+    $('diag-results').classList.add('hidden');
+    $('diag-start').classList.remove('hidden');
+  });
+
+  function showDiagnosticResults() {
+    $('diag-active').classList.add('hidden');
+    $('diag-results').classList.remove('hidden');
+    const correctCount = state.diag.answers.filter(a => a.correct).length;
+    $('diag-score-summary').textContent = `You scored ${correctCount} / ${state.diag.answers.length}. Use the topic breakdown below to jump straight into targeted revision.`;
+
+    const weak = state.diag.answers.filter(a => !a.correct);
+    const strong = state.diag.answers.filter(a => a.correct);
+    const renderPlanItem = (a) => {
+      const t = state.db.topics.find(x => x.id === a.topic);
+      return `
+        <div class="plan-item">
+          <div><strong>Topic ${esc(a.topic)}</strong> &middot; ${esc(t ? t.name : '')}</div>
+          <div class="q-actions-group">
+            <button class="btn btn-sm" data-plan-fc="${esc(a.topic)}" type="button">Flashcards</button>
+            <button class="btn btn-sm" data-plan-cs="${esc(a.topic)}" type="button">Cheatsheet</button>
+            <button class="btn btn-sm" data-plan-q="${esc(a.topic)}" type="button">Past Questions</button>
+          </div>
+        </div>`;
+    };
+
+    $('diag-weak-list').innerHTML = weak.length ? weak.map(renderPlanItem).join('') : '<p style="color:var(--muted);">No weak topics flagged in this check.</p>';
+    $('diag-strong-list').innerHTML = strong.length ? strong.map(renderPlanItem).join('') : '<p style="color:var(--muted);">Review the topics on the left first.</p>';
+
+    $('diag-results').querySelectorAll('[data-plan-fc]').forEach(b => b.addEventListener('click', () => { $('fc-topic').value = b.dataset.planFc; openFlashcardsPanel(); }));
+    $('diag-results').querySelectorAll('[data-plan-cs]').forEach(b => b.addEventListener('click', () => switchView('cheatsheets', { topic: b.dataset.planCs })));
+    $('diag-results').querySelectorAll('[data-plan-q]').forEach(b => b.addEventListener('click', () => switchView('cards', { topic: b.dataset.planQ })));
+  }
+
+  /* ---------- View 3: Flashcards (Easy / Medium / Hard) ---------- */
+  function openFlashcardsPanel() {
+    $('fc-panel').classList.remove('hidden');
+    $('fc-toggle-panel').textContent = 'Hide Flashcards';
+    filterFlashcards();
+  }
+  $('fc-toggle-panel').addEventListener('click', () => {
+    const isHidden = $('fc-panel').classList.toggle('hidden');
+    $('fc-toggle-panel').textContent = isHidden ? 'Open Flashcards' : 'Hide Flashcards';
+    if (!isHidden) filterFlashcards();
+  });
+
+  function filterFlashcards() {
+    const topic = $('fc-topic').value;
+    const status = $('fc-status').value;
+    state.fcFiltered = state.flashcards.filter(c => {
+      if (topic && c.topicId !== topic) return false;
+      const st = state.fcStatus[c.id] || 'needs_work';
+      if (status === 'needs_work' && st !== 'needs_work') return false;
+      if (status === 'mastered' && st !== 'mastered') return false;
+      if (status === 'starred' && !state.fcStarred.has(c.id)) return false;
+      return true;
+    });
+    state.fcIndex = 0;
+    resetCardTurn();
+    renderFlashcard();
+  }
+
+  function resetCardTurn() {
+    state.fcRevealed = false;
+    state.fcMcqChoices = null;
+    state.fcHardResult = null;
+  }
+
+  function buildEasyChoices(card) {
+    const sameTopic = state.flashcards.filter(c => c.id !== card.id && c.topicId === card.topicId);
+    const other = state.flashcards.filter(c => c.id !== card.id && c.topicId !== card.topicId);
+    const pool = [...sameTopic.sort(() => Math.random() - 0.5), ...other.sort(() => Math.random() - 0.5)].slice(0, 3);
+    const opts = [{ text: card.answer, correct: true }, ...pool.map(p => ({ text: p.answer, correct: false }))];
+    return opts.sort(() => Math.random() - 0.5);
+  }
+
+  function scoreHardRecall(userText, refText) {
+    const stop = new Set(['the','and','for','with','that','this','from','into','when','which','are','was','were','have','has','can','not','only','than','then','each','both','per','unit','about']);
+    const words = Array.from(new Set(refText.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(w => w.length > 3 && !stop.has(w))));
+    if (words.length === 0) return { pct: 100, matched: [], missed: [] };
+    const u = userText.toLowerCase();
+    const matched = words.filter(w => u.includes(w));
+    const missed = words.filter(w => !u.includes(w));
+    return { pct: Math.round((matched.length / words.length) * 100), matched, missed };
+  }
+
+  function renderFlashcard() {
+    const list = state.fcFiltered;
+    if (list.length === 0) {
+      $('fc-counter').textContent = '0 / 0';
+      $('fc-stage').innerHTML = '<p style="color:var(--muted); margin:0;">No flashcards match this filter.</p>';
+      return;
+    }
+    const card = list[state.fcIndex];
+    const mode = $('fc-mode').value;
+    const isStar = state.fcStarred.has(card.id);
+    const st = state.fcStatus[card.id] || 'needs_work';
+    $('fc-counter').textContent = `${state.fcIndex + 1} / ${list.length}`;
+
+    let bodyHtml = '';
+    if (mode === 'easy') {
+      if (!state.fcMcqChoices) state.fcMcqChoices = buildEasyChoices(card);
+      bodyHtml = `
+        <div class="quiz-options" style="margin:0;">
+          ${state.fcMcqChoices.map((o, i) => `<button class="quiz-opt fc-mcq-opt" data-idx="${i}" type="button">${String.fromCharCode(65+i)}. ${esc(o.text)}</button>`).join('')}
+        </div>`;
+    } else if (mode === 'medium') {
+      bodyHtml = state.fcRevealed
+        ? `<div class="fc-a">${esc(card.answer)}</div>`
+        : `<div><button id="fc-reveal-btn" class="btn btn-primary" type="button">Reveal Answer (Space)</button></div>`;
+    } else {
+      bodyHtml = `
+        <textarea id="fc-hard-input" class="textarea" rows="3" style="width:100%;" placeholder="Type your physics explanation here..."></textarea>
+        <div class="q-actions-group">
+          <button id="fc-hard-check" class="btn btn-primary btn-sm" type="button">Check Key Terms</button>
+        </div>
+        ${state.fcHardResult ? `
+          <div class="fc-a">
+            <div><strong>${state.fcHardResult.pct}% key terms matched</strong></div>
+            <div style="margin-top:6px;"><strong>Model Answer:</strong> ${esc(card.answer)}</div>
+            ${state.fcHardResult.missed.length ? `<div style="margin-top:6px; font-size:0.82rem; color:var(--muted);">Missed terms: ${esc(state.fcHardResult.missed.slice(0, 8).join(', '))}</div>` : ''}
+          </div>` : ''}`;
+    }
+
+    $('fc-stage').innerHTML = `
+      <div>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+          <div class="q-actions-group">
+            <span class="badge">${esc(card.topicTitle)}</span>
+            <span class="badge">${esc(card.category)}</span>
+            <span class="badge">${st === 'mastered' ? 'Mastered' : 'Needs Work'}</span>
+          </div>
+          <button id="fc-star-btn" class="btn btn-sm" type="button">${isStar ? 'Starred' : 'Star'}</button>
+        </div>
+        <div class="fc-q">${esc(card.question)}</div>
+      </div>
+      ${bodyHtml}
+      <div class="q-actions-group">
+        <button id="fc-mark-work" class="btn btn-sm" type="button">Needs Work (1)</button>
+        <button id="fc-mark-done" class="btn btn-sm btn-primary" type="button">Mastered (2)</button>
+      </div>`;
+
+    $('fc-star-btn').addEventListener('click', () => { toggleSet(state.fcStarred, card.id, STORAGE.fcStarred); renderFlashcard(); });
+    $('fc-mark-work').addEventListener('click', () => setFcStatus(card.id, 'needs_work'));
+    $('fc-mark-done').addEventListener('click', () => setFcStatus(card.id, 'mastered'));
+    if ($('fc-reveal-btn')) $('fc-reveal-btn').addEventListener('click', () => { state.fcRevealed = true; renderFlashcard(); });
+    if ($('fc-hard-check')) $('fc-hard-check').addEventListener('click', () => {
+      state.fcHardResult = scoreHardRecall($('fc-hard-input').value, card.answer);
+      renderFlashcard();
+    });
+    $('fc-stage').querySelectorAll('.fc-mcq-opt').forEach(btn => btn.addEventListener('click', () => {
+      const idx = Number(btn.dataset.idx);
+      const chosen = state.fcMcqChoices[idx];
+      $('fc-stage').querySelectorAll('.fc-mcq-opt').forEach((b, j) => {
+        b.disabled = true;
+        if (state.fcMcqChoices[j].correct) b.classList.add('correct');
+        else if (j === idx && !chosen.correct) b.classList.add('wrong');
+      });
+    }));
+  }
+
+  function setFcStatus(id, st) {
+    state.fcStatus[id] = st;
+    localStorage.setItem(STORAGE.fcStatus, JSON.stringify(state.fcStatus));
+    if (state.fcIndex + 1 < state.fcFiltered.length) {
+      state.fcIndex++;
+      resetCardTurn();
+    }
+    renderFlashcard();
+  }
+
+  ['fc-topic', 'fc-status', 'fc-mode'].forEach(id => $(id).addEventListener('change', () => {
+    if (id === 'fc-mode') { resetCardTurn(); renderFlashcard(); }
+    else filterFlashcards();
+  }));
+  $('fc-shuffle').addEventListener('click', () => {
+    state.fcFiltered.sort(() => Math.random() - 0.5);
+    state.fcIndex = 0;
+    resetCardTurn();
+    renderFlashcard();
+  });
+  $('fc-prev').addEventListener('click', () => {
+    if (state.fcIndex > 0) { state.fcIndex--; resetCardTurn(); renderFlashcard(); }
+  });
+  $('fc-next').addEventListener('click', () => {
+    if (state.fcIndex + 1 < state.fcFiltered.length) { state.fcIndex++; resetCardTurn(); renderFlashcard(); }
+  });
+
+  /* ---------- View 4: Cheatsheets ---------- */
+  function renderCheatsheets() {
+    const keys = Object.keys(state.cheatsheets);
+    if (!state.cheatsheets[state.activeCsTopic] && keys.length) state.activeCsTopic = keys[0];
+
+    $('cs-sidebar').innerHTML = keys.map(k => {
+      const cs = state.cheatsheets[k];
+      return `<button class="cs-nav-btn ${k === state.activeCsTopic ? 'active' : ''}" data-cs="${esc(k)}" type="button">${esc(cs.title)}</button>`;
+    }).join('');
+
+    $('cs-sidebar').querySelectorAll('[data-cs]').forEach(b => b.addEventListener('click', () => {
+      state.activeCsTopic = b.dataset.cs;
+      renderCheatsheets();
+      writeHash();
+    }));
+
+    const active = state.cheatsheets[state.activeCsTopic];
+    if (!active) return;
+    $('cs-content').innerHTML = `
+      <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:12px;">
+        <div>
+          <span class="badge">${esc(active.group)} &middot; ${esc(active.spec)}</span>
+          <h2 style="margin:8px 0 0; font-size:1.3rem;">${esc(active.title)}</h2>
+        </div>
+        <div class="q-actions-group">
+          <button id="cs-practice-fc" class="btn btn-primary btn-sm" type="button">Practice Topic Flashcards</button>
+          <button id="cs-print" class="btn btn-sm" type="button">Print Notes</button>
+        </div>
+      </div>
+      ${(active.sections || []).map(sec => `
+        <div class="cs-section">
+          <h3>${esc(sec.heading)}</h3>
+          <ul>${(sec.points || []).map(p => `<li>${p}</li>`).join('')}</ul>
+        </div>`).join('')}`;
+
+    $('cs-practice-fc').addEventListener('click', () => switchView('practice', { topic: state.activeCsTopic }));
+    $('cs-print').addEventListener('click', () => window.print());
+  }
+
+  /* ---------- View 5: Teacher's Hub ---------- */
+  function activateTeacherTab(tab) {
+    document.querySelectorAll('.th-tab').forEach(b => b.classList.toggle('active', b.dataset.th === tab));
+    document.querySelectorAll('.th-panel').forEach(p => p.classList.add('hidden'));
+    $(`th-${tab}`).classList.remove('hidden');
+  }
+  document.querySelectorAll('.th-tab').forEach(b => b.addEventListener('click', () => activateTeacherTab(b.dataset.th)));
+  document.querySelectorAll('.th-jump').forEach(b => b.addEventListener('click', () => activateTeacherTab(b.dataset.target)));
+  document.querySelectorAll('.th-preset').forEach(b => b.addEventListener('click', () => {
+    $('thq-topic').value = b.dataset.topic;
+    activateTeacherTab('quiz');
+    startTeacherQuiz();
+  }));
+  document.querySelectorAll('.th-preset-paper').forEach(b => b.addEventListener('click', () => {
+    $('pg-topic').value = b.dataset.topic;
+    $('pg-target').value = b.dataset.marks;
+    activateTeacherTab('paper');
+    generatePaper();
+  }));
+
+  /* Web Audio API Sound Effects */
+  const audioCtx = typeof AudioContext !== 'undefined' ? new AudioContext() : null;
+  function playTone(freq, dur, type = 'sine') {
+    if (!$('thq-sound').checked || !audioCtx) return;
+    if (audioCtx.state === 'suspended') audioCtx.resume();
+    const osc = audioCtx.createOscillator();
+    const gain = audioCtx.createGain();
+    osc.type = type;
+    osc.frequency.value = freq;
+    gain.gain.setValueAtTime(0.08, audioCtx.currentTime);
+    gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + dur);
+    osc.connect(gain);
+    gain.connect(audioCtx.destination);
+    osc.start();
+    osc.stop(audioCtx.currentTime + dur);
+  }
+
+  function startTeacherQuiz() {
+    clearInterval(state.thQuiz.timer);
+    const topic = $('thq-topic').value;
+    const pool = state.quizQuestions.filter(q => !topic || q.topic === topic).sort(() => Math.random() - 0.5);
+    state.thQuiz = { list: pool, idx: 0, t1: 0, t2: 0, turn: 1, timer: null, timeLeft: Number($('thq-timer-sec').value), answered: false };
+    $('thq-t1-score').textContent = '0';
+    $('thq-t2-score').textContent = '0';
+    $('thq-stage').classList.remove('hidden');
+    renderTeacherQuizQ();
+  }
+
+  function renderTeacherQuizQ() {
+    clearInterval(state.thQuiz.timer);
+    const q = state.thQuiz.list[state.thQuiz.idx];
+    if (!q) {
+      $('thq-q-text').textContent = 'Quiz complete. Final scores shown above.';
+      $('thq-options').innerHTML = '';
+      $('thq-explanation').classList.add('hidden');
+      playTone(660, 0.35, 'triangle');
+      return;
+    }
+    state.thQuiz.answered = false;
+    $('thq-t1-box').classList.toggle('active-turn', state.thQuiz.turn === 1);
+    $('thq-t2-box').classList.toggle('active-turn', state.thQuiz.turn === 2);
+    $('thq-turn-label').textContent = `Active Turn: Team ${state.thQuiz.turn}`;
+    $('thq-q-meta').textContent = `Topic ${q.topic} · Question ${state.thQuiz.idx + 1} / ${state.thQuiz.list.length}`;
+    $('thq-q-text').textContent = q.question;
+    $('thq-explanation').classList.add('hidden');
+    $('thq-options').innerHTML = q.options.map((o, i) => `<button class="quiz-opt thq-opt" data-idx="${i}" type="button">${String.fromCharCode(65 + i)}. ${esc(o)}</button>`).join('');
+    $('thq-options').querySelectorAll('.thq-opt').forEach(b => b.addEventListener('click', () => answerTeacherQuiz(Number(b.dataset.idx))));
+
+    const sec = Number($('thq-timer-sec').value);
+    state.thQuiz.timeLeft = sec;
+    $('thq-timer-display').textContent = sec > 0 ? `${sec}s` : 'Off';
+    if (sec > 0) {
+      state.thQuiz.timer = setInterval(() => {
+        state.thQuiz.timeLeft--;
+        $('thq-timer-display').textContent = `${state.thQuiz.timeLeft}s`;
+        if (state.thQuiz.timeLeft <= 5 && state.thQuiz.timeLeft > 0) playTone(440, 0.06);
+        if (state.thQuiz.timeLeft <= 0) {
+          clearInterval(state.thQuiz.timer);
+          answerTeacherQuiz(-1);
+        }
+      }, 1000);
+    }
+  }
+
+  function answerTeacherQuiz(chosen) {
+    if (state.thQuiz.answered) return;
+    state.thQuiz.answered = true;
+    clearInterval(state.thQuiz.timer);
+    const q = state.thQuiz.list[state.thQuiz.idx];
+    const ok = chosen === q.answer;
+    if (ok) {
+      if (state.thQuiz.turn === 1) { state.thQuiz.t1 += 10; $('thq-t1-score').textContent = state.thQuiz.t1; }
+      else { state.thQuiz.t2 += 10; $('thq-t2-score').textContent = state.thQuiz.t2; }
+      playTone(587, 0.18, 'triangle');
+    } else {
+      playTone(220, 0.22, 'sawtooth');
+    }
+    $('thq-options').querySelectorAll('.thq-opt').forEach((b, j) => {
+      b.disabled = true;
+      if (j === q.answer) b.classList.add('correct');
+      else if (j === chosen && !ok) b.classList.add('wrong');
+    });
+    $('thq-explanation').innerHTML = `<strong>${ok ? 'Correct (+10 pts).' : 'Time up / Incorrect.'}</strong> ${esc(q.explanation)}`;
+    $('thq-explanation').classList.remove('hidden');
+  }
+
+  $('thq-start').addEventListener('click', startTeacherQuiz);
+  $('thq-next').addEventListener('click', () => {
+    state.thQuiz.turn = state.thQuiz.turn === 1 ? 2 : 1;
+    state.thQuiz.idx++;
+    renderTeacherQuizQ();
+  });
+
+  $('thq-print-handout').addEventListener('click', () => {
+    const topic = $('thq-topic').value;
+    const list = state.quizQuestions.filter(q => !topic || q.topic === topic);
+    const handout = list.map((q, i) => `
+      <div style="margin-bottom:14px; page-break-inside:avoid;">
+        <div><strong>${i + 1}. [Topic ${esc(q.topic)}]</strong> ${esc(q.question)}</div>
+        <div style="margin-left:14px; margin-top:4px;">${q.options.map((o, j) => `${String.fromCharCode(65+j)}. ${esc(o)}`).join(' &nbsp;&nbsp; ')}</div>
+      </div>`).join('');
+    const key = list.map((q, i) => `<li><strong>Q${i + 1}:</strong> ${String.fromCharCode(65 + q.answer)} &mdash; ${esc(q.explanation)}</li>`).join('');
+    $('print-root').innerHTML = `<h1>AQA Physics MCQ Handout</h1>${handout}<div class="print-page-break"><h1>Teacher Answer Key</h1><ol>${key}</ol></div>`;
+    setTimeout(() => window.print(), 150);
+  });
+
+  /* Paper Generator */
+  function getPgPool() {
+    const topic = $('pg-topic').value;
+    const lv = $('pg-level').value;
+    const pMap = paperMap();
+    return state.db.questions.filter(q => {
+      const p = pMap.get(q.paper) || {};
+      if (topic && !(q.topics || []).includes(topic)) return false;
+      if (lv && p.level !== lv) return false;
+      return true;
+    });
+  }
+
+  function generatePaper() {
+    const target = Number($('pg-target').value);
+    const pool = getPgPool().sort(() => Math.random() - 0.5);
+    const picked = [];
+    let marks = 0;
+    for (const q of pool) {
+      if (marks + (q.marks || 0) <= target + 2 || picked.length === 0) {
+        picked.push(q);
+        marks += (q.marks || 0);
+        if (marks >= target) break;
+      }
+    }
+    state.pgQuestions = picked;
+    renderPaperBuilder();
+  }
+
+  function renderPaperBuilder() {
+    const total = state.pgQuestions.reduce((s, q) => s + (q.marks || 0), 0);
+    $('pg-summary').textContent = `${state.pgQuestions.length} question${state.pgQuestions.length === 1 ? '' : 's'} selected (${total} marks)`;
+    if (state.pgQuestions.length === 0) {
+      $('pg-list').innerHTML = '<p style="color:var(--muted);">No past-paper questions available in the database for these filters yet.</p>';
+      return;
+    }
+    $('pg-list').innerHTML = state.pgQuestions.map((q, i) => `
+      <div class="plan-item" style="flex-direction:row; justify-content:space-between; align-items:center;">
+        <div><strong>Q${i + 1}:</strong> ${esc(q.paper)} Q${esc(q.question)} (${q.marks}m) &mdash; ${esc(q.summary)}</div>
+        <div class="q-actions-group">
+          <button class="btn btn-sm pg-up" data-i="${i}" type="button">Up</button>
+          <button class="btn btn-sm pg-dn" data-i="${i}" type="button">Down</button>
+          <button class="btn btn-sm pg-swap" data-i="${i}" type="button">Swap</button>
+          <button class="btn btn-sm pg-del" data-i="${i}" type="button">Remove</button>
+        </div>
+      </div>`).join('');
+
+    $('pg-list').querySelectorAll('.pg-up').forEach(b => b.addEventListener('click', () => {
+      const i = Number(b.dataset.i);
+      if (i > 0) { [state.pgQuestions[i - 1], state.pgQuestions[i]] = [state.pgQuestions[i], state.pgQuestions[i - 1]]; renderPaperBuilder(); }
+    }));
+    $('pg-list').querySelectorAll('.pg-dn').forEach(b => b.addEventListener('click', () => {
+      const i = Number(b.dataset.i);
+      if (i + 1 < state.pgQuestions.length) { [state.pgQuestions[i + 1], state.pgQuestions[i]] = [state.pgQuestions[i], state.pgQuestions[i + 1]]; renderPaperBuilder(); }
+    }));
+    $('pg-list').querySelectorAll('.pg-del').forEach(b => b.addEventListener('click', () => {
+      state.pgQuestions.splice(Number(b.dataset.i), 1);
+      renderPaperBuilder();
+    }));
+    $('pg-list').querySelectorAll('.pg-swap').forEach(b => b.addEventListener('click', () => {
+      const i = Number(b.dataset.i);
+      const used = new Set(state.pgQuestions.map(x => x.id));
+      const cand = getPgPool().filter(x => !used.has(x.id));
+      if (cand.length) {
+        state.pgQuestions[i] = cand[Math.floor(Math.random() * cand.length)];
+        renderPaperBuilder();
+      }
+    }));
+  }
+
+  $('pg-generate').addEventListener('click', generatePaper);
+  $('pg-add-q').addEventListener('click', () => {
+    const used = new Set(state.pgQuestions.map(x => x.id));
+    const cand = getPgPool().filter(x => !used.has(x.id));
+    if (cand.length) {
+      state.pgQuestions.push(cand[0]);
+      renderPaperBuilder();
+    }
+  });
+  $('pg-print-student').addEventListener('click', () => printQuestionPack(state.pgQuestions, {
+    title: $('pg-title').value,
+    includeFigures: true,
+    includeMarkSchemes: false,
+    includeCover: true,
+    includeLines: true
+  }));
+  $('pg-print-ms').addEventListener('click', () => printQuestionPack(state.pgQuestions, {
+    title: `${$('pg-title').value} - Mark Scheme`,
+    includeFigures: true,
+    includeMarkSchemes: true,
+    includeCover: false,
+    includeLines: false
+  }));
+
+  /* Global Keyboard Shortcuts */
+  document.addEventListener('keydown', (e) => {
+    if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+    if (state.view === 'practice' && !$('fc-panel').classList.contains('hidden')) {
+      const card = state.fcFiltered[state.fcIndex];
+      if (!card) return;
+      if (e.code === 'Space') { e.preventDefault(); state.fcRevealed = true; renderFlashcard(); }
+      else if (e.key === 'ArrowRight') $('fc-next').click();
+      else if (e.key === 'ArrowLeft') $('fc-prev').click();
+      else if (e.key === '1') setFcStatus(card.id, 'needs_work');
+      else if (e.key === '2') setFcStatus(card.id, 'mastered');
+    } else if (state.view === 'teachers' && !$('thq-stage').classList.contains('hidden')) {
+      const map = { '1':0, '2':1, '3':2, '4':3, 'a':0, 'b':1, 'c':2, 'd':3 };
+      const k = e.key.toLowerCase();
+      if (k in map) answerTeacherQuiz(map[k]);
+    }
+  });
+
+  /* ---------- Init ---------- */
+  (async function init() {
+    initTheme();
+    initGate();
+    await loadAllData();
+    populateFilters();
+    updateMasteryCounter();
+    renderStrata();
+    renderQuestions();
+    renderCheatsheets();
+    const initial = readHash();
+    switchView(initial.view, initial);
+    window.addEventListener('hashchange', () => {
+      const h = readHash();
+      switchView(h.view, h);
+    });
+  })();
+})();
+</script>
+</body>
+</html>
