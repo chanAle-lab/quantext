@@ -989,8 +989,10 @@ button { cursor: pointer; }
     pgQuestions: []
   };
 
+  const IMG_CACHE_VERSION = '20261124';
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
+  const imgUrl = (p) => p ? `${esc(p)}?v=${IMG_CACHE_VERSION}` : '';
 
   /* ---------- Theme & Passcode Gate ---------- */
   function initTheme() {
@@ -1260,7 +1262,7 @@ button { cursor: pointer; }
             </div>
           </div>
           <p class="q-summary">${esc(q.summary)}</p>
-          <div class="q-img-wrap"><img src="${esc(q.image)}" alt="Question ${esc(q.question)}" loading="lazy"></div>
+          <div class="q-img-wrap"><img src="${imgUrl(q.image)}" alt="Question ${esc(q.questionNumber || q.question)}" loading="lazy"></div>
           <div class="q-actions">
             <div class="q-actions-group">
               ${hasFigs ? `<button class="btn btn-sm q-fig-toggle" data-id="${esc(q.id)}" type="button">Resource Figure (${q.figures.length})</button>` : ''}
@@ -1268,8 +1270,8 @@ button { cursor: pointer; }
               ${q.markscheme ? `<button class="btn btn-sm q-split-btn" data-id="${esc(q.id)}" type="button">Side-by-Side</button>` : ''}
             </div>
           </div>
-          ${hasFigs ? `<div id="fig-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Resource Figures</div>${q.figures.map(f => `<div class="q-img-wrap"><img src="${esc(f)}" alt="Resource figure" loading="lazy"></div>`).join('')}</div>` : ''}
-          ${q.markscheme ? `<div id="ms-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Official Mark Scheme</div><div class="q-img-wrap"><img src="${esc(q.markscheme)}" alt="Mark scheme" loading="lazy"></div></div>` : ''}
+          ${hasFigs ? `<div id="fig-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Resource Figures</div>${q.figures.map(f => `<div class="q-img-wrap"><img src="${imgUrl(f)}" alt="Resource figure" loading="lazy"></div>`).join('')}</div>` : ''}
+          ${q.markscheme ? `<div id="ms-box-${esc(q.id)}" class="collapsible-box hidden"><div class="collapsible-label">Official Mark Scheme</div><div class="q-img-wrap"><img src="${imgUrl(q.markscheme)}" alt="Mark scheme" loading="lazy"></div></div>` : ''}
         </article>`;
     }).join('');
 
@@ -1353,10 +1355,10 @@ button { cursor: pointer; }
 
     const blocksHtml = qs.map((q, idx) => {
       const figHtml = (opts.includeFigures && Array.isArray(q.figures) && q.figures.length > 0)
-        ? q.figures.map(f => `<img src="${esc(f)}" alt="Resource figure">`).join('')
+        ? q.figures.map(f => `<img src="${imgUrl(f)}" alt="Resource figure">`).join('')
         : '';
       const msHtml = (opts.includeMarkSchemes && q.markscheme)
-        ? `<div style="margin-top:8px;"><div style="font-size:11px; font-weight:700; margin-bottom:4px;">Mark Scheme (Q${esc(q.question)})</div><img src="${esc(q.markscheme)}" alt="Mark scheme"></div>`
+        ? `<div style="margin-top:8px;"><div style="font-size:11px; font-weight:700; margin-bottom:4px;">Mark Scheme (Q${esc(q.questionNumber || q.question)})</div><img src="${imgUrl(q.markscheme)}" alt="Mark scheme"></div>`
         : '';
       const linesHtml = opts.includeLines
         ? `<div class="print-lines">${Array.from({ length: Math.min(10, Math.max(2, q.marks || 2)) }).map(() => '<div class="print-line"></div>').join('')}</div>`
@@ -1364,9 +1366,9 @@ button { cursor: pointer; }
 
       return `
         <div class="print-q-block">
-          <div style="font-size:12px; font-weight:700; margin-bottom:6px;">Question ${idx + 1} (${esc(q.paper)} Q${esc(q.question)} &middot; ${q.marks} marks)</div>
+          <div style="font-size:12px; font-weight:700; margin-bottom:6px;">Question ${idx + 1} (${esc(q.paper)} Q${esc(q.questionNumber || q.question)} &middot; ${q.marks} marks)</div>
           ${figHtml}
-          <img src="${esc(q.image)}" alt="Question">
+          <img src="${imgUrl(q.image)}" alt="Question">
           ${linesHtml}
           ${msHtml}
         </div>`;
@@ -1381,10 +1383,10 @@ button { cursor: pointer; }
     const q = state.db.questions.find(item => item.id === qid);
     if (!q) return;
     state.modalZoom = 1;
-    $('modal-title').textContent = `Q${q.question} [${q.marks} marks] · ${q.paper}`;
-    const figs = (q.figures || []).map(f => `<img src="${esc(f)}" alt="Figure" style="margin-bottom:10px;">`).join('');
-    $('modal-q-pane').innerHTML = `${figs}<img src="${esc(q.image)}" alt="Question">`;
-    $('modal-ms-pane').innerHTML = q.markscheme ? `<img src="${esc(q.markscheme)}" alt="Mark scheme">` : '<p>No mark scheme available.</p>';
+    $('modal-title').textContent = `Q${q.questionNumber || q.question} [${q.marks} marks] · ${q.paper}`;
+    const figs = (q.figures || []).map(f => `<img src="${imgUrl(f)}" alt="Figure" style="margin-bottom:10px;">`).join('');
+    $('modal-q-pane').innerHTML = `${figs}<img src="${imgUrl(q.image)}" alt="Question">`;
+    $('modal-ms-pane').innerHTML = q.markscheme ? `<img src="${imgUrl(q.markscheme)}" alt="Mark scheme">` : '<p>No mark scheme available.</p>';
     applyModalZoom();
     $('split-modal').classList.remove('hidden');
   }
