@@ -241,43 +241,113 @@ button { cursor: pointer; }
 }
 
 /* View 1: Specification Map (Strata) */
-.spec-group { margin-bottom: 26px; }
-.spec-group-header {
+.strata-controls { display: flex; flex-direction: column; gap: 10px; margin-bottom: 18px; }
+.strata-search { width: 100%; padding: 10px 14px; font-size: 0.9rem; }
+.strata-dropdowns {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.strata-dropdowns .select { min-width: 145px; flex: 1 1 145px; }
+.strata-pills-bar {
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 8px;
-  margin-bottom: 12px;
-  border-bottom: 1px solid var(--border);
+  gap: 10px;
+  margin-top: 2px;
 }
-.spec-group-title { font-size: 0.95rem; font-weight: 700; letter-spacing: -0.01em; margin: 0; }
-.spec-group-meta { font-size: 0.78rem; color: var(--muted); }
-.topic-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 12px;
+.strata-pills { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.pill-btn {
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--ink-secondary);
+  font-size: 0.78rem;
+  font-weight: 500;
+  transition: all 0.12s ease;
 }
-.topic-card {
+.pill-btn:hover { background: var(--surface-hover); color: var(--ink); border-color: var(--border-strong); }
+.pill-btn.active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.strata-reset {
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-decoration: underline;
+  padding: 4px 6px;
+}
+.strata-reset:hover { color: var(--ink); }
+.strata-total-line {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 4px 0 18px;
+}
+.spec-group { margin-bottom: 24px; }
+.spec-group-label {
+  font-size: 0.76rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
+.strata-list {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 16px;
+  overflow: hidden;
+}
+.strata-row {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   gap: 12px;
-  transition: border-color 0.15s ease;
+  padding: 13px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: var(--ink);
+  text-align: left;
+  transition: background-color 0.12s ease;
 }
-.topic-card:hover { border-color: var(--border-strong); }
-.topic-id {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+.strata-row:last-child { border-bottom: none; }
+.strata-row:hover { background: var(--surface-hover); }
+.strata-row-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.strata-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+  flex-shrink: 0;
 }
-.topic-name { font-size: 1rem; font-weight: 600; margin: 2px 0 6px; line-height: 1.35; }
-.topic-stats { font-size: 0.8rem; color: var(--ink-secondary); }
+.strata-row-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.strata-row-right { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.strata-row-q { font-size: 0.82rem; color: var(--muted); }
+.strata-marks-pill {
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: var(--radius);
+  background: var(--mark-bg);
+  color: var(--mark-color);
+  border: 1px solid var(--border);
+  min-width: 44px;
+  text-align: center;
+}
 .progress-bar {
   width: 100%;
   height: 5px;
@@ -291,7 +361,6 @@ button { cursor: pointer; }
   background: var(--accent);
   transition: width 0.2s ease;
 }
-.topic-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 
 /* View 2: Questions */
 .filter-bar {
@@ -657,10 +726,54 @@ button { cursor: pointer; }
 <main class="container">
   <!-- View 1: Specification Map -->
   <section id="view-strata" class="view-section hidden">
-    <div class="view-header">
-      <h1 class="view-title">AQA Physics Specification Map</h1>
-      <p class="view-subtitle">Browse all 13 AQA AS &amp; A-Level Physics (7407 / 7408) topics by core, A-level only, and Paper 3B optional modules.</p>
+    <div class="strata-controls">
+      <input id="s-search" class="input strata-search" type="search" placeholder="Search keywords, questions, equations, topics... (Press '/' to focus)">
+      <div class="strata-dropdowns">
+        <select id="s-level" class="select"><option value="">All Levels</option></select>
+        <select id="s-paper" class="select">
+          <option value="">All Components</option>
+          <option value="p1">Paper 1</option>
+          <option value="p2">Paper 2</option>
+          <option value="p3a">Paper 3A</option>
+          <option value="p3b">Paper 3B</option>
+        </select>
+        <select id="s-topic" class="select"><option value="">All Topics</option></select>
+        <select id="s-year" class="select"><option value="">All Years</option></select>
+      </div>
+      <div class="strata-dropdowns">
+        <select id="s-skill" class="select"><option value="">All Skills</option></select>
+        <select id="s-marks" class="select">
+          <option value="">Any Marks</option>
+          <option value="1-2">1-2 Marks</option>
+          <option value="3-5">3-5 Marks</option>
+          <option value="4+">&ge;4 Marks</option>
+          <option value="6+">6+ Marks</option>
+        </select>
+        <select id="s-status" class="select">
+          <option value="">All questions</option>
+          <option value="unmastered">Unmastered</option>
+          <option value="bookmarked">Bookmarked</option>
+          <option value="mastered">Mastered</option>
+        </select>
+        <button id="s-random" class="btn" type="button">Random</button>
+      </div>
+      <div class="strata-pills-bar">
+        <div class="strata-pills" id="s-pills">
+          <button class="pill-btn active" data-pill="all" type="button">All</button>
+          <button class="pill-btn" data-pill="as" type="button">AS Level</button>
+          <button class="pill-btn" data-pill="a" type="button">A Level</button>
+          <button class="pill-btn" data-pill="p1" type="button">Paper 1</button>
+          <button class="pill-btn" data-pill="p2" type="button">Paper 2</button>
+          <button class="pill-btn" data-pill="p3a" type="button">Paper 3A</button>
+          <button class="pill-btn" data-pill="p3b" type="button">Paper 3B</button>
+          <button class="pill-btn" data-pill="4+" type="button">&ge;4 Marks</button>
+          <button class="pill-btn" data-pill="maths-practical" type="button">Maths &amp; Practical</button>
+          <button class="pill-btn" data-pill="bookmarked" type="button">Bookmarked</button>
+        </div>
+        <button id="s-reset" class="strata-reset" type="button">Reset</button>
+      </div>
     </div>
+    <div id="strata-total-line" class="strata-total-line">0 questions (0 marks)</div>
     <div id="strata-container"></div>
   </section>
 
@@ -1122,72 +1235,176 @@ button { cursor: pointer; }
   }
 
   /* ---------- View 1: Specification Map ---------- */
+  const TOPIC_COLORS = {
+    '3.1': '#7c6f64',
+    '3.2': '#b58938',
+    '3.3': '#a45a52',
+    '3.4': '#4b7c63',
+    '3.5': '#78924f',
+    '3.6': '#5c7c93',
+    '3.7': '#6e6a7c',
+    '3.8': '#7f6294',
+    '3.9': '#3b7a75',
+    '3.10': '#9c6644',
+    '3.11': '#52796f',
+    '3.12': '#6b705c',
+    '3.13': '#8d6e63'
+  };
+
+  function getStrataFilteredQuestions() {
+    const qStr = $('s-search').value.trim().toLowerCase();
+    const lv = $('s-level').value;
+    const comp = $('s-paper').value;
+    const topic = $('s-topic').value;
+    const yr = $('s-year').value;
+    const skill = $('s-skill').value;
+    const marks = $('s-marks').value;
+    const status = $('s-status').value;
+    const pMap = paperMap();
+
+    return state.db.questions.filter(q => {
+      const p = pMap.get(q.paper) || {};
+      if (lv && p.level !== lv) return false;
+      if (comp && !String(q.paper || '').toLowerCase().includes(comp)) return false;
+      if (topic && !(q.topics || []).includes(topic)) return false;
+      if (yr && String(p.year || q.year || '') !== yr) return false;
+      if (skill) {
+        if (skill === 'maths-practical') {
+          if (!(q.skills || []).some(s => s === 'maths' || s === 'practical')) return false;
+        } else if (!(q.skills || []).includes(skill)) {
+          return false;
+        }
+      }
+      if (marks) {
+        const m = Number(q.marks || 0);
+        if (marks === '1-2' && (m < 1 || m > 2)) return false;
+        if (marks === '3-5' && (m < 3 || m > 5)) return false;
+        if (marks === '4+' && m < 4) return false;
+        if (marks === '6+' && m < 6) return false;
+      }
+      if (status === 'mastered' && !state.mastered.has(q.id)) return false;
+      if (status === 'unmastered' && state.mastered.has(q.id)) return false;
+      if (status === 'bookmarked' && !state.bookmarked.has(q.id)) return false;
+      if (qStr) {
+        const hay = `${q.id} ${q.questionNumber || q.question} ${q.summary} ${p.unit || ''} ${p.code || ''}`.toLowerCase();
+        if (!hay.includes(qStr)) return false;
+      }
+      return true;
+    });
+  }
+
   function renderStrata() {
+    const filteredQs = getStrataFilteredQuestions();
+    const totalMarksAll = filteredQs.reduce((s, q) => s + (q.marks || 0), 0);
+    $('strata-total-line').textContent = `${filteredQs.length.toLocaleString()} question${filteredQs.length === 1 ? '' : 's'} (${totalMarksAll.toLocaleString()} marks)`;
+
+    const topicFilter = $('s-topic').value;
+    const qStr = $('s-search').value.trim().toLowerCase();
     const groups = new Map();
     state.db.topics.forEach(t => {
+      if (topicFilter && t.id !== topicFilter) return;
+      if (qStr && !(`${t.id} ${t.name}`.toLowerCase().includes(qStr))) {
+        const hasQ = filteredQs.some(q => (q.topics || []).includes(t.id));
+        if (!hasQ) return;
+      }
       if (!groups.has(t.group)) groups.set(t.group, []);
       groups.get(t.group).push(t);
     });
 
     const html = Array.from(groups.entries()).map(([groupName, topics]) => {
-      const cards = topics.map(t => {
-        const qs = state.db.questions.filter(q => (q.topics || []).includes(t.id));
+      const rows = topics.map(t => {
+        const qs = filteredQs.filter(q => (q.topics || []).includes(t.id));
         const totalMarks = qs.reduce((s, q) => s + (q.marks || 0), 0);
-        const doneMarks = qs.filter(q => state.mastered.has(q.id)).reduce((s, q) => s + (q.marks || 0), 0);
-        const pct = totalMarks > 0 ? Math.round((doneMarks / totalMarks) * 100) : 0;
-        const fcCount = state.flashcards.filter(f => f.topicId === t.id).length;
+        const dotColor = TOPIC_COLORS[t.id] || '#71717a';
 
         return `
-          <div class="topic-card">
-            <div>
-              <div class="topic-id">Topic ${esc(t.id)}</div>
-              <div class="topic-name">${esc(t.name)}</div>
-              <div class="topic-stats">${qs.length} past questions (${totalMarks} marks) &middot; ${fcCount} flashcards</div>
-              <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
-            </div>
-            <div class="topic-actions">
-              <button class="btn btn-sm btn-primary" data-go-q="${esc(t.id)}">Questions</button>
-              <button class="btn btn-sm" data-go-cs="${esc(t.id)}">Cheatsheet</button>
-              <button class="btn btn-sm" data-go-fc="${esc(t.id)}">Flashcards</button>
-            </div>
-          </div>`;
+          <button class="strata-row" data-go-q="${esc(t.id)}" type="button">
+            <span class="strata-row-left">
+              <span class="strata-dot" style="background:${dotColor};"></span>
+              <span class="strata-row-title">${esc(t.id)} &middot; ${esc(t.name)}</span>
+            </span>
+            <span class="strata-row-right">
+              <span class="strata-row-q">${qs.length} question${qs.length === 1 ? '' : 's'}</span>
+              <span class="strata-marks-pill">${totalMarks}m</span>
+            </span>
+          </button>`;
       }).join('');
 
       return `
         <div class="spec-group">
-          <div class="spec-group-header">
-            <h2 class="spec-group-title">${esc(groupName)}</h2>
-            <span class="spec-group-meta">${topics.length} topics</span>
-          </div>
-          <div class="topic-grid">${cards}</div>
+          <div class="spec-group-label">${esc(groupName)}</div>
+          <div class="strata-list">${rows}</div>
         </div>`;
     }).join('');
 
-    $('strata-container').innerHTML = html;
-    $('strata-container').querySelectorAll('[data-go-q]').forEach(b => b.addEventListener('click', () => switchView('cards', { topic: b.dataset.goQ })));
-    $('strata-container').querySelectorAll('[data-go-cs]').forEach(b => b.addEventListener('click', () => switchView('cheatsheets', { topic: b.dataset.goCs })));
-    $('strata-container').querySelectorAll('[data-go-fc]').forEach(b => b.addEventListener('click', () => switchView('practice', { topic: b.dataset.goFc })));
+    $('strata-container').innerHTML = html || '<div class="card" style="color:var(--muted);">No topics match this filter.</div>';
+    $('strata-container').querySelectorAll('[data-go-q]').forEach(b => b.addEventListener('click', () => {
+      $('q-search').value = $('s-search').value;
+      $('q-level').value = $('s-level').value;
+      $('q-paper').value = $('s-paper').value;
+      $('q-skill').value = $('s-skill').value === 'maths-practical' ? '' : $('s-skill').value;
+      $('q-status').value = $('s-status').value;
+      switchView('cards', { topic: b.dataset.goQ });
+    }));
   }
+
+  function resetStrataFilters() {
+    ['s-search', 's-level', 's-paper', 's-topic', 's-year', 's-skill', 's-marks', 's-status'].forEach(id => { $(id).value = ''; });
+    document.querySelectorAll('#s-pills .pill-btn').forEach(p => p.classList.toggle('active', p.dataset.pill === 'all'));
+    renderStrata();
+  }
+
+  ['s-search', 's-level', 's-paper', 's-topic', 's-year', 's-skill', 's-marks', 's-status'].forEach(id => {
+    $(id).addEventListener('input', renderStrata);
+    $(id).addEventListener('change', renderStrata);
+  });
+  $('s-reset').addEventListener('click', resetStrataFilters);
+  $('s-random').addEventListener('click', () => {
+    const pool = getStrataFilteredQuestions();
+    if (pool.length === 0) {
+      switchView('cards');
+      return;
+    }
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    $('q-search').value = pick.id;
+    switchView('cards');
+    renderQuestions();
+  });
+  document.querySelectorAll('#s-pills .pill-btn').forEach(btn => btn.addEventListener('click', () => {
+    resetStrataFilters();
+    document.querySelectorAll('#s-pills .pill-btn').forEach(p => p.classList.toggle('active', p === btn));
+    const pill = btn.dataset.pill;
+    if (pill === 'as') $('s-level').value = 'AS';
+    else if (pill === 'a') $('s-level').value = 'A';
+    else if (['p1', 'p2', 'p3a', 'p3b'].includes(pill)) $('s-paper').value = pill;
+    else if (pill === '4+') $('s-marks').value = '4+';
+    else if (pill === 'maths-practical') $('s-skill').value = 'maths-practical';
+    else if (pill === 'bookmarked') $('s-status').value = 'bookmarked';
+    renderStrata();
+  }));
 
   /* ---------- View 2: Questions ---------- */
   function populateFilters() {
-    const levelSel = $('q-level');
-    const pgLevelSel = $('pg-level');
+    const levelTargets = [$('q-level'), $('pg-level'), $('s-level')];
     (state.db.levels || []).forEach(lv => {
       const id = typeof lv === 'string' ? lv : lv.id;
       const label = typeof lv === 'string' ? `${lv} Level` : lv.name;
-      levelSel.insertAdjacentHTML('beforeend', `<option value="${esc(id)}">${esc(label)}</option>`);
-      pgLevelSel.insertAdjacentHTML('beforeend', `<option value="${esc(id)}">${esc(label)}</option>`);
+      levelTargets.forEach(sel => sel.insertAdjacentHTML('beforeend', `<option value="${esc(id)}">${esc(label)}</option>`));
     });
 
-    const topicTargets = [$('q-topic'), $('fc-topic'), $('thq-topic'), $('pg-topic')];
+    const topicTargets = [$('q-topic'), $('fc-topic'), $('thq-topic'), $('pg-topic'), $('s-topic')];
     state.db.topics.forEach(t => {
       topicTargets.forEach(sel => sel.insertAdjacentHTML('beforeend', `<option value="${esc(t.id)}">${esc(t.id)} · ${esc(t.name)}</option>`));
     });
 
+    const years = Array.from(new Set((state.db.papers || []).map(p => p.year).filter(Boolean))).sort((a, b) => b - a);
+    years.forEach(y => $('s-year').insertAdjacentHTML('beforeend', `<option value="${esc(y)}">${esc(y)}</option>`));
+
     state.db.skills.forEach(sk => {
       $('q-skill').insertAdjacentHTML('beforeend', `<option value="${esc(sk.id)}">${esc(sk.name)}</option>`);
+      $('s-skill').insertAdjacentHTML('beforeend', `<option value="${esc(sk.id)}">${esc(sk.name)}</option>`);
     });
+    $('s-skill').insertAdjacentHTML('beforeend', '<option value="maths-practical">Maths &amp; Practical</option>');
   }
 
   function paperMap() {
@@ -1908,6 +2125,12 @@ button { cursor: pointer; }
   /* Global Keyboard Shortcuts */
   document.addEventListener('keydown', (e) => {
     if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) return;
+    if (e.key === '/') {
+      e.preventDefault();
+      if (state.view === 'strata') $('s-search').focus();
+      else if (state.view === 'cards') $('q-search').focus();
+      return;
+    }
     if (state.view === 'practice' && !$('fc-panel').classList.contains('hidden')) {
       const card = state.fcFiltered[state.fcIndex];
       if (!card) return;
