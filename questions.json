@@ -182,6 +182,34 @@
       "duration": "2 hours",
       "pdf": null,
       "ms": null
+    },
+    {
+      "id": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "date": "2018-05-15",
+      "code": "7407/1",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "date": "2018-05-18",
+      "code": "7407/2",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
     }
   ],
   "questions": [
@@ -6385,6 +6413,1712 @@
       "image": "img/2018-june-7408-2/q32.jpg",
       "figures": [],
       "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-1-q01.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Describe the strong nuclear interaction responsible for keeping protons and neutrons together in a stable nucleus.",
+      "image": "img/2018-june-7407-1/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q01-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q01.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain how baryon number is conserved in alpha decay and beta decay.",
+      "image": "img/2018-june-7407-1/q01-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q01-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q01.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Deduce the quark structure of the Lambda-0 baryon from pi- + p -> K0 + Lambda0.",
+      "image": "img/2018-june-7407-1/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q01-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q01.4",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State one feature of K0 -> pi+ + pi- that shows it is an example of the weak interaction.",
+      "image": "img/2018-june-7407-1/q01-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q01-4.png"
+    },
+    {
+      "id": "2018-june-7407-1-q01.5",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why many teams of scientists and engineers must collaborate for advances in particle physics.",
+      "image": "img/2018-june-7407-1/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q01-5.png"
+    },
+    {
+      "id": "2018-june-7407-1-q02.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the speed of a truck at point A after descending a vertical displacement of 8.0 m.",
+      "image": "img/2018-june-7407-1/q02-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q02-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q02.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 5,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Discuss how the acceleration of the truck on a curved ramp (Figure 2) differs from a straight ramp (Figure 1).",
+      "image": "img/2018-june-7407-1/q02-2.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-02-fig1.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q02-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q02.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 6,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain why the final speed on the horizontal runway equals the speed at A in Figure 1.",
+      "image": "img/2018-june-7407-1/q02-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-02-fig1.jpg",
+        "img/2018-june-7407-1/fig-02-fig2.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q02-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q02.4",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 6,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Discuss any changes in the momentum of the truck and collected rainwater as rain falls vertically into it.",
+      "image": "img/2018-june-7407-1/q02-4.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-02-fig2.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q02-4.png"
+    },
+    {
+      "id": "2018-june-7407-1-q03.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 8,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Identify the regions of the electromagnetic spectrum for transitions A, B, and C in Figure 3.",
+      "image": "img/2018-june-7407-1/q03-1.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-03-fig3.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q03-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q03.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why excitation by a photon requires an exact energy whereas an electron needs only a minimum kinetic energy.",
+      "image": "img/2018-june-7407-1/q03-2.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-03-fig3.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q03-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q03.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine whether any transition in Figure 3 causes photoelectron emission from caesium (threshold 5.1e14 Hz).",
+      "image": "img/2018-june-7407-1/q03-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-03-fig3.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q03-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q03.4",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 10,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the maximum speed of electrons emitted from caesium by 12.1 eV photons.",
+      "image": "img/2018-june-7407-1/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q03-4.png"
+    },
+    {
+      "id": "2018-june-7407-1-q04.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "State two necessary conditions for the suspended beam in Figure 4 to be in equilibrium.",
+      "image": "img/2018-june-7407-1/q04-1.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-04-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q04-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q04.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "State what is meant by the centre of mass.",
+      "image": "img/2018-june-7407-1/q04-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q04-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q04.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain why the centre of mass of the beam in Figure 4 must be vertically below A.",
+      "image": "img/2018-june-7407-1/q04-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-04-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q04-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q04.4",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 13,
+      "marks": 4,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the tensions T1 in cable AB and T2 in cable AC for a 12 000 N beam.",
+      "image": "img/2018-june-7407-1/q04-4.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-04-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q04-4.png"
+    },
+    {
+      "id": "2018-june-7407-1-q04.5",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 14,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the extension of the 12 m steel crane cable caused by the 12 000 N beam.",
+      "image": "img/2018-june-7407-1/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q04-5.png"
+    },
+    {
+      "id": "2018-june-7407-1-q05.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 15,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the weight of an ice cube of volume 4.0e-6 m^3 and density 920 kg m^-3.",
+      "image": "img/2018-june-7407-1/q05-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q05-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q05.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the volume of water displaced by the floating ice cube in Figure 5.",
+      "image": "img/2018-june-7407-1/q05-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q05-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q05.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 16,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the volume of the small piece of iron embedded in an ice cube displacing 3.9e-3 kg of water.",
+      "image": "img/2018-june-7407-1/q05-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-05-fig5.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q05-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q06.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.1",
+      "questionNumber": "06.1",
+      "page": 19,
+      "marks": 4,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine with calculations which two lamps in Figure 6 are at their normal brightness.",
+      "image": "img/2018-june-7407-1/q06-1.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-06-fig6.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q06-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q06.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.2",
+      "questionNumber": "06.2",
+      "page": 20,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "Explain what is observed regarding lamp brightness when lamp E is connected across Figure 7.",
+      "image": "img/2018-june-7407-1/q06-2.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-06-table1.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q06-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q06.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.3",
+      "questionNumber": "06.3",
+      "page": 21,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Deduce with calculations the effect on the battery current when lamp B fails.",
+      "image": "img/2018-june-7407-1/q06-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-06-table1.jpg",
+        "img/2018-june-7407-1/fig-06-fig7.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q06-3.png"
+    },
+    {
+      "id": "2018-june-7407-1-q07.1",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "07.1",
+      "questionNumber": "07.1",
+      "page": 22,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Describe the white-light interference pattern seen on the screen in Figure 8.",
+      "image": "img/2018-june-7407-1/q07-1.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-07-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q07-1.png"
+    },
+    {
+      "id": "2018-june-7407-1-q07.2",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "07.2",
+      "questionNumber": "07.2",
+      "page": 23,
+      "marks": 4,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Describe with a calculation the interference pattern when only green (lambda) and red (1.2 lambda) light pass through.",
+      "image": "img/2018-june-7407-1/q07-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-1/ms/q07-2.png"
+    },
+    {
+      "id": "2018-june-7407-1-q07.3",
+      "paper": "2018-june-7407-1",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "07.3",
+      "questionNumber": "07.3",
+      "page": 24,
+      "marks": 6,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Discuss how decreasing slit separation s or screen distance D affects the interference pattern and wavelength uncertainty.",
+      "image": "img/2018-june-7407-1/q07-3.jpg",
+      "figures": [
+        "img/2018-june-7407-1/fig-07-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-1/ms/q07-3.png"
+    },
+    {
+      "id": "2018-june-7407-2-q01.1",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 3,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the acceleration a of the air-track glider from the light-gate times in Table 1.",
+      "image": "img/2018-june-7407-2/q01-1.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q01-1.png"
+    },
+    {
+      "id": "2018-june-7407-2-q01.2",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain how the data in Table 2 show that the distance between light gates in set B is greater than in set A.",
+      "image": "img/2018-june-7407-2/q01-2.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q01-2.png"
+    },
+    {
+      "id": "2018-june-7407-2-q01.3",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths",
+        "practical"
+      ],
+      "summary": "Draw a best-fit straight line on Figure 2 and determine its gradient G.",
+      "image": "img/2018-june-7407-2/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q01-3.png"
+    },
+    {
+      "id": "2018-june-7407-2-q01.4",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the thickness h of each block given g = 2G / h and g = 9.8 m s^-2.",
+      "image": "img/2018-june-7407-2/q01-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q01-4.png"
+    },
+    {
+      "id": "2018-june-7407-2-q01.5",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Explain how to test without drawing another graph whether Figure 2 supports a directly proportional to n.",
+      "image": "img/2018-june-7407-2/q01-5.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q01-5.png"
+    },
+    {
+      "id": "2018-june-7407-2-q02.1",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 9,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State precautions to reduce systematic and random errors when measuring external diameter D with digital calipers.",
+      "image": "img/2018-june-7407-2/q02-1.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-02-fig3.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q02-1.png"
+    },
+    {
+      "id": "2018-june-7407-2-q02.2",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 10,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Draw the sectional view of ring magnet B on Figure 5 to indicate how internal diameter d is measured.",
+      "image": "img/2018-june-7407-2/q02-2.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-02-fig3.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q02-2.png"
+    },
+    {
+      "id": "2018-june-7407-2-q02.3",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 11,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the volume of ring magnet B from the caliper readings in Figures 4, 5, and 6.",
+      "image": "img/2018-june-7407-2/q02-3.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-02-fig4.jpg",
+        "img/2018-june-7407-2/fig-02-fig5.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q02-3.png"
+    },
+    {
+      "id": "2018-june-7407-2-q02.4",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 12,
+      "marks": 5,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "graph"
+      ],
+      "summary": "Describe an experiment and graphical analysis to test F = k / h^3 and determine constant k.",
+      "image": "img/2018-june-7407-2/q02-4.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-02-p13.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q02-4.png"
+    },
+    {
+      "id": "2018-june-7407-2-q03.1",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that the velocity of an alpha particle with kinetic energy 8.1e-13 J is approximately 2e7 m s^-1.",
+      "image": "img/2018-june-7407-2/q03-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q03-1.png"
+    },
+    {
+      "id": "2018-june-7407-2-q03.2",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the average force exerted by air on an alpha particle stopped over a range of 3.5 cm.",
+      "image": "img/2018-june-7407-2/q03-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q03-2.png"
+    },
+    {
+      "id": "2018-june-7407-2-q03.3",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 15,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the average ionisation energy in eV of an air molecule from 5.1e4 ions/cm over 3.5 cm.",
+      "image": "img/2018-june-7407-2/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q03-3.png"
+    },
+    {
+      "id": "2018-june-7407-2-q03.4",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the number of charge carriers passing a point during a 0.85 mA spark lasting 1.2 ns.",
+      "image": "img/2018-june-7407-2/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q03-4.png"
+    },
+    {
+      "id": "2018-june-7407-2-q03.5",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 17,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "Discuss how the pd across the air gap varies as the alpha source is moved from 10 cm towards the wire gauze.",
+      "image": "img/2018-june-7407-2/q03-5.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-03-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q03-5.png"
+    },
+    {
+      "id": "2018-june-7407-2-q04.1",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 19,
+      "marks": 3,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the refractive index nB of glass B given nA = 1.461 and light is 3.252% slower in glass B.",
+      "image": "img/2018-june-7407-2/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q04-1.png"
+    },
+    {
+      "id": "2018-june-7407-2-q04.2",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 20,
+      "marks": 3,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Discuss how the reflected wavelength lambda_R changes as a lift starts at rest, accelerates downwards, then moves at constant velocity.",
+      "image": "img/2018-june-7407-2/q04-2.jpg",
+      "figures": [
+        "img/2018-june-7407-2/fig-04-p21.jpg"
+      ],
+      "markscheme": "img/2018-june-7407-2/ms/q04-2.png"
+    },
+    {
+      "id": "2018-june-7407-2-q04.3",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 22,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Explain whether optical fibre strain gauge P or Q should be selected to measure small accelerations.",
+      "image": "img/2018-june-7407-2/q04-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/q04-3.png"
+    },
+    {
+      "id": "2018-june-7407-2-q05",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "05",
+      "questionNumber": "05",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify an isotope of nucleus P and its nucleon number from an N-Z graph.",
+      "image": "img/2018-june-7407-2/q05.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q06",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "06",
+      "questionNumber": "06",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the number of alpha decays when U-236 decays to Pb-204.",
+      "image": "img/2018-june-7407-2/q06.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q07",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "07",
+      "questionNumber": "07",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the exchange particle Q and quark structure of particle R in an electron capture diagram.",
+      "image": "img/2018-june-7407-2/q07.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q08",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify products X and Y in the neutral kaon decay K0 -> X + Y + anti-nu_e.",
+      "image": "img/2018-june-7407-2/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q09",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: State the gradient of the photoelectron Ek vs 1/lambda graph.",
+      "image": "img/2018-june-7407-2/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q10",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the energy level diagram showing UV excitation from ground state followed by visible emission.",
+      "image": "img/2018-june-7407-2/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q11",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Express the de Broglie wavelength of a particle of mass m and kinetic energy E.",
+      "image": "img/2018-june-7407-2/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q12",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Link the photoelectric effect and electron diffraction to particle and wave properties.",
+      "image": "img/2018-june-7407-2/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q13",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the percentage uncertainty in the first-harmonic frequency of a stretched string.",
+      "image": "img/2018-june-7407-2/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q14",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "MCQ: Order forces with prefixes pN, fN, GN, and TN in increasing magnitude.",
+      "image": "img/2018-june-7407-2/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q15",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 29,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Determine the path of a light ray incident at 44 degrees on a glass-air boundary (n = 1.5).",
+      "image": "img/2018-june-7407-2/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q16",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 30,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the travel time along optical fibre Q with double the core diameter of fibre P.",
+      "image": "img/2018-june-7407-2/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q17",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 31,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Find the lowest frequency heard when a stretched string of fundamental frequency f is touched one third along its length.",
+      "image": "img/2018-june-7407-2/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q18",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 32,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the number of lines per mm of a diffraction grating from first-order fringe spacing.",
+      "image": "img/2018-june-7407-2/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q19",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 33,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate wave frequency given phase difference pi/6 rad over 0.12 m and speed 340 m s^-1.",
+      "image": "img/2018-june-7407-2/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q20",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 33,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the position x of a bird of weight 2W on a uniform rod when tension in P is half tension in Q.",
+      "image": "img/2018-june-7407-2/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q21",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 34,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the steady speed of a 950 kg car ascending a 12-degree hill at 6.5e4 W.",
+      "image": "img/2018-june-7407-2/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q22",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 34,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct statement about a girl's acceleration while bouncing in the air above a trampoline.",
+      "image": "img/2018-june-7407-2/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q23",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 35,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Identify which wire extends the least before breaking from stiffness and maximum strain energy data.",
+      "image": "img/2018-june-7407-2/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q24",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 35,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Compare terminal velocities of two equal-volume spheres P and Q where P has greater mass.",
+      "image": "img/2018-june-7407-2/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q25",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 36,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the time taken for an aircraft to fly distance D due north in a wind blowing at angle theta.",
+      "image": "img/2018-june-7407-2/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q26",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 37,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the momentum-time graph corresponding to a triangular resultant force-time graph.",
+      "image": "img/2018-june-7407-2/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q27",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 38,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the kinetic energy ratio of objects P and Q (mP = 10 mQ) accelerated by equal force F for time T.",
+      "image": "img/2018-june-7407-2/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q28",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 38,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the power vs current graph for an ohmic component.",
+      "image": "img/2018-june-7407-2/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q29",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 39,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Convert 1.0 kilowatt-hour (kW h) into electron-volts (eV).",
+      "image": "img/2018-june-7407-2/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q30",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 40,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Determine the resistance of a non-ohmic component at current I2 from its V-I graph.",
+      "image": "img/2018-june-7407-2/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q31",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "31",
+      "questionNumber": "31",
+      "page": 41,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Determine how ammeter readings A1 and A2 change when thermistor temperature decreases in a parallel circuit.",
+      "image": "img/2018-june-7407-2/q31.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q32",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "32",
+      "questionNumber": "32",
+      "page": 42,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the voltmeter and ammeter readings in a circuit with two 3.0 V cells in parallel and a 12 ohm resistor.",
+      "image": "img/2018-june-7407-2/q32.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q33",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "33",
+      "questionNumber": "33",
+      "page": 42,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the base-derived unit expression equivalent to the ohm.",
+      "image": "img/2018-june-7407-2/q33.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7407-2-q34",
+      "paper": "2018-june-7407-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "34",
+      "questionNumber": "34",
+      "page": 43,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Determine the ammeter and voltmeter readings in a 1.50 V three-resistor parallel-series circuit.",
+      "image": "img/2018-june-7407-2/q34.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7407-2/ms/mcq-key.png"
     }
   ]
 }
