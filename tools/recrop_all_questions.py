@@ -24,6 +24,9 @@ QUESTIONS_JSON = ROOT / "questions.json"
 PDF_MAP: dict[str, str] = {
     "2016-june-7407-1": "raw_pdfs/media_1795606549697_d45dbf3f.pdf",
     "2016-june-7407-2": "raw_pdfs/media_1795606549721_5edd2400.pdf",
+    "2017-june-7408-3a": "raw_pdfs/media_1795607555737_bf406981.pdf",
+    "2017-june-7407-1": "raw_pdfs/media_1795607555778_3a6c257e.pdf",
+    "2017-june-7407-2": "raw_pdfs/media_1795607555734_c7e434c2.pdf",
 }
 
 
