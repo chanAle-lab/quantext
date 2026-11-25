@@ -88,6 +88,7 @@ def crop_official_markschemes(
     # Collect (page_idx, y0, y1, canonical_key) spans
     spans: list[tuple[int, float, float, str]] = []
     active_key: str | None = None
+    seen_globally: set[str] = set()
 
     for p_idx in range(first_page, len(doc)):
         page = doc[p_idx]
@@ -105,9 +106,10 @@ def crop_official_markschemes(
             m = q_pattern.match(token)
             if m:
                 ck = canonical_qkey(m.group(1))
-                if ck in wanted and ck not in seen_on_page:
+                if ck in wanted and ck not in seen_on_page and ck not in seen_globally:
                     markers.append((r.y0, ck))
                     seen_on_page.add(ck)
+                    seen_globally.add(ck)
 
         markers.sort(key=lambda t: t[0])
         top_y = lines[0] if lines else 50.0

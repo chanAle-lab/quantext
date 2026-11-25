@@ -154,6 +154,34 @@
       "duration": "1 hour 30 minutes",
       "pdf": null,
       "ms": null
+    },
+    {
+      "id": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "date": "2018-06-14",
+      "code": "7408/3A",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 45,
+      "duration": "2 hours (total Paper 3)",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "date": "2018-06-08",
+      "code": "7408/2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 85,
+      "duration": "2 hours",
+      "pdf": null,
+      "ms": null
     }
   ],
   "questions": [
@@ -4629,6 +4657,1734 @@
       "image": "img/2017-june-7407-2/q34.jpg",
       "figures": [],
       "markscheme": "img/2017-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.1",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 3,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Deduce the mass of the pivoted metre ruler from the digital balance reading and state one assumption.",
+      "image": "img/2018-june-7408-3a/q01-1.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-01-fig1-2.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-1.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.2",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "practical",
+        "graph"
+      ],
+      "summary": "State and explain the direction of the horizontal uniform magnetic field using Figure 3 and Figure 4.",
+      "image": "img/2018-june-7408-3a/q01-2.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-01-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-2.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.3",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 6,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths",
+        "graph",
+        "practical"
+      ],
+      "summary": "Determine the magnetic flux density B using B = sigma / (3L) and the gradient of Figure 4.",
+      "image": "img/2018-june-7408-3a/q01-3.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-01-fig3.jpg",
+        "img/2018-june-7408-3a/fig-01-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-3.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.4",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 7,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "practical",
+        "graph"
+      ],
+      "summary": "Identify the effect of moving the pivot to the 99.0 cm mark on the forces, gradient, and intercept.",
+      "image": "img/2018-june-7408-3a/q01-4.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-01-fig3.jpg",
+        "img/2018-june-7408-3a/fig-01-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-4.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.5",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Complete the circuit diagram in Figure 6 so currents in wires X and Y have equal magnitude and shown directions.",
+      "image": "img/2018-june-7408-3a/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-5.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q01.6",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 9,
+      "marks": 5,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical",
+        "graph"
+      ],
+      "summary": "Explain an experimental and graphical procedure using Figure 6 to determine the constant k.",
+      "image": "img/2018-june-7408-3a/q01-6.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-01-fig6.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q01-6.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q02.1",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe a suitable procedure to measure the vertical displacement y of the overhanging steel tape.",
+      "image": "img/2018-june-7408-3a/q02-1.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-02-fig7.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q02-1.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q02.2",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 11,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest why all measurements of horizontal displacement x were chosen to be greater than 70 cm.",
+      "image": "img/2018-june-7408-3a/q02-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-3a/ms/q02-2.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q02.3",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 12,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the integer n in y = Ax^n from the log-log graph in Figure 8.",
+      "image": "img/2018-june-7408-3a/q02-3.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-02-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q02-3.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q02.4",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 14,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Explain how the numerical value of A can be obtained from Figure 8.",
+      "image": "img/2018-june-7408-3a/q02-4.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-02-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q02-4.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q02.5",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 14,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Estimate the order of magnitude of A with an appropriate unit using one row from Table 2.",
+      "image": "img/2018-june-7408-3a/q02-5.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-02-table2.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q02-5.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.1",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain why the volume of air in the flask in Figure 9c is less than in Figure 9d.",
+      "image": "img/2018-june-7408-3a/q03-1.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-03-fig9cd.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-1.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.2",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 17,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain why Charles's Law can be applied to compare the air in the flask in Figure 9a and Figure 9d.",
+      "image": "img/2018-june-7408-3a/q03-2.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-03-fig9ab.jpg",
+        "img/2018-june-7408-3a/fig-03-fig9cd.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-2.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.3",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 17,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain how volumes V1 and V2 can be determined while eliminating possible systematic error.",
+      "image": "img/2018-june-7408-3a/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-3.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.4",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 18,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Plot the volume and temperature points for Figure 9a and Figure 9d on Figure 11.",
+      "image": "img/2018-june-7408-3a/q03-4.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-03-fig9ab.jpg",
+        "img/2018-june-7408-3a/fig-03-fig9cd.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-4.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.5",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Add a best-fit line to Figure 11 showing how volume varies with temperature according to Charles's Law.",
+      "image": "img/2018-june-7408-3a/q03-5.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-03-fig11.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-5.png"
+    },
+    {
+      "id": "2018-june-7408-3a-q03.6",
+      "paper": "2018-june-7408-3a",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.6",
+      "questionNumber": "03.6",
+      "page": 19,
+      "marks": 3,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph",
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the value of absolute zero in degrees Celsius using Figure 11.",
+      "image": "img/2018-june-7408-3a/q03-6.jpg",
+      "figures": [
+        "img/2018-june-7408-3a/fig-03-fig11.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-3a/ms/q03-6.png"
+    },
+    {
+      "id": "2018-june-7408-2-q01.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by specific latent heat of fusion.",
+      "image": "img/2018-june-7408-2/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q01-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q01.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 3,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the rise in water temperature produced by a 2.7 kW heater in 1.0 hour in a 4.5 m^3 hot tub.",
+      "image": "img/2018-june-7408-2/q01-2.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-01-p3.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q01-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q01.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "Explain why the water temperature rise is greater when the circulating pump works at higher speeds.",
+      "image": "img/2018-june-7408-2/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q01-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q02.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Define the electric field strength at a point in an electric field.",
+      "image": "img/2018-june-7408-2/q02-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q02-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q02.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the point charge Q given zero resultant electric field strength at P between Q and +46 uC.",
+      "image": "img/2018-june-7408-2/q02-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q02-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q02.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 5,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain without calculation whether net work must be done moving a proton from infinity to P.",
+      "image": "img/2018-june-7408-2/q02-3.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-02-fig2.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q02-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q02.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain the motion of a charged ball suspended in a horizontal uniform electric field after the thread breaks.",
+      "image": "img/2018-june-7408-2/q02-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q02-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q03.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 7,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "State what is meant by a capacitance of 370 uF.",
+      "image": "img/2018-june-7408-2/q03-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q03-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q03.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the resistance R in a 370 uF charging circuit with a time constant of 1.0 s.",
+      "image": "img/2018-june-7408-2/q03-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q03-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q03.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Mark the capacitor pd at t = 2.0 s on Figure 5 and sketch the charging pd-time curve.",
+      "image": "img/2018-june-7408-2/q03-3.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-03-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q03-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q03.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 8,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the time taken for the charging current to fall to half its initial value.",
+      "image": "img/2018-june-7408-2/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q03-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q03.5",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the time taken for the charge on the 370 uF capacitor to reach 3.0 mC.",
+      "image": "img/2018-june-7408-2/q03-5.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-03-fig4.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q03-5.png"
+    },
+    {
+      "id": "2018-june-7408-2-q04.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 10,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "State Lenz's law.",
+      "image": "img/2018-june-7408-2/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q04-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q04.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 10,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "State how the ammeter reading changes as a bar magnet is moved towards a coil and brought to a halt.",
+      "image": "img/2018-june-7408-2/q04-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q04-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q04.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain how an induced current from E to F in Figure 6 demonstrates Lenz's law.",
+      "image": "img/2018-june-7408-2/q04-3.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-04-fig6.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q04-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q04.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the time taken to move a 32 mm square coil into a 0.38 T field inducing 2.9e-4 V.",
+      "image": "img/2018-june-7408-2/q04-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q04-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q04.5",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the angular speed of the rotating square coil when the maximum induced emf is 5.1 mV.",
+      "image": "img/2018-june-7408-2/q04-5.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-04-fig8.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q04-5.png"
+    },
+    {
+      "id": "2018-june-7408-2-q05.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 13,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Suggest with a reason which type of radiation is most appropriate for sterilising metallic surgical instruments.",
+      "image": "img/2018-june-7408-2/q05-1.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q05-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q05.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 13,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Explain why irradiated surgical instruments do not become radioactive once sterilised.",
+      "image": "img/2018-june-7408-2/q05-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q05-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q05.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Explain with calculations why the count-rate data in Table 1 are not consistent with an inverse-square law.",
+      "image": "img/2018-june-7408-2/q05-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q05-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q05.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.4",
+      "questionNumber": "05.4",
+      "page": 15,
+      "marks": 2,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State two possible reasons why the count-rate results do not follow the expected inverse-square law.",
+      "image": "img/2018-june-7408-2/q05-4.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-05-table1.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q05-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.1",
+      "questionNumber": "06.1",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Determine the predicted depth of water at t = 57 s from the exponential decay curve in Figure 12.",
+      "image": "img/2018-june-7408-2/q06-1.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-06-fig11-12.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q06-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.2",
+      "questionNumber": "06.2",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest how to change the Figure 11 apparatus to represent a sample with a greater number of nuclei.",
+      "image": "img/2018-june-7408-2/q06-2.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-06-fig11-12.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q06-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.3",
+      "questionNumber": "06.3",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Suggest how to change the Figure 11 apparatus to represent a nuclide with a smaller decay constant.",
+      "image": "img/2018-june-7408-2/q06-3.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-06-fig11-12.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q06-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.4",
+      "questionNumber": "06.4",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate in years the half-life of Rb-87 from its decay constant 1.42e-11 yr^-1.",
+      "image": "img/2018-june-7408-2/q06-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q06-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.5",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.5",
+      "questionNumber": "06.5",
+      "page": 18,
+      "marks": 3,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the initial mass of Rb-87 in a Moon rock sample formed 4.47e9 years ago.",
+      "image": "img/2018-june-7408-2/q06-5.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q06-5.png"
+    },
+    {
+      "id": "2018-june-7408-2-q06.6",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06.6",
+      "questionNumber": "06.6",
+      "page": 18,
+      "marks": 3,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the activity of a 1.23 mg sample of Rb-87 with an appropriate unit.",
+      "image": "img/2018-june-7408-2/q06-6.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q06-6.png"
+    },
+    {
+      "id": "2018-june-7408-2-q07.1",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07.1",
+      "questionNumber": "07.1",
+      "page": 19,
+      "marks": 2,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Draw four arrows on Figure 13 to show the alpha, beta-, beta-, alpha decay chain to Pb-208.",
+      "image": "img/2018-june-7408-2/q07-1.jpg",
+      "figures": [
+        "img/2018-june-7408-2/fig-07-fig13.jpg"
+      ],
+      "markscheme": "img/2018-june-7408-2/ms/q07-1.png"
+    },
+    {
+      "id": "2018-june-7408-2-q07.2",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07.2",
+      "questionNumber": "07.2",
+      "page": 20,
+      "marks": 4,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Explain why stable Pb-208 has more neutrons than protons in terms of nuclear forces and their ranges.",
+      "image": "img/2018-june-7408-2/q07-2.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q07-2.png"
+    },
+    {
+      "id": "2018-june-7408-2-q07.3",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07.3",
+      "questionNumber": "07.3",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Write the nuclear equation for Pb-205 decaying by electron capture to an isotope of thallium.",
+      "image": "img/2018-june-7408-2/q07-3.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q07-3.png"
+    },
+    {
+      "id": "2018-june-7408-2-q07.4",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07.4",
+      "questionNumber": "07.4",
+      "page": 21,
+      "marks": 2,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Explain the origin and location of two sources of electromagnetic radiation emitted from the thallium atom.",
+      "image": "img/2018-june-7408-2/q07-4.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q07-4.png"
+    },
+    {
+      "id": "2018-june-7408-2-q07.5",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07.5",
+      "questionNumber": "07.5",
+      "page": 21,
+      "marks": 2,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "Explain why metastable Tc-99 is suitable as a radioactive source for medical diagnosis.",
+      "image": "img/2018-june-7408-2/q07-5.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/q07-5.png"
+    },
+    {
+      "id": "2018-june-7408-2-q08",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "MCQ: Determine the gradient of the pressure vs Celsius temperature graph for an ideal gas.",
+      "image": "img/2018-june-7408-2/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q09",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the mass ratio of ideal gas in two connected flasks X and Y at 150 K and 300 K.",
+      "image": "img/2018-june-7408-2/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q10",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the mean square speed of an air molecule at 750 K.",
+      "image": "img/2018-june-7408-2/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q11",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the cause of the observed Brownian motion of smoke particles in air.",
+      "image": "img/2018-june-7408-2/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q12",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the vector diagram showing the change in momentum delta(mv) in an elastic wall collision.",
+      "image": "img/2018-june-7408-2/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q13",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the gravitational force exerted on the Sun by the Earth.",
+      "image": "img/2018-june-7408-2/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q14",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Compare two equal-radius planets K and L from their gravitational potential vs distance graph.",
+      "image": "img/2018-june-7408-2/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q15",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the direction of the gravitational field at point X on an equipotential diagram.",
+      "image": "img/2018-june-7408-2/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q16",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the surface gravitational potential of planet M with double the density and radius of planet N.",
+      "image": "img/2018-june-7408-2/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q17",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the total change in gravitational potential energy of a spacecraft moving between solar orbits.",
+      "image": "img/2018-june-7408-2/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q18",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the linear graph relating orbital period T and orbital radius r of a planet.",
+      "image": "img/2018-june-7408-2/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q19",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 29,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Express the mean density of the Earth in terms of g, R, and G.",
+      "image": "img/2018-june-7408-2/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q20",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 30,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the electric field lines for a +10 uC sphere inside an uncharged conducting sphere.",
+      "image": "img/2018-june-7408-2/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q21",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 31,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Express the electric potential of a charged spherical conductor of radius r and surface field E.",
+      "image": "img/2018-june-7408-2/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q22",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 32,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the magnitude of the fourth charge at the corner of a square from the centre potential.",
+      "image": "img/2018-june-7408-2/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q23",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 33,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Determine the final electric field when an isolated parallel-plate capacitor's separation is doubled.",
+      "image": "img/2018-june-7408-2/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q24",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 33,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the relative permittivity of the dielectric in a capacitor with equal capacitance to an air capacitor.",
+      "image": "img/2018-june-7408-2/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q25",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 34,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Deduce a property of a charging capacitor from its linear pd vs charge graph.",
+      "image": "img/2018-june-7408-2/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q26",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 35,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Find the speed of a charged particle leaving two successive magnetic field chambers.",
+      "image": "img/2018-june-7408-2/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q27",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 36,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Determine the effect of a magnetic field perpendicular to a circular current-carrying coil.",
+      "image": "img/2018-june-7408-2/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q28",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 36,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the primary current and secondary voltage of an 80% efficient transformer.",
+      "image": "img/2018-june-7408-2/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q29",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 37,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the graph of intensity vs angle for electron diffraction by a nucleus.",
+      "image": "img/2018-june-7408-2/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q30",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 38,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the nuclear radius of C-12 given the radius of U-238.",
+      "image": "img/2018-june-7408-2/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q31",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "31",
+      "questionNumber": "31",
+      "page": 38,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the number of U-235 fission events per second needed to generate 900 MW at 25% efficiency.",
+      "image": "img/2018-june-7408-2/q31.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2018-june-7408-2-q32",
+      "paper": "2018-june-7408-2",
+      "year": 2018,
+      "series": "June",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "32",
+      "questionNumber": "32",
+      "page": 38,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which substance can be used as a moderator in a nuclear reactor.",
+      "image": "img/2018-june-7408-2/q32.jpg",
+      "figures": [],
+      "markscheme": "img/2018-june-7408-2/ms/mcq-key.png"
     }
   ]
 }
