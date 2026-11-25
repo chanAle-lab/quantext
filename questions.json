@@ -1,25 +1,2040 @@
 {
   "topics": [
-    { "id": "3.1", "name": "Measurements and their errors", "group": "Core (AS and A level)" },
-    { "id": "3.2", "name": "Particles and radiation", "group": "Core (AS and A level)" },
-    { "id": "3.3", "name": "Waves", "group": "Core (AS and A level)" },
-    { "id": "3.4", "name": "Mechanics and materials", "group": "Core (AS and A level)" },
-    { "id": "3.5", "name": "Electricity", "group": "Core (AS and A level)" },
-    { "id": "3.6", "name": "Further mechanics and thermal physics", "group": "A level only" },
-    { "id": "3.7", "name": "Fields and their consequences", "group": "A level only" },
-    { "id": "3.8", "name": "Nuclear physics", "group": "A level only" },
-    { "id": "3.9", "name": "Astrophysics", "group": "Optional Topics (Paper 3B)" },
-    { "id": "3.10", "name": "Medical physics", "group": "Optional Topics (Paper 3B)" },
-    { "id": "3.11", "name": "Engineering physics", "group": "Optional Topics (Paper 3B)" },
-    { "id": "3.12", "name": "Turning points in physics", "group": "Optional Topics (Paper 3B)" },
-    { "id": "3.13", "name": "Electronics", "group": "Optional Topics (Paper 3B)" }
+    {
+      "id": "3.1",
+      "name": "Measurements and their errors",
+      "group": "Core (AS and A level)"
+    },
+    {
+      "id": "3.2",
+      "name": "Particles and radiation",
+      "group": "Core (AS and A level)"
+    },
+    {
+      "id": "3.3",
+      "name": "Waves",
+      "group": "Core (AS and A level)"
+    },
+    {
+      "id": "3.4",
+      "name": "Mechanics and materials",
+      "group": "Core (AS and A level)"
+    },
+    {
+      "id": "3.5",
+      "name": "Electricity",
+      "group": "Core (AS and A level)"
+    },
+    {
+      "id": "3.6",
+      "name": "Further mechanics and thermal physics",
+      "group": "A level only"
+    },
+    {
+      "id": "3.7",
+      "name": "Fields and their consequences",
+      "group": "A level only"
+    },
+    {
+      "id": "3.8",
+      "name": "Nuclear physics",
+      "group": "A level only"
+    },
+    {
+      "id": "3.9",
+      "name": "Astrophysics",
+      "group": "Optional Topics (Paper 3B)"
+    },
+    {
+      "id": "3.10",
+      "name": "Medical physics",
+      "group": "Optional Topics (Paper 3B)"
+    },
+    {
+      "id": "3.11",
+      "name": "Engineering physics",
+      "group": "Optional Topics (Paper 3B)"
+    },
+    {
+      "id": "3.12",
+      "name": "Turning points in physics",
+      "group": "Optional Topics (Paper 3B)"
+    },
+    {
+      "id": "3.13",
+      "name": "Electronics",
+      "group": "Optional Topics (Paper 3B)"
+    }
   ],
   "skills": [
-    { "id": "maths", "name": "Mathematical & calculation skills" },
-    { "id": "practical", "name": "Required Practicals & data analysis (Paper 3A)" },
-    { "id": "graph", "name": "Graphs, gradients & uncertainties" }
+    {
+      "id": "maths",
+      "name": "Mathematical & calculation skills"
+    },
+    {
+      "id": "practical",
+      "name": "Required Practicals & data analysis (Paper 3A)"
+    },
+    {
+      "id": "graph",
+      "name": "Graphs, gradients & uncertainties"
+    }
   ],
-  "levels": ["AS", "A"],
-  "papers": [],
-  "questions": []
+  "levels": [
+    "AS",
+    "A"
+  ],
+  "papers": [
+    {
+      "id": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "date": "2016-05-24",
+      "code": "7407/1",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "date": "2016-06-09",
+      "code": "7407/2",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
+    }
+  ],
+  "questions": [
+    {
+      "id": "2016-june-7407-1-q01.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "State what happens to the momentum of air passing through a jet engine.",
+      "image": "img/2016-june-7407-1/q01-1.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q01-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain, using Newton's laws of motion, why the air exerts a forward force on the engine.",
+      "image": "img/2016-june-7407-1/q01-2.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q01-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the thrust force exerted on the jet engine from mass flow rate and speed increase.",
+      "image": "img/2016-june-7407-1/q01-3.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q01-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain why the momentum of air deflected at an angle changes even when its speed is unchanged.",
+      "image": "img/2016-june-7407-1/q01-4.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q01-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.5",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 4,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the deceleration of an aircraft given the horizontal braking force and mass.",
+      "image": "img/2016-june-7407-1/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q01-5.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.6",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the stopping distance of the aircraft along the runway assuming constant deceleration.",
+      "image": "img/2016-june-7407-1/q01-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q01-6.png"
+    },
+    {
+      "id": "2016-june-7407-1-q01.7",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.7",
+      "questionNumber": "01.7",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Suggest why the decelerating force provided by the deflector plates may not remain constant in practice.",
+      "image": "img/2016-june-7407-1/q01-7.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q01-7.png"
+    },
+    {
+      "id": "2016-june-7407-1-q02.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Suggest how stationary waves are formed inside a microwave oven.",
+      "image": "img/2016-june-7407-1/q02-1.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-02-fig3.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q02-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q02.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 7,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain why a stationary chocolate bar melts only at specific positions in a microwave oven.",
+      "image": "img/2016-june-7407-1/q02-2.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-02-fig4.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q02-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q02.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 7,
+      "marks": 5,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the frequency of the microwaves by taking measurements from the full-sized Figure 4 diagram.",
+      "image": "img/2016-june-7407-1/q02-3.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-02-fig4.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q02-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q02.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Explain why most microwave ovens use a rotating turntable during cooking.",
+      "image": "img/2016-june-7407-1/q02-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q02-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q03.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Define tensile stress and tensile strain.",
+      "image": "img/2016-june-7407-1/q03-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q03-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q03.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Identify a mechanical property of material A using evidence from the stress-strain graph.",
+      "image": "img/2016-june-7407-1/q03-2.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-03-fig5.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q03-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q03.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the tensile force at the breaking point of a cylindrical specimen of material A.",
+      "image": "img/2016-june-7407-1/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q03-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q03.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 9,
+      "marks": 6,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Discuss which of materials A-D is most suitable for a lift cable and a bungee rope, and why others are rejected.",
+      "image": "img/2016-june-7407-1/q03-4.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-03-fig5.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q03-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 11,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the diameter of an unused corrosion-probe wire from its resistance, length, and resistivity.",
+      "image": "img/2016-june-7407-1/q04-1.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-04-fig6.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q04-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the total resistance of the parallel-arm probe circuit.",
+      "image": "img/2016-june-7407-1/q04-2.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-04-fig7.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q04-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the current in resistor R3 in the probe circuit.",
+      "image": "img/2016-june-7407-1/q04-3.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-04-fig7.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q04-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the resistance of the working probe when R1 is 2.4 ohm.",
+      "image": "img/2016-june-7407-1/q04-4.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-04-fig7.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q04-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.5",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the percentage change in the probe's diameter when its resistance increases by 1.6%.",
+      "image": "img/2016-june-7407-1/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q04-5.png"
+    },
+    {
+      "id": "2016-june-7407-1-q04.6",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.6",
+      "questionNumber": "04.6",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "Explain without calculation why a voltmeter across AB does not change when the cell is replaced with one having internal resistance.",
+      "image": "img/2016-june-7407-1/q04-6.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-04-fig7.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q04-6.png"
+    },
+    {
+      "id": "2016-june-7407-1-q05.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 14,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why a photocell produces a current only above a threshold frequency.",
+      "image": "img/2016-june-7407-1/q05-1.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-05-fig8.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q05-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q05.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State and explain the effect on photocurrent when the intensity of radiation is increased.",
+      "image": "img/2016-june-7407-1/q05-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q05-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q05.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 15,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the maximum kinetic energy in joules of photoelectrons emitted from a surface of work function 2.1 eV.",
+      "image": "img/2016-june-7407-1/q05-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q05-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q05.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.4",
+      "questionNumber": "05.4",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the stopping potential using the maximum kinetic energy from 05.3.",
+      "image": "img/2016-june-7407-1/q05-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q05-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q05.5",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.5",
+      "questionNumber": "05.5",
+      "page": 16,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain the effect of increasing the radiation frequency on the stopping potential.",
+      "image": "img/2016-june-7407-1/q05-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q05-5.png"
+    },
+    {
+      "id": "2016-june-7407-1-q06.1",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.1",
+      "questionNumber": "06.1",
+      "page": 17,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State what is meant by isotopes.",
+      "image": "img/2016-june-7407-1/q06-1.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-06-passage.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q06-1.png"
+    },
+    {
+      "id": "2016-june-7407-1-q06.2",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.2",
+      "questionNumber": "06.2",
+      "page": 17,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why two photons are formed instead of one when helium annihilates with anti-helium.",
+      "image": "img/2016-june-7407-1/q06-2.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-06-passage.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q06-2.png"
+    },
+    {
+      "id": "2016-june-7407-1-q06.3",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.3",
+      "questionNumber": "06.3",
+      "page": 18,
+      "marks": 4,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the maximum frequency of the photons produced in the helium/anti-helium annihilation.",
+      "image": "img/2016-june-7407-1/q06-3.jpg",
+      "figures": [
+        "img/2016-june-7407-1/fig-06-passage.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-1/ms/q06-3.png"
+    },
+    {
+      "id": "2016-june-7407-1-q06.4",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.4",
+      "questionNumber": "06.4",
+      "page": 18,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Complete the decay equation for an antineutron decaying into an antiproton.",
+      "image": "img/2016-june-7407-1/q06-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q06-4.png"
+    },
+    {
+      "id": "2016-june-7407-1-q06.5",
+      "paper": "2016-june-7407-1",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.5",
+      "questionNumber": "06.5",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Identify the fundamental interaction responsible for antineutron decay.",
+      "image": "img/2016-june-7407-1/q06-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-1/ms/q06-5.png"
+    },
+    {
+      "id": "2016-june-7407-2-q01.1",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Determine the extension of wire Q from the vernier scale in Figure 1.",
+      "image": "img/2016-june-7407-2/q01-1.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q01-1.png",
+      "crop_exclude_y": 290
+    },
+    {
+      "id": "2016-june-7407-2-q01.2",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Determine the mass added to the hanger using Figure 2 and Figure 1.",
+      "image": "img/2016-june-7407-2/q01-2.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-01-fig1.jpg",
+        "img/2016-june-7407-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q01-2.png",
+      "crop_exclude_y": 290
+    },
+    {
+      "id": "2016-june-7407-2-q01.3",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 4,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Calculate the true diameter of wire Q correcting for zero error on digital vernier callipers.",
+      "image": "img/2016-june-7407-2/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q01-3.png"
+    },
+    {
+      "id": "2016-june-7407-2-q01.4",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 5,
+      "marks": 4,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the Young modulus of the metal in wire Q.",
+      "image": "img/2016-june-7407-2/q01-4.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-01-fig1.jpg",
+        "img/2016-june-7407-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q01-4.png"
+    },
+    {
+      "id": "2016-june-7407-2-q01.5",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 5,
+      "marks": 4,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Discuss two ways using a smaller diameter wire affects the percentage uncertainty in Young modulus.",
+      "image": "img/2016-june-7407-2/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q01-5.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.1",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Plot two missing thermocouple data points onto Figure 5.",
+      "image": "img/2016-june-7407-2/q02-1.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-02-table1.jpg",
+        "img/2016-june-7407-2/fig-02-fig5.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q02-1.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.2",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Draw a suitable best-fit curve on Figure 5.",
+      "image": "img/2016-june-7407-2/q02-2.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-02-fig5.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q02-2.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.3",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Determine the maximum emf from Figure 5.",
+      "image": "img/2016-june-7407-2/q02-3.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-02-fig5.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q02-3.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.4",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 8,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Explain why a more accurate neutral temperature may be obtained from the gradient graph Figure 6.",
+      "image": "img/2016-june-7407-2/q02-4.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-02-fig5.jpg",
+        "img/2016-june-7407-2/fig-02-fig6.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q02-4.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.5",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 9,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Determine the vertical intercept constant alpha from G = beta*theta + alpha using Figure 6.",
+      "image": "img/2016-june-7407-2/q02-5.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-02-fig6.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q02-5.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.6",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.6",
+      "questionNumber": "02.6",
+      "page": 10,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the full-scale deflection in microvolts of a 100 uA, 1000 ohm meter.",
+      "image": "img/2016-june-7407-2/q02-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q02-6.png"
+    },
+    {
+      "id": "2016-june-7407-2-q02.7",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.7",
+      "questionNumber": "02.7",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Discuss why the 50-division meter is unsuitable for the thermocouple experiment.",
+      "image": "img/2016-june-7407-2/q02-7.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q02-7.png"
+    },
+    {
+      "id": "2016-june-7407-2-q03.1",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that the weight of a 5.0 cm diameter steel ball is approximately 5 N.",
+      "image": "img/2016-june-7407-2/q03-1.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-03-fig8.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q03-1.png"
+    },
+    {
+      "id": "2016-june-7407-2-q03.2",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the moment of the weight of the ball about the seismometer pivot with an appropriate unit.",
+      "image": "img/2016-june-7407-2/q03-2.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-03-fig8.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q03-2.png"
+    },
+    {
+      "id": "2016-june-7407-2-q03.3",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the extension of the supporting spring in equilibrium.",
+      "image": "img/2016-june-7407-2/q03-3.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-03-fig8.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q03-3.png"
+    },
+    {
+      "id": "2016-june-7407-2-q03.4",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain what happens to the line drawn on the drum when the seismometer frame accelerates rapidly downwards.",
+      "image": "img/2016-june-7407-2/q03-4.jpg",
+      "figures": [
+        "img/2016-june-7407-2/fig-03-fig8.jpg"
+      ],
+      "markscheme": "img/2016-june-7407-2/ms/q03-4.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.1",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 15,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Complete the nuclear equation for the alpha decay of plutonium-238.",
+      "image": "img/2016-june-7407-2/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-1.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.2",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the total rate of energy transfer from Pu-238 decay at 6% efficiency for 100 W output.",
+      "image": "img/2016-june-7407-2/q04-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-2.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.3",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the current when the RTG outputs 100 W at 32 V.",
+      "image": "img/2016-june-7407-2/q04-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-3.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.4",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the maximum number of 45 ohm components that can be connected in parallel across the RTG.",
+      "image": "img/2016-june-7407-2/q04-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-4.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.5",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the average electrical power output of a UK solar panel providing 1000 kW h per year.",
+      "image": "img/2016-june-7407-2/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-5.png"
+    },
+    {
+      "id": "2016-june-7407-2-q04.6",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.6",
+      "questionNumber": "04.6",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Estimate to an order of magnitude the solar panel area needed for 100 W average power on Mars.",
+      "image": "img/2016-june-7407-2/q04-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/q04-6.png"
+    },
+    {
+      "id": "2016-june-7407-2-q05",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "05",
+      "questionNumber": "05",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which series of alpha and beta-minus emissions produces an isotope of the original element.",
+      "image": "img/2016-june-7407-2/q05.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q06",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "06",
+      "questionNumber": "06",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the equation representing particle-antiparticle annihilation.",
+      "image": "img/2016-june-7407-2/q06.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q07",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "07",
+      "questionNumber": "07",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which particle is a lepton (not made of quarks).",
+      "image": "img/2016-june-7407-2/q07.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q08",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: State the quark structure of an antiproton.",
+      "image": "img/2016-june-7407-2/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q09",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Determine charge, baryon number, and strangeness of particle X in a weak interaction.",
+      "image": "img/2016-june-7407-2/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q10",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the hydrogen energy-level transition emitting an ultraviolet photon.",
+      "image": "img/2016-june-7407-2/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q11",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the de Broglie wavelength of an alpha particle moving at the same speed as a proton.",
+      "image": "img/2016-june-7407-2/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q12",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate phase difference between two points 0.16 m apart on a 256 Hz sound wave.",
+      "image": "img/2016-june-7407-2/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q13",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Determine the new first harmonic frequency when wire length and tension are both doubled.",
+      "image": "img/2016-june-7407-2/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q14",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify what causes the separation of diffraction grating maxima to decrease.",
+      "image": "img/2016-june-7407-2/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q15",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Describe the diffraction pattern produced when white light passes through a single narrow slit.",
+      "image": "img/2016-june-7407-2/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q16",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct condition for total internal reflection.",
+      "image": "img/2016-june-7407-2/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q17",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the speed of light in glass of refractive index 1.42.",
+      "image": "img/2016-june-7407-2/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q18",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the scalar quantity.",
+      "image": "img/2016-june-7407-2/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q19",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Match a falling object's velocity-time graph to its acceleration-time graph.",
+      "image": "img/2016-june-7407-2/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q20",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate average velocity and average speed for a two-stage out-and-back jog.",
+      "image": "img/2016-june-7407-2/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q21",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Estimate maximum height of a golf ball hit on the Moon with a 4.0 s time of flight.",
+      "image": "img/2016-june-7407-2/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q22",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Determine the effect of a perpendicular force on the forward and sideways speeds of a space probe.",
+      "image": "img/2016-june-7407-2/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q23",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Explain why lap time decreases as fuel mass decreases in a racing car.",
+      "image": "img/2016-june-7407-2/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q24",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the quantity represented by the area under a force-displacement graph.",
+      "image": "img/2016-june-7407-2/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q25",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which expression is not a unit of power.",
+      "image": "img/2016-june-7407-2/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q26",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the maximum possible speed of a roller coaster car released from 65 m.",
+      "image": "img/2016-june-7407-2/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q27",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the average impact force on a 500 kg car crumpling by 0.30 m from 10 m/s.",
+      "image": "img/2016-june-7407-2/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q28",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the number of electrons passing a point in 2 minutes at 20 mA.",
+      "image": "img/2016-june-7407-2/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q29",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the I-V characteristic of a resistor and diode in series.",
+      "image": "img/2016-june-7407-2/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q30",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which circuit change reduces the charge flowing through resistor R in time t.",
+      "image": "img/2016-june-7407-2/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q31",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "31",
+      "questionNumber": "31",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the resistance of a 132 kV transmission line delivering 800 MW with 1% heat loss.",
+      "image": "img/2016-june-7407-2/q31.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q32",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "32",
+      "questionNumber": "32",
+      "page": 29,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which change increases the pd across a thermistor in a potential divider.",
+      "image": "img/2016-june-7407-2/q32.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q33",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "33",
+      "questionNumber": "33",
+      "page": 30,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the V-I graph for terminal potential difference across a cell with internal resistance.",
+      "image": "img/2016-june-7407-2/q33.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-june-7407-2-q34",
+      "paper": "2016-june-7407-2",
+      "year": 2016,
+      "series": "June",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "34",
+      "questionNumber": "34",
+      "page": 31,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the internal resistance of a battery from open-circuit and loaded terminal voltages.",
+      "image": "img/2016-june-7407-2/q34.jpg",
+      "figures": [],
+      "markscheme": "img/2016-june-7407-2/ms/mcq-key.png"
+    }
+  ]
 }

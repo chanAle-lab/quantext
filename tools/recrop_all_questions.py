@@ -21,21 +21,22 @@ ROOT = Path(__file__).resolve().parent.parent
 QUESTIONS_JSON = ROOT / "questions.json"
 
 # Register <paper-id>: <path-to-qp-pdf> here
-PDF_MAP: dict[str, str] = {}
+PDF_MAP: dict[str, str] = {
+    "2016-june-7407-1": "raw_pdfs/media_1795606549697_d45dbf3f.pdf",
+    "2016-june-7407-2": "raw_pdfs/media_1795606549721_5edd2400.pdf",
+}
 
 
 def find_marker_y(page: fitz.Page, qnum: str) -> float | None:
     """Locate the Y coordinate of the AQA question number box/marker on a page."""
-    spaced = " ".join(list(qnum.replace(".", "")))
-    targets = [qnum, spaced]
+    target_compact = re.sub(r"\s+", "", str(qnum))
     for b in page.get_text("blocks"):
         x0, y0, x1, y1, text = b[:5]
         if x0 > page.rect.width * 0.25:
             continue
-        clean = re.sub(r"\s+", " ", text).strip()
-        for t in targets:
-            if clean.startswith(t):
-                return float(y0)
+        compact = re.sub(r"\s+", "", text)
+        if compact.startswith(target_compact):
+            return float(y0)
     return None
 
 

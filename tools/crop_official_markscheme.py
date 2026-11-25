@@ -26,15 +26,19 @@ def canonical_qkey(qnum: str) -> str:
     return ".".join(parts)
 
 
-def detect_horizontal_lines(page: fitz.Page, min_width_ratio: float = 0.55) -> list[float]:
+def detect_horizontal_lines(page: fitz.Page, min_width_ratio: float = 0.45) -> list[float]:
     """Return sorted Y coordinates of horizontal table grid lines on a page."""
     min_w = page.rect.width * min_width_ratio
-    ys: list[float] = []
+    rot = page.rotation_matrix
+    by_y: dict[float, float] = {}
     for d in page.get_drawings():
         rect = d.get("rect")
-        if rect and rect.width >= min_w and rect.height <= 3.5:
-            ys.append(round(rect.y0, 1))
-    return sorted(set(ys))
+        if rect:
+            r = rect * rot
+            if r.height <= 4.0 and r.width >= 30.0:
+                y = round(r.y0, 1)
+                by_y[y] = by_y.get(y, 0.0) + r.width
+    return sorted(y for y, total_w in by_y.items() if total_w >= min_w)
 
 
 def find_ms_start_page(doc: fitz.Document) -> int:
@@ -87,20 +91,23 @@ def crop_official_markschemes(
 
     for p_idx in range(first_page, len(doc)):
         page = doc[p_idx]
+        rot = page.rotation_matrix
         lines = detect_horizontal_lines(page)
-        blocks = page.get_text("blocks")
+        words = page.get_text("words")
         markers: list[tuple[float, str]] = []
+        seen_on_page: set[str] = set()
 
-        for b in blocks:
-            x0, y0, x1, y1, text = b[:5]
-            if x0 > page.rect.width * 0.22:
+        for w in words:
+            r = fitz.Rect(w[:4]) * rot
+            token = w[4].strip()
+            if r.x0 > page.rect.width * 0.20:
                 continue
-            token = text.strip().split()[0] if text.strip() else ""
             m = q_pattern.match(token)
             if m:
                 ck = canonical_qkey(m.group(1))
-                if ck in wanted:
-                    markers.append((y0, ck))
+                if ck in wanted and ck not in seen_on_page:
+                    markers.append((r.y0, ck))
+                    seen_on_page.add(ck)
 
         markers.sort(key=lambda t: t[0])
         top_y = lines[0] if lines else 50.0
@@ -116,12 +123,13 @@ def crop_official_markschemes(
                 spans.append((p_idx, top_y, snap_end, active_key))
 
         for i, (my, ck) in enumerate(markers):
-            row_start = max([y for y in lines if y <= my + 4], default=my - 4)
+            row_start = max([y for y in lines if y <= my + 4], default=my - 8)
             if i + 1 < len(markers):
                 next_my = markers[i + 1][0]
                 row_end = max([y for y in lines if y <= next_my + 4], default=next_my - 4)
             else:
-                row_end = bot_y
+                below = [y for y in lines if y > my + 12]
+                row_end = below[-1] if below else (page.rect.height - 40.0)
             if row_end > row_start:
                 spans.append((p_idx, row_start, row_end, ck))
             active_key = ck

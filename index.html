@@ -1102,7 +1102,7 @@ button { cursor: pointer; }
     pgQuestions: []
   };
 
-  const IMG_CACHE_VERSION = '20261124';
+  const IMG_CACHE_VERSION = '20261125';
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[c]));
   const imgUrl = (p) => p ? `${esc(p)}?v=${IMG_CACHE_VERSION}` : '';
