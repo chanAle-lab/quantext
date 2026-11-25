@@ -40,6 +40,48 @@ def find_marker_y(page: fitz.Page, qnum: str) -> float | None:
     return None
 
 
+def trim_redundant_answer_lines(page: fitz.Page, y0: float, y1: float) -> float:
+    """
+    Trim trailing blank space, redundant empty student answer lines, and
+    'Extra space is available...' notices from the bottom of a question crop,
+    while preserving any diagrams, tables, mark brackets, or labelled answer prompts.
+    """
+    last_y = y0
+    # 1. Keep all meaningful text (excluding blank/underscore rules, 'Extra space...', 'Turn over')
+    for b in page.get_text("blocks"):
+        bx0, by0, bx1, by1, text = b[:5]
+        if by1 <= y0 or by0 >= y1:
+            continue
+        clean = re.sub(r"\s+", " ", text).strip()
+        if not clean or re.fullmatch(r"[_\.\-—–\s]+", clean):
+            continue
+        low = clean.lower()
+        if "extra space is available" in low or "turn over" in low or "end of questions" in low:
+            continue
+        last_y = max(last_y, float(by1))
+
+    # 2. Keep any drawings/diagrams/tables (excluding page frame borders and answer rules)
+    full_line_w = page.rect.width * 0.55
+    for d in page.get_drawings():
+        r = d.get("rect")
+        if not r or r.y1 <= y0 or r.y0 >= y1:
+            continue
+        is_page_frame = r.width > page.rect.width * 0.75 or r.height > page.rect.height * 0.45
+        is_answer_rule = r.width >= full_line_w and r.height <= 3.5
+        if not is_page_frame and not is_answer_rule:
+            last_y = max(last_y, float(r.y1))
+
+    # 3. Keep any raster images inside the question region
+    for img in page.get_image_info():
+        r = fitz.Rect(img["bbox"])
+        if r.y1 > y0 and r.y0 < y1:
+            last_y = max(last_y, float(r.y1))
+
+    if last_y > y0 + 10.0:
+        return min(y1, last_y + 12.0)
+    return y1
+
+
 def recrop_all(dpi: int = 200) -> None:
     db = json.loads(QUESTIONS_JSON.read_text(encoding="utf-8"))
     by_paper: dict[str, list[dict]] = {}
@@ -65,7 +107,7 @@ def recrop_all(dpi: int = 200) -> None:
         for page_1idx, page_qs in sorted(by_page.items()):
             page = doc[page_1idx - 1]
             header_y = 58.0
-            footer_y = page.rect.height - 52.0
+            footer_y = page.rect.height - 62.0
 
             located = []
             for q in page_qs:
@@ -81,6 +123,7 @@ def recrop_all(dpi: int = 200) -> None:
                 y0_clamped = max(header_y, y0 - 6.0)
                 if y1 <= y0_clamped:
                     y1 = footer_y
+                y1 = trim_redundant_answer_lines(page, y0_clamped, y1)
 
                 clip = fitz.Rect(32.0, y0_clamped, page.rect.width - 32.0, y1)
                 pix = page.get_pixmap(dpi=dpi, clip=clip, alpha=False)
