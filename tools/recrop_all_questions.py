@@ -39,6 +39,8 @@ PDF_MAP: dict[str, str] = {
     "2016-specimen2-7408-2": "raw_pdfs/media_1795693078604_d416da95.pdf",
     "2016-specimen2-7408-3ba": "raw_pdfs/media_1795693078603_f96f5f7b.pdf",
     "2016-specimen2-7408-3a": "raw_pdfs/media_1795693078635_ef734b46.pdf",
+    "2014-specimen-7407-1": "raw_pdfs/media_1795693504245_00ec2a6b.pdf",
+    "2014-specimen-7407-2": "raw_pdfs/media_1795693504262_6e193410.pdf",
 }
 
 

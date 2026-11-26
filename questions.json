@@ -322,6 +322,34 @@
       "duration": "2 hours",
       "pdf": null,
       "ms": null
+    },
+    {
+      "id": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "date": "2014-10-08",
+      "code": "7407/1",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "date": "2014-10-08",
+      "code": "7407/2",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "spec": "current",
+      "totalMarks": 70,
+      "duration": "1 hour 30 minutes",
+      "pdf": null,
+      "ms": null
     }
   ],
   "questions": [
@@ -14605,6 +14633,1871 @@
       "image": "img/2016-specimen2-7408-2/q30.jpg",
       "figures": [],
       "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 5,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Complete Table 1 comparing relative charge, baryon number, and quark composition of pi+ and proton.",
+      "image": "img/2014-specimen-7407-1/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Circle the type of interaction shown in pi+ + p -> K+ + X.",
+      "image": "img/2014-specimen-7407-1/q01-2.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 2,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Deduce the relative charge, baryon number, and strangeness of particle X.",
+      "image": "img/2014-specimen-7407-1/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.4",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Circle the type of interaction shown in X -> n + pi+.",
+      "image": "img/2014-specimen-7407-1/q01-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.5",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why the decay X -> n + pi+ is a weak interaction.",
+      "image": "img/2014-specimen-7407-1/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.6",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Write down the equation for the beta-minus decay of the neutron.",
+      "image": "img/2014-specimen-7407-1/q01-6.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-6.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q01.7",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "01.7",
+      "questionNumber": "01.7",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why no further decays occur after the neutron and pion decay.",
+      "image": "img/2014-specimen-7407-1/q01-7.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q01-7.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q02.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why no charge is lost when ultraviolet light is shone on a positively charged metal plate.",
+      "image": "img/2014-specimen-7407-1/q02-1.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q02-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q02.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 4,
+      "marks": 6,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Discuss combinations of metal and UV light source from Tables 2 and 3 to demonstrate threshold frequency and work function.",
+      "image": "img/2014-specimen-7407-1/q02-2.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q02-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q02.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 6,
+      "marks": 3,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the maximum kinetic energy, in J, of electrons emitted from zinc (work function 4.3 eV) by 1.2 x 10^15 Hz UV light.",
+      "image": "img/2014-specimen-7407-1/q02-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q02-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q02.4",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 6,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain why the calculated kinetic energy of emitted photoelectrons is a maximum.",
+      "image": "img/2014-specimen-7407-1/q02-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q02-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q03.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 8,
+      "marks": 4,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Explain the variation in loudness at Y in Quincke's tube as the movable tube is slowly pulled out.",
+      "image": "img/2014-specimen-7407-1/q03-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-03-fig1-2.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q03-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q03.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the minimum distance moved by the movable tube for the sound at Y to be at its quietest (800 Hz, 340 m s^-1).",
+      "image": "img/2014-specimen-7407-1/q03-2.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-03-fig1-2.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q03-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q03.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 9,
+      "marks": 4,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State and explain measurements to obtain a reliable value for the speed of sound using Quincke's tube.",
+      "image": "img/2014-specimen-7407-1/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q03-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 10,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the density of the 16 g, 16 mm diameter steel ball.",
+      "image": "img/2014-specimen-7407-1/q04-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-04-fig3.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the speed of the steel ball just before impact after falling 1.27 m.",
+      "image": "img/2014-specimen-7407-1/q04-2.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-04-fig3.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the speed of the steel ball just after impact if it rebounds to 0.85 m.",
+      "image": "img/2014-specimen-7407-1/q04-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.4",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the change in momentum of the steel ball due to the impact.",
+      "image": "img/2014-specimen-7407-1/q04-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.5",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the average force of the ball on the lens during the 40 ms impact.",
+      "image": "img/2014-specimen-7407-1/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q04.6",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "04.6",
+      "questionNumber": "04.6",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain, with reference to momentum, why the test should specify the material of the plinth.",
+      "image": "img/2014-specimen-7407-1/q04-6.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q04-6.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q05.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by a potential divider.",
+      "image": "img/2014-specimen-7407-1/q05-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-05-fig4-5.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q05-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q05.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "State and explain what happens to the voltmeter reading across thermistor T when R increases at constant temperature.",
+      "image": "img/2014-specimen-7407-1/q05-2.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-05-fig4-5.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q05-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q05.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "State and explain what happens to the ammeter reading when the temperature of the thermistor increases.",
+      "image": "img/2014-specimen-7407-1/q05-3.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-05-fig4-5.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q05-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q05.4",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.4",
+      "questionNumber": "05.4",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the resistance of R so that an alarm across T (2.5 kohm at 0 C) sounds when pd exceeds 3.0 V on a 12.0 V supply.",
+      "image": "img/2014-specimen-7407-1/q05-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q05-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q05.5",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "05.5",
+      "questionNumber": "05.5",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "State one change to the circuit so the alarm sounds when temperature rises above a certain value instead.",
+      "image": "img/2014-specimen-7407-1/q05-5.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q05-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q06.1",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.1",
+      "questionNumber": "06.1",
+      "page": 15,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the tensile force required to produce a pre-strain of 3.0 x 10^-4 in the steel rail.",
+      "image": "img/2014-specimen-7407-1/q06-1.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q06-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q06.2",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.2",
+      "questionNumber": "06.2",
+      "page": 15,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the elastic strain energy stored in a 45 m rail pre-strained as in 6.1.",
+      "image": "img/2014-specimen-7407-1/q06-2.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q06-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q06.3",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.3",
+      "questionNumber": "06.3",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the temperature at which the pre-strained steel rail becomes unstressed.",
+      "image": "img/2014-specimen-7407-1/q06-3.jpg",
+      "figures": [
+        "img/2014-specimen-7407-1/fig-06-data.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-1/ms/q06-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-1-q06.4",
+      "paper": "2014-specimen-7407-1",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 1",
+      "level": "AS",
+      "question": "06.4",
+      "questionNumber": "06.4",
+      "page": 16,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain why the engineer does not use the highest observed temperature to determine the pre-strain.",
+      "image": "img/2014-specimen-7407-1/q06-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-1/ms/q06-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.1",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the percentage uncertainty in 3.5 x 10^3 lines per m.",
+      "image": "img/2014-specimen-7407-2/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.2",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the diffraction grating spacing in mm.",
+      "image": "img/2014-specimen-7407-2/q01-2.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.3",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State the absolute uncertainty in the grating spacing.",
+      "image": "img/2014-specimen-7407-2/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.4",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Use Figure 2 to determine the spacing between two adjacent interference maxima.",
+      "image": "img/2014-specimen-7407-2/q01-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.5",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate the number of lines per metre on the diffraction grating.",
+      "image": "img/2014-specimen-7407-2/q01-5.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.6",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "State and explain whether the experimental lines per metre agrees with the stated marking.",
+      "image": "img/2014-specimen-7407-2/q01-6.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-6.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q01.7",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "01.7",
+      "questionNumber": "01.7",
+      "page": 4,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State one safety precaution when carrying out the laser diffraction experiment.",
+      "image": "img/2014-specimen-7407-2/q01-7.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q01-7.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.1",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 6,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "Draw a best-fit straight line for the capillary rise data in Figure 4.",
+      "image": "img/2014-specimen-7407-2/q02-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-02-fig3-4.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.2",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 6,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Determine h0 from the relationship h = h0 - (h0*k)*theta.",
+      "image": "img/2014-specimen-7407-2/q02-2.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-02-fig3-4.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.3",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 6,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Show that the value of h0*k is about 0.9 mm K^-1.",
+      "image": "img/2014-specimen-7407-2/q02-3.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-02-fig3-4.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.4",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine k and state an appropriate unit.",
+      "image": "img/2014-specimen-7407-2/q02-4.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.5",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 7,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Calculate the internal tube diameter required to raise water 8.0 m by capillary action using Figure 5.",
+      "image": "img/2014-specimen-7407-2/q02-5.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q02.6",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "02.6",
+      "questionNumber": "02.6",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Comment on the accuracy of the internal tube diameter calculated in 2.5.",
+      "image": "img/2014-specimen-7407-2/q02-6.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q02-6.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.1",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 9,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the magnitude of the Young modulus for glass using Table 1.",
+      "image": "img/2014-specimen-7407-2/q03-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-03-passage.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.2",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 9,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "State the answer to 3.1 in terms of SI fundamental units.",
+      "image": "img/2014-specimen-7407-2/q03-2.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.3",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 9,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "State the difference between longitudinal and transverse waves.",
+      "image": "img/2014-specimen-7407-2/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.4",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 9,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that for two acoustically matched materials, the ratio of Young moduli equals the ratio of ultrasound speeds.",
+      "image": "img/2014-specimen-7407-2/q03-4.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-03-passage.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.5",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 9,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine the ratio of densities of acoustically matched materials X and Y when c_X = 2 c_Y.",
+      "image": "img/2014-specimen-7407-2/q03-5.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-5.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q03.6",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "03.6",
+      "questionNumber": "03.6",
+      "page": 10,
+      "marks": 3,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Discuss the conditions for total internal reflection of ultrasound waves between glass and sea water.",
+      "image": "img/2014-specimen-7407-2/q03-6.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-03-passage.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q03-6.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q04.1",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 11,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Use Figure 6 to calculate the current in the load at the peak power of the photovoltaic cell.",
+      "image": "img/2014-specimen-7407-2/q04-1.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-04-fig6.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q04-1.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q04.2",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 12,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate at peak power the ratio of electrical energy delivered to solar energy arriving at the 60 mm x 60 mm cell.",
+      "image": "img/2014-specimen-7407-2/q04-2.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-04-fig6.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q04-2.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q04.3",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Estimate the number of 500 nm photons incident on the active area of the cell every second.",
+      "image": "img/2014-specimen-7407-2/q04-3.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/q04-3.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q04.4",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "Identify two pieces of information scientists could provide to inform a householder's solar panel system.",
+      "image": "img/2014-specimen-7407-2/q04-4.jpg",
+      "figures": [
+        "img/2014-specimen-7407-2/fig-04-fig6.jpg"
+      ],
+      "markscheme": "img/2014-specimen-7407-2/ms/q04-4.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q05",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "05",
+      "questionNumber": "05",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the pair of quantities that both have the same unit.",
+      "image": "img/2014-specimen-7407-2/q05.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q06",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "06",
+      "questionNumber": "06",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Find the numbers of hadrons, baryons, and mesons in an atom of Li-7.",
+      "image": "img/2014-specimen-7407-2/q06.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q07",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "07",
+      "questionNumber": "07",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify products X and Y in electron capture p + e- -> X + Y.",
+      "image": "img/2014-specimen-7407-2/q07.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q08",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the specific charge of a Ca^2+ ion formed from Ca-40.",
+      "image": "img/2014-specimen-7407-2/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q09",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Compare de Broglie wavelengths and diffraction pattern widths of electrons and protons at the same speed.",
+      "image": "img/2014-specimen-7407-2/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q10",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify how photon energy and photons per second change when monochromatic light intensity increases.",
+      "image": "img/2014-specimen-7407-2/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q11",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the statement about quarks and hadrons that is not true.",
+      "image": "img/2014-specimen-7407-2/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q12",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the minimum speed of a 10 Hz progressive wave if points 0.5 m apart are one-eighth of a wavelength apart.",
+      "image": "img/2014-specimen-7407-2/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q13",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which wave cannot be polarised.",
+      "image": "img/2014-specimen-7407-2/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q14",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify how width and intensity of the central maximum change when single-slit width is reduced.",
+      "image": "img/2014-specimen-7407-2/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q15",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find wavelength lambda_2 whose 4th order coincides with the 5th order of 480 nm light.",
+      "image": "img/2014-specimen-7407-2/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q16",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct statement for a stationary wave.",
+      "image": "img/2014-specimen-7407-2/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q17",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find frequency and wavelength in medium Y when 400 Hz sound crosses from 330 m s^-1 to 1320 m s^-1.",
+      "image": "img/2014-specimen-7407-2/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q18",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which quantity is a scalar.",
+      "image": "img/2014-specimen-7407-2/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q19",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify graphs of kinetic energy and momentum against time for a constant force from rest.",
+      "image": "img/2014-specimen-7407-2/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q20",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate how far a freely falling object falls in the third second.",
+      "image": "img/2014-specimen-7407-2/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q21",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which quantity of a freely falling body equals its rate of change of momentum.",
+      "image": "img/2014-specimen-7407-2/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q22",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify changes to total kinetic energy and total momentum when a firework explodes at its highest point.",
+      "image": "img/2014-specimen-7407-2/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q23",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate cable tension for a 500 kg lift accelerating upwards at 2 m s^-2.",
+      "image": "img/2014-specimen-7407-2/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q24",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which expression is not a unit of power.",
+      "image": "img/2014-specimen-7407-2/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q25",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the displacement-time graph for a car accelerating uniformly from rest.",
+      "image": "img/2014-specimen-7407-2/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q26",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which law indicates that normal reaction N and weight W on a resting ball are equal.",
+      "image": "img/2014-specimen-7407-2/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q27",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the energy stored in a 15 N m^-1 spring stretched by a 3.0 N load.",
+      "image": "img/2014-specimen-7407-2/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q28",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the incorrect statement from stress-strain graphs of metals X and Y.",
+      "image": "img/2014-specimen-7407-2/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q29",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the new current when one of three identical cells in series is reversed.",
+      "image": "img/2014-specimen-7407-2/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q30",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the current represented by 7.5 x 10^15 electrons striking a screen in 40 s.",
+      "image": "img/2014-specimen-7407-2/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q31",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "31",
+      "questionNumber": "31",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the resistance of a wire of the same length and resistivity but half the diameter.",
+      "image": "img/2014-specimen-7407-2/q31.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q32",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "32",
+      "questionNumber": "32",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the terminal pd of a 2.0 V cell when external resistance increases from 4.0 ohm to 12 ohm.",
+      "image": "img/2014-specimen-7407-2/q32.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q33",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "33",
+      "questionNumber": "33",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "MCQ: Determine the resistance of a filament lamp at 4.0 V from its I-V graph.",
+      "image": "img/2014-specimen-7407-2/q33.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2014-specimen-7407-2-q34",
+      "paper": "2014-specimen-7407-2",
+      "year": 2014,
+      "series": "Specimen",
+      "unit": "AS Paper 2",
+      "level": "AS",
+      "question": "34",
+      "questionNumber": "34",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the graph of resistance per unit length r against wire diameter D.",
+      "image": "img/2014-specimen-7407-2/q34.jpg",
+      "figures": [],
+      "markscheme": "img/2014-specimen-7407-2/ms/mcq-key.png"
     }
   ]
 }
