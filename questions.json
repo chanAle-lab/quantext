@@ -266,6 +266,62 @@
       "duration": "2 hours (total Paper 3)",
       "pdf": null,
       "ms": null
+    },
+    {
+      "id": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "date": "2016-06-01",
+      "code": "7408/3BA",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 35,
+      "duration": "2 hours (total Paper 3)",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "date": "2016-06-01",
+      "code": "7408/3A",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 45,
+      "duration": "2 hours (total Paper 3)",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "date": "2016-06-01",
+      "code": "7408/1",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 85,
+      "duration": "2 hours",
+      "pdf": null,
+      "ms": null
+    },
+    {
+      "id": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "date": "2016-06-01",
+      "code": "7408/2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "spec": "current",
+      "totalMarks": 85,
+      "duration": "2 hours",
+      "pdf": null,
+      "ms": null
     }
   ],
   "questions": [
@@ -11385,6 +11441,3170 @@
       "image": "img/2014-specimen-7408-3a/q03-7.jpg",
       "figures": [],
       "markscheme": "img/2014-specimen-7408-3a/ms/q03-7.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q01.1",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 2,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Draw a ray diagram for an astronomical refracting telescope in normal adjustment showing three non-axial rays and principal foci.",
+      "image": "img/2016-specimen2-7408-3ba/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q01-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q01.2",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 4,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Discuss the principal optical advantages of reflecting telescopes over refracting telescopes.",
+      "image": "img/2016-specimen2-7408-3ba/q01-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q01-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q01.3",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 6,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by apparent magnitude and describe the main features of the Hipparcos scale.",
+      "image": "img/2016-specimen2-7408-3ba/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q01-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q02.1",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Sketch a Hertzsprung-Russell diagram on Figure 1 and label main sequence, white dwarf, and giant stars.",
+      "image": "img/2016-specimen2-7408-3ba/q02-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q02-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q02.2",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Label the minimum and maximum values on the scale of each axis in Figure 1.",
+      "image": "img/2016-specimen2-7408-3ba/q02-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3ba/fig-02-fig1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q02-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q02.3",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 5,
+      "marks": 1,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Identify the spectral class to which Rigel, Omicron 2 Eridani, and Regulus A all belong.",
+      "image": "img/2016-specimen2-7408-3ba/q02-3.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3ba/fig-02-table1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q02-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q02.4",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 5,
+      "marks": 2,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Explain your choice of spectral class for the three stars in Table 1.",
+      "image": "img/2016-specimen2-7408-3ba/q02-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3ba/fig-02-table1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q02-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q02.5",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 6,
+      "marks": 3,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Deduce which star in Table 1 is a white dwarf using distance and apparent magnitude.",
+      "image": "img/2016-specimen2-7408-3ba/q02-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3ba/fig-02-table1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q02-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q03.1",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "State the likely cause of the 2013 gamma-ray burst detected between Leo and Ursa Major.",
+      "image": "img/2016-specimen2-7408-3ba/q03-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q03-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q03.2",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 7,
+      "marks": 4,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate, ignoring relativistic effects, the distance in light years to an object with redshift z = 0.34.",
+      "image": "img/2016-specimen2-7408-3ba/q03-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q03-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q03.3",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 7,
+      "marks": 2,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that 10^47 J is similar to the energy released if the mass of the Sun were all converted to energy.",
+      "image": "img/2016-specimen2-7408-3ba/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q03-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q04.1",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 8,
+      "marks": 3,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by the transit method of detecting exoplanets.",
+      "image": "img/2016-specimen2-7408-3ba/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q04-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3ba-q04.2",
+      "paper": "2016-specimen2-7408-3ba",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3B (Astrophysics)",
+      "level": "A",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.9",
+      "topics": [
+        "3.9"
+      ],
+      "skills": [],
+      "summary": "Explain why it is important to have more than one method of detecting exoplanets.",
+      "image": "img/2016-specimen2-7408-3ba/q04-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3ba/ms/q04-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.1",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the frequency of the current in the circular coil using Figure 2.",
+      "image": "img/2016-specimen2-7408-3a/q01-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-fig1.jpg",
+        "img/2016-specimen2-7408-3a/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.2",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the rms voltage of the induced emf in the search coil using Figure 2.",
+      "image": "img/2016-specimen2-7408-3a/q01-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.3",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 5,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Explain why the magnetic flux linked with the search coil is directly proportional to cos theta.",
+      "image": "img/2016-specimen2-7408-3a/q01-3.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.4",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 6,
+      "marks": 4,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths",
+        "practical"
+      ],
+      "summary": "Calculate cos theta in Table 1 and plot on Figure 6 a graph to test whether l is directly proportional to cos theta.",
+      "image": "img/2016-specimen2-7408-3a/q01-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-fig6.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.5",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "practical"
+      ],
+      "summary": "State and explain whether the plotted graph confirms that l is directly proportional to cos theta.",
+      "image": "img/2016-specimen2-7408-3a/q01-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-table1.jpg",
+        "img/2016-specimen2-7408-3a/fig-01-fig6.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.6",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 8,
+      "marks": 4,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe two adjustments to the oscilloscope trace in Figure 7 to reduce the uncertainty in l.",
+      "image": "img/2016-specimen2-7408-3a/q01-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.7",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.7",
+      "questionNumber": "01.7",
+      "page": 9,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "State and explain changes to the oscilloscope settings when the signal generator frequency is doubled.",
+      "image": "img/2016-specimen2-7408-3a/q01-7.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-7.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q01.8",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "01.8",
+      "questionNumber": "01.8",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Explain whether the graph in Figure 9 supports the suggestion that l decreases exponentially as x increases.",
+      "image": "img/2016-specimen2-7408-3a/q01-8.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-01-fig9.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q01-8.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q02.1",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 13,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Determine the water temperature theta_1 at t = 190 s from Figure 10.",
+      "image": "img/2016-specimen2-7408-3a/q02-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-02-fig10.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q02-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q02.2",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Determine the gradient G1 of the cooling curve in Figure 10 at t = 190 s.",
+      "image": "img/2016-specimen2-7408-3a/q02-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-02-fig10.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q02-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q02.3",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 13,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Evaluate the room temperature theta_R using G1, G2, theta_1, and theta_2.",
+      "image": "img/2016-specimen2-7408-3a/q02-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q02-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q02.4",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 14,
+      "marks": 4,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Estimate the time taken for the water to cool down to room temperature using Figure 11 and time constants.",
+      "image": "img/2016-specimen2-7408-3a/q02-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-02-fig11.jpg",
+        "img/2016-specimen2-7408-3a/fig-02-q02-4-p15.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q02-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q02.5",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 16,
+      "marks": 5,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Account quantitatively for the differences between the cooling results in Figure 12 and Figure 11.",
+      "image": "img/2016-specimen2-7408-3a/q02-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-02-fig11.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q02-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q03.1",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 19,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the interference fringe spacing w using Figure 14 and Table 2 to an appropriate number of sig figs.",
+      "image": "img/2016-specimen2-7408-3a/q03-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-03-fig13.jpg",
+        "img/2016-specimen2-7408-3a/fig-03-fig14-tab2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q03-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q03.2",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 19,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Determine the diameter d of the cylindrical wire using 589.3 nm light.",
+      "image": "img/2016-specimen2-7408-3a/q03-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-03-fig13.jpg",
+        "img/2016-specimen2-7408-3a/fig-03-fig14-tab2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q03-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q03.3",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 19,
+      "marks": 3,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Estimate the number of interference fringes seen between P and Q.",
+      "image": "img/2016-specimen2-7408-3a/q03-3.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-3a/fig-03-fig13.jpg",
+        "img/2016-specimen2-7408-3a/fig-03-fig14-tab2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q03-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q03.4",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 20,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Describe a procedure before using a micrometer screw gauge to prevent systematic error.",
+      "image": "img/2016-specimen2-7408-3a/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q03-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-3a-q03.5",
+      "paper": "2016-specimen2-7408-3a",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 3A",
+      "level": "A",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 20,
+      "marks": 2,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "maths",
+        "practical"
+      ],
+      "summary": "Use the micrometer measurements in Table 3 to determine the percentage uncertainty in d.",
+      "image": "img/2016-specimen2-7408-3a/q03-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-3a/ms/q03-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the initial vertical component of velocity of the golf ball.",
+      "image": "img/2016-specimen2-7408-1/q01-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Draw an arrow on Figure 1 to show the direction of the force acting on the ball at point X.",
+      "image": "img/2016-specimen2-7408-1/q01-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that the time taken for the ball to reach point Y is about 4 s.",
+      "image": "img/2016-specimen2-7408-1/q01-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.4",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 3,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Sketch on Figure 2 how the vertical velocity component v changes throughout the 6.0 s flight.",
+      "image": "img/2016-specimen2-7408-1/q01-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.5",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the height h of the cliff.",
+      "image": "img/2016-specimen2-7408-1/q01-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q01.6",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 4,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Draw on Figure 1 the path the ball takes when air resistance is taken into account.",
+      "image": "img/2016-specimen2-7408-1/q01-6.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-01-fig1.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q01-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q02.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Distinguish between longitudinal and transverse waves.",
+      "image": "img/2016-specimen2-7408-1/q02-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q02-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q02.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 6,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the tension required for a 0.050 m piano wire to vibrate at 4.1 kHz.",
+      "image": "img/2016-specimen2-7408-1/q02-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q02-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q02.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 7,
+      "marks": 2,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Evaluate whether it is safe to use the piano wire given its breaking stress.",
+      "image": "img/2016-specimen2-7408-1/q02-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q02-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q02.4",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 7,
+      "marks": 4,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "Explain which end of the tapered wire has greater diameter and why the second harmonic has the shape in Figure 3.",
+      "image": "img/2016-specimen2-7408-1/q02-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q02-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q03.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 8,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Name one process in which a proton changes into a neutron.",
+      "image": "img/2016-specimen2-7408-1/q03-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q03-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q03.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 8,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Name the particle interaction involved when a proton changes into a neutron.",
+      "image": "img/2016-specimen2-7408-1/q03-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q03-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q03.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Write an equation for the process and show that baryon number and lepton number are conserved.",
+      "image": "img/2016-specimen2-7408-1/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q03-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q03.4",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 9,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "State the quark composition of a K+ kaon.",
+      "image": "img/2016-specimen2-7408-1/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q03-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q03.5",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "03.5",
+      "questionNumber": "03.5",
+      "page": 9,
+      "marks": 2,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain one conserved property and one non-conserved property in K+ -> pi+ + pi0.",
+      "image": "img/2016-specimen2-7408-1/q03-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q03-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "State the conditions for simple harmonic motion.",
+      "image": "img/2016-specimen2-7408-1/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Show from the v-t graph in Figure 5 that the maximum displacement of the vibrating plate is 3.5 x 10^-4 m.",
+      "image": "img/2016-specimen2-7408-1/q04-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-04-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "Draw on Figure 6 the displacement-time (s-t) graph between 0 and 75 ms.",
+      "image": "img/2016-specimen2-7408-1/q04-3.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-04-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.4",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 12,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "State one time at which the vibrating plate has maximum potential energy.",
+      "image": "img/2016-specimen2-7408-1/q04-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-04-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.5",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "Explain how and why sand grains lose contact with the vibrating plate above a particular frequency.",
+      "image": "img/2016-specimen2-7408-1/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q04.6",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "04.6",
+      "questionNumber": "04.6",
+      "page": 13,
+      "marks": 2,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the lowest frequency at which the sand grains lose contact with the plate.",
+      "image": "img/2016-specimen2-7408-1/q04-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q04-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q05.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "State Ohm's law.",
+      "image": "img/2016-specimen2-7408-1/q05-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-05-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q05-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q05.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate, in mA, the current in the 20.0 ohm cylinder of conducting putty.",
+      "image": "img/2016-specimen2-7408-1/q05-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-05-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q05-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q05.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 15,
+      "marks": 4,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Discuss problems that make the circuit in Figure 8 unsuitable for demonstrating Ohm's law for the putty.",
+      "image": "img/2016-specimen2-7408-1/q05-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q05-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q05.4",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "05.4",
+      "questionNumber": "05.4",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that resistivity rho = (R / l^2) x volume of the cylinder.",
+      "image": "img/2016-specimen2-7408-1/q05-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-05-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q05-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q05.5",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "05.5",
+      "questionNumber": "05.5",
+      "page": 16,
+      "marks": 3,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the resistivity of the conducting putty with an appropriate unit.",
+      "image": "img/2016-specimen2-7408-1/q05-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-05-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q05-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q06.1",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "06.1",
+      "questionNumber": "06.1",
+      "page": 18,
+      "marks": 2,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the moment of the 50 N counterweight about the pivot when the shaduf beam is horizontal.",
+      "image": "img/2016-specimen2-7408-1/q06-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-06-fig9.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q06-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q06.2",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "06.2",
+      "questionNumber": "06.2",
+      "page": 19,
+      "marks": 5,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the additional force required at the end of the horizontal beam to lift the half-full bucket of water.",
+      "image": "img/2016-specimen2-7408-1/q06-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-1/fig-06-fig9.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q06-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q06.3",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "06.3",
+      "questionNumber": "06.3",
+      "page": 19,
+      "marks": 3,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "Explain how the force in Question 6.2 would differ if the weight of the beam is not negligible.",
+      "image": "img/2016-specimen2-7408-1/q06-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/q06-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q07",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "07",
+      "questionNumber": "07",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Identify the nucleus with a smaller specific charge than O-18.",
+      "image": "img/2016-specimen2-7408-1/q07.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q08",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Find nucleon and proton numbers after Mg-25 is bombarded with an alpha particle and emits a neutron.",
+      "image": "img/2016-specimen2-7408-1/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q09",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the radioactive emission sequence that forms an isotope of the original element.",
+      "image": "img/2016-specimen2-7408-1/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q10",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the incorrect statement concerning forces between leptons and hadrons.",
+      "image": "img/2016-specimen2-7408-1/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q11",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify a hadron of zero charge.",
+      "image": "img/2016-specimen2-7408-1/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q12",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Order radio waves, gamma rays, visible light, and infrared by increasing photon energy.",
+      "image": "img/2016-specimen2-7408-1/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q13",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct statement about photoelectric emission from a metal surface.",
+      "image": "img/2016-specimen2-7408-1/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q14",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which electron transition emits an infrared photon given R -> Q emits visible light.",
+      "image": "img/2016-specimen2-7408-1/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q15",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the graph of photon momentum p against wavelength lambda.",
+      "image": "img/2016-specimen2-7408-1/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q16",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify quantities z and s on a displacement-time wave graph.",
+      "image": "img/2016-specimen2-7408-1/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q17",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the phase difference between two coherent sound waves with path difference 0.90 m and wavelength 0.40 m.",
+      "image": "img/2016-specimen2-7408-1/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q18",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the double-slit fringe separation for 600 nm light, 0.50 mm slit separation, and 1.50 m screen distance.",
+      "image": "img/2016-specimen2-7408-1/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q19",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.3",
+      "topics": [
+        "3.3"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the change that causes the received microwave signal behind a gap to decrease and then increase.",
+      "image": "img/2016-specimen2-7408-1/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q20",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify whether impulse and force are scalars or vectors.",
+      "image": "img/2016-specimen2-7408-1/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q21",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which quantity of a vertically fired firework is never zero before hitting the ground.",
+      "image": "img/2016-specimen2-7408-1/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q22",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the momentum of a 0.20 kg ball at the highest point Q of its projectile trajectory.",
+      "image": "img/2016-specimen2-7408-1/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q23",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.4",
+      "topics": [
+        "3.4"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the load needed for 0.1% strain in a steel wire of area 0.5 mm^2.",
+      "image": "img/2016-specimen2-7408-1/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q24",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the new current when a wire is replaced with one of double length and double diameter at constant pd.",
+      "image": "img/2016-specimen2-7408-1/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q25",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 27,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the incorrect statement when a second identical resistor is connected in series across pd V.",
+      "image": "img/2016-specimen2-7408-1/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q26",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which resistor arrangement has the greatest total resistance.",
+      "image": "img/2016-specimen2-7408-1/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q27",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 28,
+      "marks": 1,
+      "specRef": "3.5",
+      "topics": [
+        "3.5"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find external resistance R for a 2.0 V cell with 1.0 ohm internal resistance and 1.6 V terminal pd.",
+      "image": "img/2016-specimen2-7408-1/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q28",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 29,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate speed v and centripetal acceleration a of a helicopter on an 800 m diameter circle with 5.0 min period.",
+      "image": "img/2016-specimen2-7408-1/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q29",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 29,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the velocity-displacement graph for a body in simple harmonic motion.",
+      "image": "img/2016-specimen2-7408-1/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q30",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 30,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the new periods of a simple pendulum and mass-spring system when g increases fourfold.",
+      "image": "img/2016-specimen2-7408-1/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-1-q31",
+      "paper": "2016-specimen2-7408-1",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 1",
+      "level": "A",
+      "question": "31",
+      "questionNumber": "31",
+      "page": 30,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct statement for a driven mechanical oscillator.",
+      "image": "img/2016-specimen2-7408-1/q31.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-1/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.1",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.1",
+      "questionNumber": "01.1",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by a capacitance of 120 uF.",
+      "image": "img/2016-specimen2-7408-2/q01-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.2",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.2",
+      "questionNumber": "01.2",
+      "page": 2,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Setup for Figure 1 capacitor-discharge speed measurement.",
+      "image": "img/2016-specimen2-7408-2/q01-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.3",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.3",
+      "questionNumber": "01.3",
+      "page": 3,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the charge passing through the resistor and the maximum current during discharge.",
+      "image": "img/2016-specimen2-7408-2/q01-3.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-01-fig1.jpg",
+        "img/2016-specimen2-7408-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.4",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.4",
+      "questionNumber": "01.4",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the energy transferred as the capacitor discharges through the 1.3 kohm resistor.",
+      "image": "img/2016-specimen2-7408-2/q01-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.5",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.5",
+      "questionNumber": "01.5",
+      "page": 4,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "graph",
+        "maths"
+      ],
+      "summary": "Sketch on Figure 3 the variation of the magnitude of current in the resistor with a current scale.",
+      "image": "img/2016-specimen2-7408-2/q01-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.6",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.6",
+      "questionNumber": "01.6",
+      "page": 5,
+      "marks": 4,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the capacitor discharge time and hence determine the mean speed of the steel ball.",
+      "image": "img/2016-specimen2-7408-2/q01-6.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-01-fig1.jpg",
+        "img/2016-specimen2-7408-2/fig-01-fig2.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q01.7",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "01.7",
+      "questionNumber": "01.7",
+      "page": 5,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "practical"
+      ],
+      "summary": "Discuss two reasons why the calculated mean speed is likely lower than the initial speed.",
+      "image": "img/2016-specimen2-7408-2/q01-7.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q01-7.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.1",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.1",
+      "questionNumber": "02.1",
+      "page": 6,
+      "marks": 1,
+      "specRef": "3.2",
+      "topics": [
+        "3.2"
+      ],
+      "skills": [],
+      "summary": "Explain what is meant by ionisation in the context of the mass spectrometer.",
+      "image": "img/2016-specimen2-7408-2/q02-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-02-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.2",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.2",
+      "questionNumber": "02.2",
+      "page": 7,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Discuss the energy transfers that take place in the accelerator as the ion passes through it.",
+      "image": "img/2016-specimen2-7408-2/q02-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-02-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.3",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.3",
+      "questionNumber": "02.3",
+      "page": 7,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Discuss how the path changes when an ion enters the velocity selector with velocity greater than v.",
+      "image": "img/2016-specimen2-7408-2/q02-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.4",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.4",
+      "questionNumber": "02.4",
+      "page": 7,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Draw on Figure 6 the path of the faster ion in the velocity selector.",
+      "image": "img/2016-specimen2-7408-2/q02-4.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-02-fig6.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.5",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.5",
+      "questionNumber": "02.5",
+      "page": 8,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Discuss how the path of an ion in the mass separator is affected when it has more nucleons.",
+      "image": "img/2016-specimen2-7408-2/q02-5.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-02-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q02.6",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "02.6",
+      "questionNumber": "02.6",
+      "page": 8,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Compare with justification the path of a doubly charged ion with a singly charged ion of the same mass.",
+      "image": "img/2016-specimen2-7408-2/q02-6.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-02-fig4-5.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q02-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q03.1",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.1",
+      "questionNumber": "03.1",
+      "page": 10,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the electric potential energy, in J, of the 4.9 MeV alpha particle at closest approach S.",
+      "image": "img/2016-specimen2-7408-2/q03-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-03-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q03-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q03.2",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.2",
+      "questionNumber": "03.2",
+      "page": 10,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate r, the distance of closest approach of the alpha particle to the gold nucleus.",
+      "image": "img/2016-specimen2-7408-2/q03-2.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-03-fig7.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q03-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q03.3",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.3",
+      "questionNumber": "03.3",
+      "page": 11,
+      "marks": 3,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Determine the number of nucleons in the gold nucleus from R = 7.16 x 10^-15 m and R0 = 1.23 x 10^-15 m.",
+      "image": "img/2016-specimen2-7408-2/q03-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q03-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q03.4",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "03.4",
+      "questionNumber": "03.4",
+      "page": 11,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain how the distance of closest approach r changes when the target nucleus has fewer protons.",
+      "image": "img/2016-specimen2-7408-2/q03-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q03-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.1",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.1",
+      "questionNumber": "04.1",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Define the gravitational potential at a point.",
+      "image": "img/2016-specimen2-7408-2/q04-1.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.2",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.2",
+      "questionNumber": "04.2",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain why gravitational potential is always negative.",
+      "image": "img/2016-specimen2-7408-2/q04-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.3",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.3",
+      "questionNumber": "04.3",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Show that the magnitude of gravitational potential at Earth's surface is about 6.3 x 10^7 J kg^-1.",
+      "image": "img/2016-specimen2-7408-2/q04-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.4",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.4",
+      "questionNumber": "04.4",
+      "page": 12,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Describe and explain two features of a geostationary orbit.",
+      "image": "img/2016-specimen2-7408-2/q04-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.5",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.5",
+      "questionNumber": "04.5",
+      "page": 13,
+      "marks": 3,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the gain in gravitational potential energy of a 1200 kg satellite placed at radius 4.23 x 10^7 m.",
+      "image": "img/2016-specimen2-7408-2/q04-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q04.6",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "04.6",
+      "questionNumber": "04.6",
+      "page": 13,
+      "marks": 4,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Discuss changes to the orbital motion when the satellite is placed into an orbit with a longer period.",
+      "image": "img/2016-specimen2-7408-2/q04-6.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q04-6.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q05.1",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.1",
+      "questionNumber": "05.1",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain the purpose of the core in the step-down transformer.",
+      "image": "img/2016-specimen2-7408-2/q05-1.jpg",
+      "figures": [
+        "img/2016-specimen2-7408-2/fig-05-fig8.jpg"
+      ],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q05-1.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q05.2",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.2",
+      "questionNumber": "05.2",
+      "page": 14,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Describe and explain two features of the transformer core that improve efficiency.",
+      "image": "img/2016-specimen2-7408-2/q05-2.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q05-2.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q05.3",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.3",
+      "questionNumber": "05.3",
+      "page": 14,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "Explain why transformers only work continuously when supplied with an alternating current.",
+      "image": "img/2016-specimen2-7408-2/q05-3.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q05-3.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q05.4",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.4",
+      "questionNumber": "05.4",
+      "page": 15,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the number of turns on the primary coil of the 230 V to 20 V transformer.",
+      "image": "img/2016-specimen2-7408-2/q05-4.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q05-4.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q05.5",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "05.5",
+      "questionNumber": "05.5",
+      "page": 15,
+      "marks": 2,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "Calculate the efficiency of the transformer.",
+      "image": "img/2016-specimen2-7408-2/q05-5.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/q05-5.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q06",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "06",
+      "questionNumber": "06",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Estimate the maximum temperature change when 0.010 kg ice at 0 C is dropped into 0.10 kg water at 15 C.",
+      "image": "img/2016-specimen2-7408-2/q06.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q07",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "07",
+      "questionNumber": "07",
+      "page": 16,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the number of molecules per unit volume in gas Q at 350 K and equal pressure to P at 280 K.",
+      "image": "img/2016-specimen2-7408-2/q07.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q08",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "08",
+      "questionNumber": "08",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify which statement is not a valid assumption in deriving p = (1/3) N m (c_rms)^2.",
+      "image": "img/2016-specimen2-7408-2/q08.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q09",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "09",
+      "questionNumber": "09",
+      "page": 17,
+      "marks": 1,
+      "specRef": "3.6",
+      "topics": [
+        "3.6"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the correct pV against Celsius temperature graph for one mole of nitrogen and oxygen.",
+      "image": "img/2016-specimen2-7408-2/q09.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q10",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "10",
+      "questionNumber": "10",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the distance from Earth's centre where a spacecraft experiences zero resultant gravitational force.",
+      "image": "img/2016-specimen2-7408-2/q10.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q11",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "11",
+      "questionNumber": "11",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the ratio of electric force to gravitational force on an electron in a 5000 N C^-1 field.",
+      "image": "img/2016-specimen2-7408-2/q11.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q12",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "12",
+      "questionNumber": "12",
+      "page": 18,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find gravitational potential at distance 2R when surface potential is -4000 J kg^-1.",
+      "image": "img/2016-specimen2-7408-2/q12.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q13",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "13",
+      "questionNumber": "13",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the incorrect statement comparing satellites X and Y at orbital radii R and 4R.",
+      "image": "img/2016-specimen2-7408-2/q13.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q14",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "14",
+      "questionNumber": "14",
+      "page": 19,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the electrostatic force on a gold nucleus at closest approach 4.0 x 10^-14 m to an alpha particle.",
+      "image": "img/2016-specimen2-7408-2/q14.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q15",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "15",
+      "questionNumber": "15",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify what is true about the force on an electron entering a uniform electric field at right angles.",
+      "image": "img/2016-specimen2-7408-2/q15.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q16",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "16",
+      "questionNumber": "16",
+      "page": 20,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the electric field strength midway between point charges +4 uC and -8 uC separated by 2.0 m.",
+      "image": "img/2016-specimen2-7408-2/q16.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q17",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "17",
+      "questionNumber": "17",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the capacitance of a capacitor whose stored energy decreases by 0.030 J as pd drops from 60 V to 10 V.",
+      "image": "img/2016-specimen2-7408-2/q17.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q18",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "18",
+      "questionNumber": "18",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify what increases when the plate separation of an isolated charged capacitor is increased.",
+      "image": "img/2016-specimen2-7408-2/q18.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q19",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "19",
+      "questionNumber": "19",
+      "page": 21,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the energy stored in a 0.50 uF capacitor initially at 2.0 uC after one time constant.",
+      "image": "img/2016-specimen2-7408-2/q19.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q20",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "20",
+      "questionNumber": "20",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the time for pd across a 500 uF capacitor discharging through 100 kohm to halve.",
+      "image": "img/2016-specimen2-7408-2/q20.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q21",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "21",
+      "questionNumber": "21",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find the number of electrons per second in a horizontal wire supported by a 0.16 T magnetic field.",
+      "image": "img/2016-specimen2-7408-2/q21.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q22",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "22",
+      "questionNumber": "22",
+      "page": 22,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Identify the mass and charge of particle P2 moving in a circle of half the radius of P1.",
+      "image": "img/2016-specimen2-7408-2/q22.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q23",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "23",
+      "questionNumber": "23",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.7",
+      "topics": [
+        "3.7"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Find initial and final magnetic flux linkage of a coil rotated by 30 deg from parallel to B.",
+      "image": "img/2016-specimen2-7408-2/q23.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q24",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "24",
+      "questionNumber": "24",
+      "page": 23,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the Rutherford scattering deduction from most alpha particles passing undeflected.",
+      "image": "img/2016-specimen2-7408-2/q24.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q25",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "25",
+      "questionNumber": "25",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.1",
+      "topics": [
+        "3.1"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the oscilloscope trace when sensitivity changes from 1 to 2 V/div and time base from 10 to 20 ms/div.",
+      "image": "img/2016-specimen2-7408-2/q25.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q26",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "26",
+      "questionNumber": "26",
+      "page": 24,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "MCQ: Identify the correct property of beta particles emitted in a school laboratory.",
+      "image": "img/2016-specimen2-7408-2/q26.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q27",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "27",
+      "questionNumber": "27",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the average count rate after 24 hours given half-life 12 h and background 20 cpm.",
+      "image": "img/2016-specimen2-7408-2/q27.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q28",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "28",
+      "questionNumber": "28",
+      "page": 25,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "graph"
+      ],
+      "summary": "MCQ: Identify the graph showing how nuclear radius R varies with nucleon number A.",
+      "image": "img/2016-specimen2-7408-2/q28.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q29",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "29",
+      "questionNumber": "29",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [
+        "maths"
+      ],
+      "summary": "MCQ: Calculate the maximum power output of a reactor losing 4.0 x 10^-6 kg hour^-1 of mass.",
+      "image": "img/2016-specimen2-7408-2/q29.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
+    },
+    {
+      "id": "2016-specimen2-7408-2-q30",
+      "paper": "2016-specimen2-7408-2",
+      "year": 2016,
+      "series": "Specimen Set 2",
+      "unit": "A-level Paper 2",
+      "level": "A",
+      "question": "30",
+      "questionNumber": "30",
+      "page": 26,
+      "marks": 1,
+      "specRef": "3.8",
+      "topics": [
+        "3.8"
+      ],
+      "skills": [],
+      "summary": "MCQ: State the principal purpose of the graphite moderator in a nuclear reactor.",
+      "image": "img/2016-specimen2-7408-2/q30.jpg",
+      "figures": [],
+      "markscheme": "img/2016-specimen2-7408-2/ms/mcq-key.png"
     }
   ]
 }
