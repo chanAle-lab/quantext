@@ -101,7 +101,7 @@ def crop_official_markschemes(
         for w in words:
             r = fitz.Rect(w[:4]) * rot
             token = w[4].strip()
-            if r.x0 > page.rect.width * 0.15:
+            if r.x0 > page.rect.width * 0.125:
                 continue
             m = q_pattern.match(token)
             if m:
